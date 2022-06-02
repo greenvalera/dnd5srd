@@ -1,17 +1,17 @@
-# Human
+# Людина
 
-### Human Traits
+### Людські Особливості
 
-It's hard to make generalizations about humans, but your human character has these traits.
+Складно зробити якісь узагальнення стосовно людей, але ваш персонаж з расою Людина матиме наступні особливості:
 
-***Ability Score Increase***. Your ability scores each increase by 1.
+***Підвищення Атрибутів***. Кожен з ваших показників Атрибутів збільшується на 1.
 
-***Age***. Humans reach adulthood in their late teens and live less than a century.
+***Вік***. Люди досягають своєї зрілості у пізньому підлітковому віці та живуть близько століття.
 
-***Alignment***. Humans tend toward no particular alignment. The best and the worst are found among them.
+***Схільність***. Люди не мають особливої етичної схильності. Серед них можна знайти і найкращих, і найгірших.
 
-***Size***. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+***Розмір***. Люди широко відрізняються зростом та статурою, від менше 5 футів на зріст до більше, ніж 6. Але незалежно від їхньої позиції на цій шкалі, розмір вважається Середнім.
 
-***Speed***. Your base walking speed is 30 feet.
+***Швидкість***. Ваша базова швидкість переміщення дорівнює 30 футів.
 
-***Languages***. You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
+***Мови***. Ви можете розмовляти, читати та писати Загальною та однією додатковою мовою на ваш вибір. Люди зазвичай вчать мови народів, з якими мають спільні справи, включно з прихованими діалектами. Вони полюбляють прикрашати своє мовлення словами, що запозичені з інших мов: ороча лайка, ельфійські музичні вислови, дварфійські воєнні команди та таке інше.
