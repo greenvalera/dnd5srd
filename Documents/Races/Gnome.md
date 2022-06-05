@@ -1,39 +1,38 @@
-# Gnome
+# Гном
 
-### Gnome Traits
+### Гномські Риси
 
-Your gnome character has certain characteristics in common with all other gnomes.
+Ваш персонаж-гном має певні характеристики, що притамані усім гномам.
 
-***Ability Score Increase***. Your Intelligence score increases by 2.
+***Підвищення Атрибутів***. Ваш інтелект збільшуються на 2.
 
-***Age***. Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.
+***Вік***. Гноми дорослішають так само швидко, як і люди, і від більшості з них очікується, що вони знайдуть своє місце у житті близько 40 років. Гноми живуть близько 350 років, але нерідкі і випадки 500-річних гномів.
 
-***Alignment***. Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.
+***Схильність***. Гноми найчастіше є добрими. Ті з них, що схиліються до порядку, є мудрецями, інженерами, дослідними, розслідувачами чи винахіднками. Ті, що схиляються до хаосу, є менестрелями, трікстерами, блукачами чи химерними ювелірами. Гноми мають добрі серця, і навіть пранкери серед них більш грайливі, ніж  небезпечні.
 
-***Size***. Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.
+***Розмір***. Гноми на зріст бувають між 3 та 4 футами та важать близько 40 фунтів.Ваш розмір вважається Маленьким.
 
-***Speed***. Your base walking speed is 25 feet.
+***Швидкість***. Ваша базова швидкість переміщення - 25 футів.
 
-***Darkvision***. Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+***Темнобачення***. Звиклі до життя під землею, ви маєте чудовий зір у повній пітьмі чи при тьмяному світлі. Ви можете бачити у радіусі 60 футів довкола вас у тьмяному освітленні, наче в яскравий день, а у повній пітьмі - ніби у тьмяному освітленні. Ви не можете розрізняти кольори у тьмяному світлі, лише відтінки сірого.
 
-***Gnome Cunning***. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+***Гномська Вправність***. Ви маєте перевагу при перевірках на Інтелект, Мудрість та Харизму на всі рятівні кидки проти магії.
 
-***Languages***. You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.
+***Мови***. Ви можете розмовляти, читати та писати Загальною та Гномською. Гномська мова, що використовує Дварфійську писемність, відома своїми технічними трактатами та каталогами знань про природу.
 
-## Rock Gnome
+## Кам'яний Гном
 
-As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.
+Як Кам'яний Гном, ви маєте природню винахідливість, та витривалість за межами того, що можуть інші гноми
 
-***Ability Score Increase***. Your Constitution score increases by 1.
+***Підвищення Атрибутів***. Ваша Комплекція збільшується на 1.
 
-***Artificer's Lore***. Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+***Ученість Ремісника***. Коли ви робити перевірку на Інтелект (Історія), що стосується магічних речей, алхімічних об'єктів чи технічних пристроїв, ви вважаєтеся Кваліфікованим у навичці Історії, і на додачу подвоюєте бонус Кваліфікації, що додаєте до перевірки, замість звичайного значення.
 
-***Tinker***. You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+***Лудильник***. Ви маєте Кваліфікацю з ремісними інструментами (набір лудильника). Використовуючи ці інструменти, ви можете витратити 1 годину та матеріали загальною вартістю 10 золотих для створення Крихітного механічного пристрою (КБ 5, 1 хіт). Пристрій функціонує протягом 24 годин (можна ремонтувати його протягом 1 години, щоб відновити функціональність, у тому числі, і протягом цих 24 годин), або поки ви не використаєте Дію для його розбору; тоді ви можете отримати назад матеріали, що використовували для його створення. Ви можете мати до 3 таких пристроїв одночасно.
+Коли ви створюєте пристрій, виберіть його вид з наступних опцій:
 
-When you create a device, choose one of the following options:
+***Механічна іграшка***. Ця іграшка є механічною твариною, монстром або особою, наприклад, жабо, мишею, птахом, драконом або солдатиком. Коли пристрій поставили на землю, він може рухатися на 5 футів у випадковому напряму раз на хід, протягом вашого ходу. Іграшка видає звуки, які характерні для істоти, яку вона представляє.
 
-***Clockwork Toy***. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+***Запальничка***. Цей пристрій продукує крихітне полум'я, що може використовуватися для запалення свічки, факела чи вогнища. Використання пристрою витрачає 1 Дію.
 
-***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
-
-***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+***Музична скринька***. Коли відкрита, музична скринька грає просту мелодію з помірною гучністю. Вона зупиняється, досягнувши кінця мелодії, або коли її зачинено.
