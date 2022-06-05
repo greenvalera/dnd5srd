@@ -1,23 +1,23 @@
-# Half-Elf
+# Напів-ельф
 
-### Half-Elf Traits
+### Риси Напів-ельфів
 
-Your half-elf character has some qualities in common with elves and some that are unique to half-elves.
+Ваш персонаж напів-ельф має деякі якості, загальні для ельфів та людей, і деякі, що є унікальні для напів-ельфів.
 
-***Ability Score Increase***. Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.
+***Підвищення Атрибутів***. Ваша Харизма збільшується на 2, і два інших Атрибута на ваш вибір збільшуються ще на 1.
 
-***Age***. Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.
+***Вік***. Напів-ельфи дорослішають з тією ж швидкістю, що люди, і набувають зрілості у віці 20 років. Вони живуть, тим не менш, набагато довше за людей, часто перевищуючи 180 років.
 
-***Alignment***. Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.
+***Схильність***. Напів-ельфи поділяють нахил до хаотичності зі своїми ельфійськими батками. Вони цінують особисту свободу та творче самовираження, не демонструючи ні любові до лідерів, ні бажання мати послідовників. Їх часто дратують правила, обурюють вимоги інших, й інколи вони виявляються ненадійними або, принаймні, непередбачуваними.
 
-***Size***. Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.
+***Розмір***. Напів-ельфи мають той же ріст, що і люди, від 5 до 6 футів. Ваш розмір вважається Середнім.
 
-***Speed***. Your base walking speed is 30 feet.
+***Швидкість***. Ваша базова швидкість переміщення - 30 футів.
 
-***Darkvision***. Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+***Темнобачення***. Завдяки вашій ельфійській крові, ви маєте чудовий зір у повній пітьмі чи при тьмяному світлі. Ви можете бачити у радіусі 60 футів довкола вас у тьмяному освітленні, наче в яскравий день, а у повній пітьмі - ніби у тьмяному освітленні. Ви не можете розрізняти кольори у тьмяному світлі, лише відтінки сірого.
 
-***Fey Ancestry***. You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+***Фейське Походження***. Ви маєте перевагу у рятівних кидках проти зачаровування, і магія не може змусити вас поринути у сон.
 
-***Skill Versatility***. You gain proficiency in two skills of your choice.
+***Різносторонні Навички***. Ви набуваєте Кваліфікації у двох Навичках на ваш вибір.
 
-***Languages***. You can speak, read, and write Common, Elvish, and one extra language of your choice.
+***Мови***. Ви можете розмовляти, читати та писати Загальною, Ельфійською та ще однією мовою на ваш вибір.
