@@ -1,43 +1,41 @@
-# Dragonborn
+# Драконороджений
 
-### Dragonborn Traits
+### Риси Драконороджених
 
-Your draconic heritage manifests in a variety of traits you share with other dragonborn.
+Ваш драконів спадок проявляється у розмаїтті особливостей, що ви поділяєте з іншими драконородженими.
 
-***Ability Score Increase***. Your Strength score increases by 2, and your Charisma score increases by 1.
+***Підвищення атрибутів***. Ваша Сила збільшується на 2, а Харизма - на 1.
 
-***Age***. Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+***Вік***. Юні драконороджені зростають швидко. Вони можуть ходити вже за кілька годин після вилуплення, досягають розміру та рівня розвитку 10-річної людини вже у 3 роки, і стають дорослими у 15. Драконороджені живуть близько 80 років.
 
-***Alignment***. Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.
+***Схильність***. Дракононароджені схильні до крайнощів, роблячи свідомий вибір на користь одного чи іншого боку у космічній війні між добром і злом. Більшість драконороджених добрі, але ті, хто обирають зло, можуть стати жахливими лиходіями.
 
-***Size***. Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+***Розмір***. Драконороджені вищі та важчі за людей, зазвичай їхній зріст більше 6 футів та вага порядка 250 фунтів. Розмір вважається Середнім.
 
-***Speed***. Your base walking speed is 30 feet.
+***Швидкість***. Ваша базова швидкість - 30 футів.
 
-**Table- Draconic Ancestry**
+**Таблиця - Драконове Походженя**
 
-| Dragon | Damage Type | Breath Weapon                |
-|--------|-------------|------------------------------|
-| Black  | Acid        | 5 by 30 ft. line (Dex. save) |
-| Blue   | Lightning   | 5 by 30 ft. line (Dex. save) |
-| Brass  | Fire        | 5 by 30 ft. line (Dex. save) |
-| Bronze | Lightning   | 5 by 30 ft. line (Dex. save) |
-| Copper | Acid        | 5 by 30 ft. line (Dex. save) |
-| Gold   | Fire        | 15 ft. cone (Dex. save)      |
-| Green  | Poison      | 15 ft. cone (Con. save)      |
-| Red    | Fire        | 15 ft. cone (Dex. save)      |
-| Silver | Cold        | 15 ft. cone (Con. save)      |
-| White  | Cold        | 15 ft. cone (Con. save)      |
-|        |             |                              |
+| Дракон    | Тип пошкодження | Дихальна Зброя                       |
+|-----------|-----------------|--------------------------------------|
+| Чорний    | Кислота         | 5 - 30 футів, лінія (Спр. ряткидок)  |
+| Блакитний | Блискавка       | 5 - 30 футів, лінія (Спр. ряткидок)) |
+| Латунний  | Вогонь          | 5 - 30 футів, лінія (Спр. ряткидок)  |
+| Бронзовий | Блискавка       | 5 - 30 футів, лінія (Спр. ряткидок)  |
+| Мідний    | Кислота         | 5 - 30 футів, лінія (Спр. ряткидок)  |
+| Золотий   | Вогонь          | 15 футів, конус (Спр. ряткидок)      |
+| Зелений   | Отрута          | 15 футів, конус (Ком. ряткидок)      |
+| Червоний  | Вогонь          | 15 футів, конус (Спр. ряткидок)      |
+| Срібний   | Холод           | 15 футів, конус (Ком. ряткидок)      |
+| Білий     | Холод           | 15 футів, конус (Ком. ряткидок)      |
+|           |                 |                                      |
 
-***Draconic Ancestry***. You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+***Драконове Походження***. Ви маєте походження від драконів. Виберите один з типів драконів у Таблиці Драконового Походження. Ваша Дихальна Зброя та Опір пошкодженням визначаються типом дракона, що ви вибрали у цій таблиці. 
 
-***Breath Weapon***. You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+***Дихальна Зброя***. Ви можете використати вашу Дію для того, щоб видихнути руйнівну енергію. Ваше Драконове Походження визначає розмір, форму та тип пошкодження цього видоху.
+Коли ви використовєте дихальну зброю, усі істоти у площині видоху мають виконати рятівний кидок, тип якого визначається вашим Драконовим Походженням. Клас Складності цього ряткидка є 8 + ваш модифікатор Комплекції + ваш бонус Кваліфікації. Істота отримує 2d6 пошкоджень при невдалому кидку, і половину цього - при вдалому. Пошкодження ростуть до 3d6 на 6 рівні, 4d6 на 11 рівні, 5d6 на 16 рівні.
+Після використання вашої дихальної зброї, ви не можете її використовувати знову, поки не закінчите короткий чи довгий відпочинок.
 
-When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+***Опір Пошкодженням***. Ви маєте Опір до пошкоджень типу, що визначається вашим Драконовим Походженням.
 
-After you use your breath weapon, you can't use it again until you complete a short or long rest.
-
-***Damage Resistance***. You have resistance to the damage type associated with your draconic ancestry.
-
-***Languages***. You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+***Мови***. Ви можете розмовляти, читати та писати Загальною та Драконячою. Драконяча мова вважається однією з найстаріших і часто використовується у вивченні магії. Ця мова здається жорсткою більшості інших істот, і включає у себе численні тверді приголосні та шиплячі звуки.
