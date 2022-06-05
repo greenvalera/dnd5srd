@@ -1,23 +1,23 @@
-# Tiefling
+# Тіфлінг
 
-### Tiefling Traits
+### Тіфлінгські риси
 
-Tieflings share certain racial traits as a result of their infernal descent.
+Тіфлінги мають деякі расові особливості як результат їхнього пекельного походження.
 
-***Ability Score Increase***. Your Intelligence score increases by 1, and your Charisma score increases by 2.
+***Підвищення атрибутів***. Ваш інтелект збільшується на 1, і ваша Харизма збільшується на 2.
 
-***Age***. Tieflings mature at the same rate as humans but live a few years longer.
+***Вік***. Тіфлінги дорослішають з тією ж швидкістю, що люди, але живуть на кілька років більше.
 
-***Alignment***. Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.
+***Схільність***. Тіфлінги можуть не мати початкову схильність до зла, але багато з них, менше з тим, стають злими. Так чи інакше, їхня незалежна природа схиляє багатьох тіфлінгів до хаотичного світогляду.
 
-***Size***. Tieflings are about the same size and build as humans. Your size is Medium.
+***Розмір***. Тіфлінги приблизно того ж розміру та статури, що і люди. Ваш розмір є Середнім.
 
-***Speed***. Your base walking speed is 30 feet.
+***Швидкість***. Ваша базова швидкість переміщення - 30 футів
 
-***Darkvision***. Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+***Темнобачення***. Завдяки вашому пекельному походженню, ви маєте чудовий зір у повній пітьмі чи при тьмяному світлі. Ви можете бачити у радіусі 60 футів довкола вас у тьмяному освітленні, наче в яскравий день, а у повній пітьмі - ніби у тьмяному освітленні. Ви не можете розрізняти кольори у тьмяному світлі, лише відтінки сірого.
 
-***Hellish Resistance***. You have resistance to fire damage.
+***Пекильний Спротив***. Ви маєте Опір до вогняних пошкоджень.
 
-***Infernal Legacy***. You know the *thaumaturgy* cantrip. When you reach 3rd level, you can cast the *hellish rebuke* spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the *darkness* spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+***Пекельний Спадок***. Ви маєте заговір Тауматургія. Коли ви досягаєте 3 рівня, ви можете використовувати закляття Пекельний Докір як закліття 2 рівня один раз між двома довгими відпочинками. Коли ви досягаєте 5 рівня, ви можете виконувати закляття Пітьма один раз між двома довгими відпочинками. Харизма перевіряється як здатність до заклинання для цих заклятть.
 
-***Languages***. You can speak, read, and write Common and Infernal.
+***Мови***. Ви можете розмовляти, читати та писати Загальною та Пекельною мовами.
