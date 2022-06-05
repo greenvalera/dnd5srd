@@ -1,35 +1,35 @@
-# Dwarf
+# Дварф
 
-### Dwarf Traits
+### Дварфійські Риси
 
-Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.
+Ваш персонаж-дварф має асортимент вроджених здібностей, що є частиною його дварфійської природи.
 
-***Ability Score Increase***. Your Constitution score increases by 2.
+***Підвищення Атрубитів***. Ваша Комплекція збільшується на 2.
 
-***Age***. Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.
+***Вік***. Дварфи досягають зрілості з такою ж швидкістю, як і люди, але вважаються юними, поки не досягнуть віку 50 років. У середньому, дварфи живуть близько 350 років.
 
-***Alignment***. Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
+***Схильність***. Більшість дварфів є законослухняними. Вони твердо вірять у переваги добре впорядкованого суспільства. Дварфи у більшості схильні до добра, із сильним почуттям чесної гри та вірою, що кожен заслуговує свою частку у перевагах справедливого порядку.
 
-***Size***. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
+***Розмір***. Дварфи на зріст між 4 та 5 футами, і у середньому важать 150 фунтів. Їхній розмір вважається Середнім.
 
-***Speed***. Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+***Швидкість***. Ваша базова швидкість переміщення є 25 футів. Ваша швидкість не зменшується від носіння важкої броні.
 
-***Darkvision***. Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+***Темнобачення***. Звиклі до життя під землею, ви маєте чудовий зір у повній пітьмі чи при тьмяному світлі. Ви можете бачити у радіусі 60 футів довкола вас у тьмяному освітленні, наче в яскравий день, а у повній пітьмі - ніби у тьмяному освітленні. Ви не можете розрізняти кольори у тьмяному світлі, лише відтінки сірого.
 
-***Dwarven Resilience***. You have advantage on saving throws against poison, and you have resistance against poison damage.
+***Дварфійська Стійкість***. Ви маєте переваги у рятівних кидках проти отрути а також Опір проти отруйних пошкоджень.
 
-***Dwarven Combat Training***. You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.
+***Дварфійська Бойова Підготовка***. Ви маєте Кваліфікацю з бойовою сокирою, ручною сокирою, легким молотом та бойовим молотом.
 
-***Tool Proficiency***. You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.
+***Майстерність з інструментами***. Ви набуваєте Кваліфікацію у ремісних інструментах на ваш вибір: ковальське знаряддя, броварне спорядження, або каменярське знаряддя.
 
-***Stonecunning***. Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+***Кам'яна Мудрість***. Щоразу, коли ви виконуєте перевірку на Інтелект (Історія), що стосується походження кам'яної кладки, ви вважаєтеся Кваліфікованим у навичці Історії, і на додачу подвоюєте бонус Кваліфікації, що додаєте до перевірки, замість звичайного значення.
 
-***Languages***. You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+***Мови***. Ви можете розмовляти, читати та писати Загальною та Дварфійською мовами. Дварфійська повна твердих приголосних та гортанних звіків, і цей акцент переходить до будь-якої мови, якою розмовляє дварф.
 
-## Hill Dwarf
+## Холмовий Дварф
 
-As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.
+Як холмовий дварф, ви маєте гостре чуття, глибоку інтуіцію та видатну стійкість.
 
-***Ability Score Increase***. Your Wisdom score increases by 1.
+***Підвищення Атрибутів***. Ваша Мудрість збільшується на 1.
 
-***Dwarven Toughness***. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+***Дварфійська Міцність***. Максимальна кількість хітів збільшується на 1, і збільшується ще на 1 щоразу, як ви підвищуєте рівень.
