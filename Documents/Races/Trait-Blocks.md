@@ -1,31 +1,31 @@
-# Racial Traits
+# Расові Риси (Racial Traits)
 
-The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.
+Опис кожної раси включає у себе расові риси, що є спільними для всіх представників цієї раси. Наступні заголовки є в описах рис більшості рас.
 
-## Ability Score Increase
+## Підвищення Атрибутів (Ability Score Increase)
 
-Every race increases one or more of a character's ability scores.
+Кожна раса має один чи більше підвищених показників Атрибутів.
 
-## Age
+## Вік (Age)
 
-The age entry notes the age when a member of the race is considered an adult, as well as the race's expected lifespan. This information can help you decide how old your character is at the start of the game. You can choose any age for your character, which could provide an explanation for some of your ability scores. For example, if you play a young or very old character, your age could explain a particularly low Strength or Constitution score, while advanced age could account for a high Intelligence or Wisdom.
+Запис про вік указує вік, у якому представник цієї раси вважається дорослим, а також його очікувану тривалість життя. Ця інформація може допомогти вам вирішити, скільки років вашому персонажу на початку гри. Ви можете вибрати будь-який вік для вашого персонажа, що може надати пояснення тієї чи іншої його особливості чи показника Атрубитів. Наприклад, якщо ви граєте за молодого чи дуже старого персонажа, ваш вік може пояснити особливо низькі показники Сили чи Комплекції, у той час як зрілий чи літній вік можуть пояснити високі Інтелект та Мудрість.
 
-## Alignment
+## Схильність (Alignment)
 
-Most races have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your dwarf is chaotic, for example, in defiance of lawful dwarf society can help you better define your character.
+Більшість рас мають схильність до конкретного світогляду, який описано у цьому параграфі. Вони не обмежують персонажа гравця, але якщо розглянути, чому ваш дварф має схильність до хаотичності - наприклад, через нелюбов до законослухняного дварфійського суспільства - це може краще описати характер вашого персонажа.
 
-## Size
+## Розмір (Size)
 
-Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons.
+Персонажі більшості рас мають Середній розмір. Ця категорія включає у себе істот приблизно від 4 до 8 футів на зріст. Представники декількох рас мають Маленький розмір (між 2 та 4 футами), що означає, що деякі правила гри впливають на них по-іншому. Найбільш важливе з цих правил полягає у тому, що Маленькі персонажи мають проблеми з використанням великої та важкої зброї (наприклад, дворучних сокир чи молотів).
 
-## Speed
+## Швидкість (Speed)
 
-Your speed determines how far you can move when traveling and fighting.
+Ваша швидкість визанчає, як далеко ви можете рухатися під час подорожі чи бою (протягом раунда).
 
-## Languages
+## Мови (Languages)
 
-By virtue of your race, your character can speak, read, and write certain languages.
+Завдяки приналежності до своєї раси, ваш персонаж може розмовляти, читати та писати конкретними мовами
 
-## Subraces
+## Підвиди (Subraces)
 
-Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.
+Деякі раси мають підвиди. Представники підвиду мають усі риси своєї оригінальної раси, та на додачу ще й риси, що є унікальними для них самих. Стосунки між підвидами істотно змінюються залежно від раси і від світу.
