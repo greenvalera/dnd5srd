@@ -1,148 +1,138 @@
-# Fighter
+# Боєць (Fighter)
 
-### Class Features
+### Класові Риси
 
-As a fighter, you gain the following class features.
+Як боєць, ви маєте наступні класові риси:
 
-#### Hit Points
+#### Хіти
 
-**Hit Dice:** 1d10 per fighter level
+**Кубик хітів:** 1d10 за кожен рівень Бійця
 
-**Hit Points at 1st Level:** 10 + your Constitution modifier
+**Хіти на 1 рівні:** 10 + модифікатор Комплекції
 
-**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fighter level after 1st
+**Хіти на наступних рівнях:** 1d10 (або 6) + ваш модифікатор Комплекції на кожному рівні Бійця після 1
 
-#### Proficiencies
+#### Кваліфікації
 
-**Armor:** All armor, shields
+**Броня:** Уся броня та щити
 
-**Weapons:** Simple weapons, martial weapons
+**Зброя:** Проста зброя, бойова зброя
 
-**Tools:** None
+**Інструменти:** Жодних
 
-**Saving Throws:** Strength, Constitution
+**Рятівні кидки:** Сила, Комплекція
 
-**Skills:** Choose two skills from Acrobatics, Animal, Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+**Навички:** Виберіть 2 серед наступних: Акробатика, Поводження з тваринами, Атлетика, Історія, Інсайт, Залякування, Сприйняття, Виживання
 
-#### Equipment
+#### Початкове спорядження
 
-You start with the following equipment, in addition to the equipment granted by your background:
+Ви починаєте з наступним спорядженням, на додачу до того, що отримуєте зі свого Походження:
 
-- (*a*) chain mail or (*b*) leather armor, longbow, and 20 arrows
-- (*a*) a martial weapon and a shield or (*b*) two martial weapons
-- (*a*) a light crossbow and 20 bolts or (*b*) two handaxes
-- (*a*) a dungeoneer's pack or (*b*) an explorer's pack
+- (*a*) кольчуга або (*b*) шкіряна броня, довгий лук та 20 стріл
+- (*a*) бойова зброя та щит або (*b*) 2 бойових зброї
+- (*a*) легкий арбалет та 20 болтів або (*b*) 2 ручних сокири
+- (*a*) Набір підземника або (*b*) Набір дослідника
 
-**Table- The Fighter**
+**Таблиця - Боєць**
 
-| Level | Proficiency Bonus | Features                                          |
-|-------|-------------------|---------------------------------------------------|
-| 1st   | +2                | Fighting Style, Second Wind                       |
-| 2nd   | +2                | Action Surge (one use)                            |
-| 3rd   | +2                | Martial Archetype                                 |
-| 4th   | +2                | Ability Score Improvement                         |
-| 5th   | +3                | Extra Attack                                      |
-| 6th   | +3                | Ability Score Improvement                         |
-| 7th   | +3                | Martial Archetype Feature                         |
-| 8th   | +3                | Ability Score Improvement                         |
-| 9th   | +4                | Indomitable (one use)                             |
-| 10th  | +4                | Martial Archetype Feature                         |
-| 11th  | +4                | Extra Attack (2)                                  |
-| 12th  | +4                | Ability Score Improvement                         |
-| 13th  | +5                | Indomitable (two uses)                            |
-| 14th  | +5                | Ability Score Improvement                         |
-| 15th  | +5                | Martial Archetype Feature                         |
-| 16th  | +5                | Ability Score Improvement                         |
-| 17th  | +6                | Action Surge (two uses), Indomitable (three uses) |
-| 18th  | +6                | Martial Archetype Feature                         |
-| 19th  | +6                | Ability Score Improvement                         |
-| 20th  | +6                | Extra Attack (3)                                  |
-|       |                   |                                                   |
+| Level | Бонус Кваліфікації | Риси                                                          |
+|-------|--------------------|---------------------------------------------------------------|
+| 1-й   | +2                 | Бойовий Стиль, Друге Дихання                                  |
+| 2-й   | +2                 | Сплеск Дій (одне використання)                                |
+| 3-й   | +2                 | Бойовий Архетип                                               |
+| 4-й   | +2                 | Підвищення Атрибутів                                          |
+| 5-й   | +3                 | Додаткова Атака                                               |
+| 6-й   | +3                 | Підвищення Атрибутів                                          |
+| 7-й   | +3                 | Риса Бойового Архетипу                                        |
+| 8-й   | +3                 | Підвищення Атрибутів                                          |
+| 9-й   | +4                 | Незламність (одне використання)                               |
+| 10-й  | +4                 | Риса Бойового Архетипу                                        |
+| 11-й  | +4                 | Додаткова Атака (2)                                           |
+| 12-й  | +4                 | Підвищення Атрибутів                                          |
+| 13-й  | +5                 | Незламність (two uses)                                        |
+| 14-й  | +5                 | Підвищення Атрибутів                                          |
+| 15-й  | +5                 | Риса Бойового Архетипу                                        |
+| 16-й  | +5                 | Підвищення Атрибутів                                          |
+| 17-й  | +6                 | Сплеск Дій (два використання), Незламність (три використання) |
+| 18-й  | +6                 | Риса Бойового Архетипу                                        |
+| 19-й  | +6                 | Підвищення Атрибутів                                          |
+| 20-й  | +6                 | Додаткова Атака (3)                                           |
 
-### Fighting Style
 
-You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
+### Бойовий Стиль (Fighting Style)
 
-#### Archery
+Ви навчаєтеся певному стилю бою в якості своєї спеціальністі. Виберіть один із наступних варіантів. Ви не можете вибрати кожен варіант бойового стилю більше одного разу, навіть якщо згодом ви зможете вибрати знову.
 
-You gain a +2 bonus to attack rolls you make with ranged weapons.
+#### Лучництво (Archery)
+Ви набуваєте бонус +2 до атак з дальнею зброєю.
 
-#### Defense
+#### Оборона (Defense)
+Поки ви носите броню, ви набуваєте + 1 КБ.
 
-While you are wearing armor, you gain a +1 bonus to AC.
+#### Дуелянтство (Dueling)
+Коли ви берете рукопашну зброю в одну руку, і більше жодної зброї не використовуєте, ви маєте бонус +2 до пошкоджень цією зброєю.
 
-#### Dueling
+#### Велика Зброя (Great Weapon Fighting)
+Коли ви маєте результат кидка на пошкодження, що дорівнює 1 чи 2, якщо попали по ворогу зброєю, яку тримаєте двома руками, ви можете перекинути кубик та маєте прийняти новий результат (навіть якщо це знову буде 1 чи 2). Щоб ця риса спрацювала, зброя має бути дворучною або універсальною.
 
-When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+#### Захист (Protection)
+Коли істота, яку ви бачите, атакує будь-яку ціль, крім вас, що знаходиться в радіусі 5 футів від вас, ви можете використати свою реакцію, щоб накласти заваду на кидок такої атаки. При цьому ви маєте нести щит та користатися ним.
 
-#### Great Weapon Fighting
+#### Бій з двома зброями (Two-Weapon Fighting)
+Коли ви атакуєте двома зброями, ви можете додати модифікатор Атрибута, що ви використовуєте для атаки основною зброєю, до пошкодження другою зброєю.
 
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+### Друге Дихання (Second Wind)
 
-#### Protection
+Ви маєте обмежене джерело додаткової витривалості, яку ви можете використати, щоб захистити себе від пошкоджень. У свій хід ви можете використати бонусну дію, щоб відновити хіти, кількість яких дорівнює 1d10 + ваш рівень бійця. Скориставшись цією рисою, ви повинні закінчити короткий або довгий відпочинок, перш ніж використовувати її знову.
 
-When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+### Сплеск Дій (Action Surge)
 
-#### Two-Weapon Fighting
+Починаючи з 2-го рівня, ви можете на мить вийти за межі своїх обмежень. У свій хід ви можете виконати одну додаткову дію на додаток до звичайної дії та можливу бонусну дію.
+Скориставшись цією рисою, ви повинні закінчити короткий або довгий відпочинок, перш ніж використовувати її знову. Починаючи з 17-го рівня, ви можете використовувати його двічі перед відпочинком, але лише один раз за один хід.
 
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+### Бойовий Архетип (Martial Archetype)
 
-### Second Wind
+На 3-му рівні ви обираєте архетип, якому прагнете наслідувати у своїх техніках бою та стилі. Виберіть один з субкласів, які вказані у кінці опису класу. Вибраний вами архетип надає вам додаткові риси на 3-му рівні і знову на 7-му, 10-му, 15-му та 18-му рівнях.
 
-You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.
+### Підвищення Атрибутів (Ability Score Improvement)
 
-### Action Surge
+Коли ви досягаєте 4-го рівня, а потім 6-го, 8-го, 12-го, 14-го, 16-го, 19-го рівнів, ви можете підвищите один з ваших Атрибутів на 2, або два різних Атрибути  на 1. Ви не можете підвищите значення вашого атрибута більше 20, використовуючи цю рису.
 
-Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+### Додаткова Атака (Extra Attack)
 
-Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.
+Починаючи з 5-го рівня, ви можете атакувати двічі замість одного раза, коли ви виконуєте дію Атаки у свій хід.
+Кількість атак збільшується до трьох, коли ви досягнете 11-го рівня в цьому класі і до чотирьох, коли ви досягнете 20-го рівня в цьому класі.
 
-### Martial Archetype
+### Незламність (Indomitable)
 
-At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+Починаючи з 9-го рівня, ви можете перекинути рятівний кидок, який ви провалили. Якщо ви це робите, ви маєте використовувати новий результат, незважаючи на його значення. Ви можете використати цю рису 1 раз між двома довгими відпочинками.
+Ви можете використовувати цю рису 2 рази між довгими відпочинками, починаючи з 13-го рівня і 3 рази, починаючи з 17-го рівня.
 
-### Ability Score Improvement
+## Бойові Архетипи
 
-When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Різні бійці обирають різні стилі та підходи до вдосконалення своєї майстерності. Бойовий архетип, якому ви вирішили наслідувати, відображає ваш власний підхід.
 
-### Extra Attack
+### Чемпіон (Champion)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+Архетиповий чемпіон зосереджується на розвитку чистої фізичної сили, відточеної до смертельної досконалості. Ті, хто слідує за цим архетипом, поєднують суворі тренування з фізичною довершеністю, щоб завдати нищівних ударів.
 
-The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.
+#### Покращений Критичний Удар (Improved Critical)
 
-### Indomitable
+Коли ви обираєте цей Архетип на 3-му рівні, ваша зброя починає наносити критичний удар на кидках атаки, що дорівнюють 19 чи 20.
 
-Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.
+#### Видатний Атлет (Remarkable Athlete)
 
-You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.
+Починаючи з 7 рівня, ви можете додати половину від вашого бонуса Кваліфікації (округлену вгору) до будь-якої вашої перевірки Сили, Спритності та Конституції, яку ви робите без використання бонуса Кваліфікації.
+На додачу, коли ви робити довгий стрибок з розбігу, ви додаєте до дистанції, яку ви можете покрити, кількість футів, що дорівнює вашому модифікатору Сили.
 
-## Martial Archetypes
+#### Додатковий Бойовий Стиль (Additional Fighting Style)
 
-Different fighters choose different approaches to perfecting their fighting prowess. The martial archetype you choose to emulate reflects your approach.
+На 10-му рівні ви можете вибрати інший Бойовий Стиль серед тих, що ще не обирали раніше.
 
-### Champion
+#### Поліпшений Критичний Удар (Superior Critical)
 
-The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
+Починаючи з 15-го рівня, ваша зброя починає наносити критичний удар на кидках атаки, що дорівнюють 18, 19 чи 20.
 
-#### Improved Critical
+#### Виживший (Survivor)
 
-Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.
-
-#### Remarkable Athlete
-
-Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
-
-In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.
-
-#### Additional Fighting Style
-
-At 10th level, you can choose a second option from the Fighting Style class feature.
-
-#### Superior Critical
-
-Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.
-
-#### Survivor
-
-At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
+На 18-му рівні, ви досягаєте вершити стійкості у битві. На початку кожного з ваших ходів, ви регенеруєте 5 + модифікатор Конституції хітів, якщо у вас залишилося менше, ніж половина хітів на початку вашого хода. Ця риса не спрацює, якщо у вас залишилося 0 хітів.
