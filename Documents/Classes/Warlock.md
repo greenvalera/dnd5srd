@@ -1,381 +1,861 @@
-# Warlock
+# Відьмар (Warlock)
 
-### Class Features
+### Особливості класа
 
-As a warlock, you gain the following class features.
+Як відьмар, ви маєте наступні особливості класа
 
-#### Hit Points
+#### Хіти
 
-**Hit Dice:** 1d8 per warlock level
+**Кубик хітів:** 1d8 на кожному рівні відьмаря
 
-**Hit Points at 1st Level:** 8 + your Constitution modifier
+**Хіти на 1 рівні:** 8 + ваш модифікатор Комплекції
 
-**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per warlock level after 1st
+**Хіти на наступних рівнях:** 1d8 (або 5) + ваш модифікатор Комплекції на кожному рівні відьмаря після 1-го
 
-#### Proficiencies
+#### Кваліфікації
 
-**Armor:** Light armor
+**Броня:** Легка броня
 
-**Weapons:** Simple weapons
+**Зброя:** Проста зброя
 
-**Tools:** None
+**Інструменти:** Жодних
 
-**Saving Throws:** Wisdom, Charisma
+**Рятівні кидки:** Мудрість, Харизма
 
-**Skills:** Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion
+**Навички:** Оберіть дві навички з-поміж наступних: Аркана, Обман, Історія, Залякування, Розслідування, Природа та Релігія
 
-#### Equipment
+#### Початкове спорядження
 
-You start with the following equipment, in addition to the equipment granted by your background:
+Ви починаєте з наступним спорядженням, на додачу до того, що отримуєте зі свого Походження:
 
-- (*a*) a light crossbow and 20 bolts or (*b*) any simple weapon
-- (*a*) a component pouch or (*b*) an arcane focus
-- (*a*) a scholar's pack or (*b*) a dungeoneer's pack
-- Leather armor, any simple weapon, and two daggers
+- (*a*) легкий арбалет та 20 болтів або (*b*) будь-яка проста зброя
+- (*a*) мішечок з компонентами або (*b*) арканний фокус
+- (*a*) набір ученого or (*b*) набір підземника
+- Шкіряна броня, будь-яка проста зброя та два кинджали
 
-**Table- The Warlock**
+**Таблиця- Відьмар**
 
-| Level | Proficiency Bonus | Features                        | Cantrips Known | Spells Known | Spell Slots | Slot Level | Invocations Known |
-|-------|-------------------|---------------------------------|----------------|--------------|-------------|------------|-------------------|
-| 1st   | +2                | Otherworldly Patron, Pact Magic | 2              | 2            | 1           | 1st        | -                 |
-| 2nd   | +2                | Eldritch Invocations            | 2              | 3            | 2           | 1st        | 2                 |
-| 3rd   | +2                | Pact Boon                       | 2              | 4            | 2           | 2nd        | 2                 |
-| 4th   | +2                | Ability Score Improvement       | 3              | 5            | 2           | 2nd        | 2                 |
-| 5th   | +3                | -                               | 3              | 6            | 2           | 3rd        | 3                 |
-| 6th   | +3                | Otherworldly Patron feature     | 3              | 7            | 2           | 3rd        | 3                 |
-| 7th   | +3                | -                               | 3              | 8            | 2           | 4th        | 4                 |
-| 8th   | +3                | Ability Score Improvement       | 3              | 9            | 2           | 4th        | 4                 |
-| 9th   | +4                | -                               | 3              | 10           | 2           | 5th        | 5                 |
-| 10th  | +4                | Otherworldly Patron feature     | 4              | 10           | 2           | 5th        | 5                 |
-| 11th  | +4                | Mystic Arcanum (6th level)      | 4              | 11           | 3           | 5th        | 5                 |
-| 12th  | +4                | Ability Score Improvement       | 4              | 11           | 3           | 5th        | 6                 |
-| 13th  | +5                | Mystic Arcanum (7th level)      | 4              | 12           | 3           | 5th        | 6                 |
-| 14th  | +5                | Otherworldly Patron feature     | 4              | 12           | 3           | 5th        | 6                 |
-| 15th  | +5                | Mystic Arcanum (8th level)      | 4              | 13           | 3           | 5th        | 7                 |
-| 16th  | +5                | Ability Score Improvement       | 4              | 13           | 3           | 5th        | 7                 |
-| 17th  | +6                | Mystic Arcanum (9th level)      | 4              | 14           | 4           | 5th        | 7                 |
-| 18th  | +6                | -                               | 4              | 14           | 4           | 5th        | 8                 |
-| 19th  | +6                | Ability Score Improvement       | 4              | 15           | 4           | 5th        | 8                 |
-| 20th  | +6                | Eldritch Master                 | 4              | 15           | 4           | 5th        | 8                 |
-|       |                   |                                 |                |              |             |            |                   |
+| Рівень | Бонус Кваліфікації | Риси                                 | Знані Заговори | Знані Закляття | Слоти Заклятть | Рівень Слотів | Знані Закликання |
+|--------|--------------------|--------------------------------------|----------------|----------------|----------------|---------------|------------------|
+| 1-й    | +2                 | Потойбічний покровитель, Магія Угоди | 2              | 2              | 1              | 1st           | -                |
+| 2-й    | +2                 | Надприродні Закликання               | 2              | 3              | 2              | 1st           | 2                |
+| 3-й    | +2                 | Дар Угоди                            | 2              | 4              | 2              | 2nd           | 2                |
+| 4-й    | +2                 | Підвищення Атрибутів                 | 3              | 5              | 2              | 2nd           | 2                |
+| 5-й    | +3                 | -                                    | 3              | 6              | 2              | 3rd           | 3                |
+| 6-й    | +3                 | Риса Потойбічного покровителя        | 3              | 7              | 2              | 3rd           | 3                |
+| 7-й    | +3                 | -                                    | 3              | 8              | 2              | 4th           | 4                |
+| 8-й    | +3                 | Підвищення Атрибутів                 | 3              | 9              | 2              | 4th           | 4                |
+| 9-й    | +4                 | -                                    | 3              | 10             | 2              | 5th           | 5                |
+| 10-й   | +4                 | Риса Потойбічного покровителя        | 4              | 10             | 2              | 5th           | 5                |
+| 11-й   | +4                 | Містична Таємниця (6-й рівень)       | 4              | 11             | 3              | 5th           | 5                |
+| 12-й   | +4                 | Підвищення Атрибутів                 | 4              | 11             | 3              | 5th           | 6                |
+| 13-й   | +5                 | Містична Таємниця (7-й рівень)       | 4              | 12             | 3              | 5th           | 6                |
+| 14-й   | +5                 | Риса Потойбічного покровителя        | 4              | 12             | 3              | 5th           | 6                |
+| 15-й   | +5                 | Містична Таємниця (8-й рівень)       | 4              | 13             | 3              | 5th           | 7                |
+| 16-й   | +5                 | Підвищення Атрибутів                 | 4              | 13             | 3              | 5th           | 7                |
+| 17-й   | +6                 | Містична Таємниця (9-й рівень)       | 4              | 14             | 4              | 5th           | 7                |
+| 18-й   | +6                 | -                                    | 4              | 14             | 4              | 5th           | 8                |
+| 19-й   | +6                 | Підвищення Атрибутів                 | 4              | 15             | 4              | 5th           | 8                |
+| 20-й   | +6                 | Надприродній Володар                 | 4              | 15             | 4              | 5th           | 8                |
+|        |                    |                                      |                |                |                |               |                  |
 
-### Otherworldly Patron
+### Потойбічний покровитель (Otherworldly Patron)
 
-At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.
+На 1-му рівні ви укладаєте угоду з потойбічною істотою на ваш вибір: Арх-фея, Нечисть або Великий Древній, чи іншою, кожна з яких детально описана наприкінці опису класу. Ваш вибір надає вам риси на 1-му рівні та знову на 6-му, 10-му та 14-му рівнях.
 
-### Pact Magic
+### Магія Угоди (Pact Magic)
 
-Your arcane research and the magic bestowed on you by your patron have given you facility with spells.
+Ваші арканні дослідження та магія, надані вам вашим покровителем, дають вам можливість користуватися заклинаннями.
 
-#### Cantrips
+#### Заговори (Cantrips)
 
-You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.
+Ви знаєте два заговори на свій вибір зі списку заклинань відьмаря. На вищих рівнях ви вивчаєте додаткові заговори відьмарів за вашим вибором, як показано в стовпці Відомі заговори Таблиці відьмаря.
 
-#### Spell Slots
+#### Слоти Заклятть (Spell Slots)
 
-The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+У таблиці Відьмар показано, скільки слотів для заклятть ви маєте для використання заклять відьмаря з 1 по 5 рівень. У таблиці також показано рівень цих слотів; усі ваші слоти для заклинань одного рівня. Щоб застосувати одне зі своїх заклятть відьмаря 1-го рівня або вище, ви повинні використати слот закляття. Ви відновлюєте всі використані слоти, коли завершуєте короткий або довгий відпочинок.
 
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell *witch bolt*, you must spend one of those slots, and you cast it as a 3rd-level spell.
+Наприклад, коли ви на 5-му рівні, у вас є два слоти для заклинань 3-го рівня. Щоб використати заклинання 1-го рівня *відьомська стріла*, ви повинні витратити один із цих слотів, і ви застосовуєте його як закляття 3-го рівня.
 
-#### Spells Known of 1st Level and Higher
 
-At 1st level, you know two 1st-level spells of your choice from the warlock spell list.
+#### Закляття, відомі на 1-му рівні та вище (Spells Known of 1st Level and Higher)
 
-The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.
+На 1-му рівні ви знаєте два закляття 1-го рівня на ваш вибір зі списку заклинань відьмаря.
 
-Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.
+Стовпець Відомі закляття таблиці відьмарів показує, коли ви вивчаєте більше заклинань відьмарів на ваш вибір 1-го рівня та вище. Рівень вибраного вами закляття не повинен бути вищим за той, що вказаний у стовпці Рівень слота для вашого рівня. Коли ви досягаєте 6-го рівня, наприклад, ви вивчаєте нове закляття відьмаря, яке може бути 1-го, 2-го або 3-го рівня.
 
-#### Spellcasting Ability
+Крім того, коли ви отримуєте рівень у цьому класі, ви можете вибрати одне з відомих вам заклинань відьмаря та замінити його іншим заклинанням зі списку заклинань відьмаря, яке також має відповідати рівню, для якого у вас є слоти для заклинань.
 
-Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
+#### Здатність до заклинання (Spellcasting Ability)
 
-**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+Харизма — це ваш Атрибут для визначення здатності до заклинання, тому ви використовуєте свою Харизму щоразу, коли закляття стосується вашої здатності його  накласти. Крім того, ви використовуєте свій модифікатор Харизми, коли встановлюєте КС рятівного кидка для заклинання відьмаря, яке ви використовуєте, і коли робите кидок атаки з ним.
 
-**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+**КС рятівного кидка** = 8 + ваш бонус Кваліфікації + ваш модифікатор Харизми
 
-#### Spellcasting Focus
+**Модифікатор кидка атаки для закляття** = ваш бонус Кваліфікації + ваш модифікатор Харизми
 
-You can use an arcane focus as a spellcasting focus for your warlock spells.
+#### Фокус для заклятть (Spellcasting Focus)
 
-### Eldritch Invocations
+Ви можете використовувати ваш арканний фокус як фокус для ваших відьмарських заклятть.
 
-In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
+### Надприродні Закликання (Eldritch Invocations)
 
-At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
+Вивчаючи окультні знання, ви знайшли надприродні закликання, фрагменти заборонених знань, які наповнюють вас незмінною магічною силою.
 
-Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.
+На 2-му рівні ви отримуєте два Надприродніх закликання на свій вибір. Ваші параметри виклику детально описано у кінці опису класу. Коли ви отримуєте певні рівні відьмаря, ви отримуєте додаткові закликання на свій вибір, як показано у стовпці Відомі закликання таблиці відьмаря.
 
-### Pact Boon
+Крім того, коли ви отримуєте рівень у цьому класі, ви можете вибрати одне із закликаннь, які ви знаєте, і замінити його іншим, яке ви можете вивчити на цьому рівні.
 
-At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.
+### Дар Угоди (Pact Boon)
 
-#### Pact of the Chain
+На 3-му рівні ваш потойбічний покровитель дарує вам дар за вашу вірну службу. Ви отримуєте одну з наступних рис на ваш вибір.
+Кожна опція Дара Угоди створює особливу істоту або об'єкт, який відображає природу вашого патрона.
 
-You learn the *find familiar* spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
+#### Угода ланцюга (Pact of the Chain)
 
-When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
+Ви вивчаєте закляття *знайти фамільяра* і можете використовувати його як ритуал. Воно не зараховується до вашої кількості відомих заклинань.
+Коли ви використовуєте це заклинання, ви можете вибрати одну зі звичайних форм для вашого фамільяра або одну з наступних спеціальних форм: імп, псевдодракон, квазит або спрайт.
+Крім того, коли ви виконуєте дію Атака, ви можете відмовитися від однієї зі своїх власних атак, щоб ваш фамільяр здійснив одну атаку своєю реакцією.
 
-Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.
+Ваш фамільяр розумніший, ніж типовий фамільяр. Його форма за замовченням може бути відображенням вашого патрона, як спрайт та псевдодракон, прив'язані до Арх-феї, чи імпи та квазити, прив'язані до Нечисті. Оскільки природа Великого Древнього незбагненна, для його фамільярів підходить будь-яка форма.
 
-#### Pact of the Blade
+#### Угода Клинка (Pact of the Blade)
 
-You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+Ви можете використати свою дію, щоб створити зброю угоди у вільній руці. Ви можете вибрати форму цієї холодної зброї кожного разу, коли ви її створюєте. Ви досконало володієте нею. Ця зброя вважається магічною при розрахунку подолання опору та імунітету до немагічних атак і пошкоджень.
 
-Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
+Ваша зброя угоди зникає, якщо вона перебуває на відстані понад 5 футів від вас протягом 1 хвилини чи більше. Вона також зникає, якщо ви використовуєте цю рису знову, якщо ви відкликаєте зброю (для цього не потрібно ніяких дій) або якщо ви помрете.
 
-You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.
+Ви можете перетворити одну магічну зброю на свою зброю угоди, виконавши спеціальний ритуал, під час якого тримаєте зброю. Ви виконуєте ритуал протягом 1 години, і його можна виконати під час короткого відпочинку. Потім ви можете звільнити зброю, перекинувши її в екстравимірний простір, і вона з'являтиметься щоразу, коли ви викликатимите свою зброю угоди. Ви не можете вплинути таким чином на артефакт або розумну зброю. Зброя перестає бути вашою зброєю угоди, якщо ви помрете, якщо ви виконуєте 1-годинний ритуал на іншій зброї або якщо ви використовуєте 1-годинний ритуал, щоб розірвати зв'язок із нею. Зброя з'являється біля ваших ніг, якщо вона знаходиться в позавимірному просторі, коли зв'язок розривається.
 
-#### Pact of the Tome
+Якщо вашим покровителем є Арх-фея, вашою зброєю може бути тонкий клинок, оповитий виноградною лозою та листям. Якщо ви служите Нечисті, вашою зброєю може бути сокира з чорного металу, прикрашена декоративним полум'ям. Якщо вашим покровителем є Великий Древній, вашою зброєю може бути старовинний спис із вставленим у наконечник дорогоцінним каменем, висіченим так, щоб виглядати як жахливе немигаюче око.
 
-Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.
+#### Угода Гримуара (Pact of the Tome)
 
-If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.
+Ваш патрон дає вам гримуар під назвою Книга тіней. Коли ви отримаєте цю рису, виберіть три заговору зі списку заклинань будь-якого класу (не обов'язково з одного списку). Поки книга при вас, ви можете використовувати ці заговори за бажанням. Вони не зараховуються до вашої кількості відомих заговорів. Якщо їх немає у списку заклинань відьмаря, для вас це все одно закляття відьмаря.
 
-### Ability Score Improvement
+Якщо ви втратите свою Книгу тіней, ви можете провести 1-годинну церемонію, щоб отримати заміну від свого патрона. Цей обряд можна проводити під час короткого або довгого відпочинку, і він знищує попередню книгу. Книга перетворюється на попіл, коли ви помираєте.
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Ваша Книга тіней може бути чудовим фоліантом із позолоченими краями з чарами та ілюзіями, подарованими вам великодушною Арх-феєю. Це може бути важкий фоліант зі шкіри демона, обшитий залізом, який містить заклинання та заборонені знань про зловісні регіони планів, подарунок Нечисті. Або це може бути пошарпаний щоденник безумця, збожеволілого від контакту із Великим Древнім, у якому зберігаються уривки заклинань, які лише ваше власне зростаюче божевілля дозволяє вам зрозуміти та застосувати.
 
-### Mystic Arcanum
+### Підвищення Атрибутів (Ability Score Improvement)
 
-At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.
+Коли ви досягнете 4-го рівня, а потім знову на 8-му, 12-му, 16-му та 19-му рівнях, ви можете підвищити один Атрибут за вашим вибором на 2 або два Атрибути за вашим вибором на 1. Як зазвичай, ви не можете збільшити Атрибут вище 20 за допомогою цієї функції.
 
-You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.
+### Містична Таємниця (Mystic Arcanum)
 
-At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.
+На 11-му рівні ваш покровитель дарує вам містичну таємницю під назвою арканум. Виберіть одне заклинання 6-го рівня зі списку заклятть відьмаря в якості цього арканума.
 
-### Eldritch Master
+Ви можете застосувати своє свій Арканум один раз, не витрачаючи слот для заклинань. Ви повинні закінчити довгий відпочинок, перш ніж ви зможете зробити це знову.
 
-At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
+На вищих рівнях ви отримуєте більше заклинань відьмаря на ваш вибір, які можна використати таким чином: одне заклинання 7-го рівня на 13-му рівні, одне заклинання 8-го рівня на 15-му рівні та одне заклинання 9-го рівня на 17-му рівні. Ви відновлюєте всі використання своєї Містичної Таємниці, коли закінчуєте довгий відпочинок.
 
-### Eldritch Invocations
+### Надприродній Володар (Eldritch Master)
 
-If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class.
+На 20-му рівні ви можете використовувати свій внутрішній резерв містичної сили, благаючи свого патрона відновити витрачені слоти заклятть. Ви можете витратити 1 хвилину, благаючи свого патрона про допомогу, щоб відновити всі витрачені слоти заклинань за допомогою вашої функції Магія Угоди. Після того, як ви відновите слоти для заклятть за допомогою цієї риси, ви повинні закінчити тривалий відпочинок, перш ніж ви зможете зробити це знову.
 
-#### Agonizing Blast
+### Надприродні Закликання (Eldritch Invocations)
 
-*Prerequisite: Eldritch Blast cantrip*
+Якщо для Надприроднього закликання є передумови, ви повинні виконати їх, щоб вивчити його. Ви можете навчитися закликанню одночасно з виконанням цих умов. Умова щодо рівня стосується вашого рівня у цьому класі.
 
-When you cast *eldritch blast*, add your Charisma modifier to the damage it deals on a hit.
+#### Агонізуючий вибух (Agonizing Blast)
+*Передумова: Заговор Надприродній вибух*
 
-#### Armor of Shadows
+Коли ви використовуєте *Надприродній вибух*, додайте свій модифікатор Харизми до пошкождення, яке він завдає під час удару.
 
-You can cast *mage armor* on yourself at will, without expending a spell slot or material components.
+#### Броня Тіней (Armor of Shadows)
 
-#### Ascendant Step
+Ви можете накласти *магічну броню* на себе за бажанням, не витрачаючи слот для заклятть або компоненти матеріалу.
 
-*Prerequisite: 9th level*
+#### Крок Сходження (Ascendant Step)
+*Передумова: 9-й рівень*
 
-You can cast *levitate* on yourself at will, without expending a spell slot or material components.
+Ви можете застосувати *левітацію* на собі за бажанням, не витрачаючи слот для заклинань або компоненти матеріалу.
 
-#### Beast Speech
+#### Аспект Місяця (Aspect of the Moon)
+*Передумова: риса Угода Гримуара*
 
-You can cast *speak with animals* at will, without expending a spell slot.
+Вам більше не потрібно спати, і вас не можна змусити спати жодним чином. Щоб отримати переваги тривалого відпочинку, ви можете присвятити всі 8 годин легким заняттям, таким як читання Книги тіней чи стояння на варті.
 
-#### Beguiling Influence
+#### Мова звірів (Beast Speech)
 
-You gain proficiency in the Deception and Persuasion skills.
+Ви можете використовувати *розмовляти з тваринами* за бажанням, не витрачаючи слот для заклятть.
 
-#### Bewitching Whispers
+#### Зманливий вплив (Beguiling Influence)
 
-*Prerequisite: 7th level*
+Ви отримуєте кваліфікацію у навичках Обману та Переконання.
 
-You can cast *compulsion* once using a warlock spell slot. You can't do so again until you finish a long rest.
+#### Чарівний шепіт (Bewitching Whispers)
+*Передумова: 7-й рівень*
 
-#### Book of Ancient Secrets
+Ви можете застосувати *примус* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-*Prerequisite: Pact of the Tome feature*
+#### Зв'язка Талісмана (Bond of the Talisman)
+*Передумова: 12-й рівень, риса Угода талісмана.*
 
-You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.
+Поки хтось інший носить ваш талісман, ви можете використати свою дію, щоб телепортуватися у незайнятий простір, найближчий до нього, за умови, що ви двоє перебуваєте на одному рівні існування. Носій вашого талісмана може зробити те саме, використовуючи свою дію, щоб телепортуватися до вас. Телепортацію можна використати кількість разів, що дорівнює вашому бонусу Кваліфікації, і всі витрачені використання відновлюються, коли ви закінчуєте довгий відпочинок.
 
-On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.
+#### Книга Прадавніх Таємниць (Book of Ancient Secrets)
+*Передумова: риса Угода Гримуара*
 
-#### Chains of Carceri
+Тепер ви можете вписувати магічні ритуали у свою Книгу тіней. Виберіть два закляття 1-го рівня, які мають тег "ритуал", зі списку заклятть будь-якого класу (обидва не обов'язково повинні бути з одного списку). Закляття з'являються у книзі та не враховуються у кількості заклятть, які ви знаєте. Маючи у руках Книгу Тіней, ви можете використовувати вибрані закляття як ритуали. Ви не можете творити ці закляття, окрім як в якості ритуалів, якщо ви не навчилися їх якимось іншим способом. Ви також можете накладати відомі вам закляття відьмаря, як ритуал, якщо воно має тег "ритуал".
 
-*Prerequisite: 15th level, Pact of the Chain feature*
+Під час своїх пригод ви можете додати інші ритуальні заклинання до своєї Книги тіней. Коли ви знайдете таке заклинання, ви можете додати його до книги, якщо рівень закляття дорівнює або менше половини вашого рівня відьмаря (округлено у більшу сторону) і якщо ви можете приділити час, щоб переписати це закляття. Для кожного рівня закляття процес транскрипції займає 2 години та коштує 50 золотих монет за рідкісні чорнила, необхідні для вписування його у книгу.
 
-You can cast *hold monster* at will-targeting a celestial, fiend, or elemental-without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
+#### Ланцюги Карцері (Chains of Carceri)
 
-#### Devil's Sight
+*Обов'язкова умова: 15-й рівень, риса Угода Ланцюга*
 
-You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.
+Ви можете застосувати *Втримати Чудовисько* за бажанням, націлившись на целестіала, нечисть або елементаля, не витрачаючи слот для заклятть або матеріальні компоненти. Ви повинні закінчити довгий відпочинок, перш ніж знову зможете використати це закликання на тій самій істоті.
 
-#### Dreadful Word
+#### Плащ мух Cloak of Flies
+*Передумова: 5 рівень*
 
-*Prerequisite: 7th level*
+Бонусною дією ви можете оточити себе чарівною аурою, схожою на дзижчання мух. Аура поширюється на 5 футів від вас у будь-якому напрямку, але не через повне покриття. Це триває, доки ви не станете недієздатним або не скасуєте цю ауру бонусною дією.
+Аура дає вам Перевагу у перевірках Залякування (Харизми), але дає Заваду в усіх інших перевірках Харизми. Будь-яка інша істота, яка починає свій хід в аурі, отримує пошкодження від отрути, що дорівнює вашому модифікатору Харизми (мінімум 0 пошкоджень).
+Скориставшись цим закликанням, ви не зможете використати його знову, доки не завершите короткий або тривалий відпочинок.
 
-You can cast *confusion* once using a warlock spell slot. You can't do so again until you finish a long rest.
+#### Диявольский зір (Devil's Sight)
 
-#### Eldritch Sight
+Ви можете нормально бачити в темряві, як магічній, так і немагічній, на відстані 120 футів.
 
-You can cast *detect magic* at will, without expending a spell slot.
+#### Грізне слово (Dreadful Word)
 
-#### Eldritch Spear
+*Передумова: 7-й рівень*
 
-*Prerequisite: Eldritch Blast cantrip*
+Ви можете застосувати *спантеличення* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-When you cast *eldritch blast*, its range is 300 feet.
+#### Надприродній розум (Eldritch Mind)
 
-#### Eyes of the Rune Keeper
+Ви маєте Перевагу у рятівних кидках Комплекції, які ви робите, щоб зберегти концентрацію на заклятті.
 
-You can read all writing.
+#### Надприродній зір (Eldritch Sight)
 
-#### Fiendish Vigor
+Ви можете застосовувати закляття *виявити магію* за бажанням, не витрачаючи слот для заклятть.
 
-You can cast *false life* on yourself at will as a 1st-level spell, without expending a spell slot or material components.
+#### Надприродній удар (Eldritch Smite)
+*Передумова: 5-й рівень, функція Угода Клинка*
 
-#### Gaze of Two Minds
+Один раз за хід, коли ви вдаряєте істоту своєю Зброєю Угоди, ви можете використати слот заклинання відьмаря, щоб завдати цілі додаткових силових пошкоджень 1d8, а також ще 1d8 за рівень слота заклятть, і ви можете збити ціль з ніг, якщо вона Величезна або менша.
 
-You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.
+#### Надприродній спис (Eldritch Spear)
+*Передумова: заговір Надприродній вибух*
 
-#### Lifedrinker
+Коли ви накладаєте *Надприродній вибух*, його радіус сягає 300 футів.
 
-*Prerequisite: 12th level, Pact of the Blade feature*
+#### Очі хранителя рун (Eyes of the Rune Keeper)
 
-When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).
+Ви можете читати усе, що написано.
 
-#### Mask of Many Faces
+#### Далекописар (Far Scribe)
+*Передумова: 5-й рівень, риса Угода Гримуара*
 
-You can cast *disguise self* at will, without expending a spell slot.
+У вашій Книзі тіней з'явиться нова сторінка. З вашого дозволу істота може використовувати свою дію, щоб написати своє ім'я на цій сторінці, яка може містити кількість імен, що дорівнює вашому бонусу Кваліфікації.
 
-#### Master of Myriad Forms
+Ви можете застосувати закляття Послання, націлившись на істоту, ім'я якої вказано на сторінці, не використовуючи слот для заклятть і не використовуючи матеріальні компоненти. Для цього необхідно написати повідомлення на сторінці. Ціль чує повідомлення у своїй свідомості, і якщо ціль відповідає, її повідомлення з'являється на сторінці, а не у вашій свідомості. Надис зникає через 1 хвилину.
 
-*Prerequisite: 15th level*
+#### Нечиста Міць (Fiendish Vigor)
 
-You can cast *alter self* at will, without expending a spell slot.
+Ви можете накласти *фальшиве життя* на себе за бажанням як закляття 1-го рівня, не витрачаючи слот закляття або матеріальні компоненти.
 
-#### Minions of Chaos
+#### Погляд двох розумів (Gaze of Two Minds)
 
-*Prerequisite: 9th level*
+Ви можете використати свою дію, щоб торкнутися гуманоїда, що не проти цього, та сприймати світ через його органи чуття до кінця вашого наступного ходу. Поки істота перебуває на тому самому плані існування, що й ви, ви можете використовувати свою дію на наступних ходах, щоб підтримувати цей зв'язок, продовжуючи її тривалість до кінця вашого наступного ходу. Сприймаючи за допомогою органів чуття іншої істоти, ви отримуєте перевагу від будь-яких особливих органів чуття, якими володіє ця істота, і ви залишаєтеся сліпими та глухими до свого власного оточення.
 
-You can cast *conjure elemental* once using a warlock spell slot. You can't do so again until you finish a long rest.
+#### Примарний погляд (Ghostly Gaze)
+*Передумова: 7 рівень*
 
-#### Mire the Mind
+Використавши дію, ви отримуєте здатність бачити крізь тверді предмети на відстані до 30 футів. У цьому діапазоні у вас є темнобачення, якщо ви його ще не маєте. Це особливий погляд триває 1 хвилину або доки ваша концентрація не закінчиться (наче ви концентруєтеся на заклятті). Протягом цього часу ви сприймаєте предмети як примарні, прозорі зображення.
+Скориставшись цим закликанням, ви не зможете використати його знову, доки не завершите короткий або довгий відпочинок.
 
-*Prerequisite: 5th level*
+#### Подарунок глибин (Gift of the Depths)
+*Передумова: 5 рівень*
 
-You can cast *slow* once using a warlock spell slot. You can't do so again until you finish a long rest.
+Ви можете дихати під водою, і ви отримуєте швидкість плавання, що дорівнює швидкості вашої ходьби.
+Ви також можете застосувати Водне дихання, не витрачаючи слот для заклятть. Ви відновлюєте здатність робити це, коли закінчуєте довгий відпочинок.
 
-#### Misty Visions
+#### Подарунок Вічноживих (Gift of the Ever-Living Ones)
+*Передумова: функція Угода Ланцюга*
 
-You can cast *silent image* at will, without expending a spell slot or material components.
+Щоразу, коли ви відновлюєте хіти, коли ваш фамільяр знаходиться у межах 100 футів від вас, розглядайте будь-які кинуті кубики, щоб визначити відновлені хіти як такі, що викинули для вас максимальне значення.
 
-#### One with Shadows
+#### Подарунок Захисників (Gift of the Protectors)
+*Необхідна умова: 9-й рівень, функція Угода Гримуара*
 
-*Prerequisite: 5th level*
+У вашій Книзі тіней з'явиться нова сторінка. З вашого дозволу істота може використати свою дію, щоб написати своє ім'я на цій сторінці, яка може містити кількість імен, що дорівнює вашому бонусу Кваліфікації.
 
-When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.
+Коли будь-яка істота, чиє ім’я є на сторінці, зменшується до 0 очок здоров’я, але не вбивається одразу, кількість хітів цієї істоти чарівним чином падає до 1 замість 0. Після того, як ця магія спрацьовує, жодна істота не може скористатися нею, доки ви не закінчите довгий відпочинок.
+Ви можете чарівним чином стерти ім'я на сторінці, торкнувшись його.
 
-#### Otherworldly Leap
+#### Захват Хадара (Grasp of Hadar)
+*Передумова: Заговір Надприродній Вибух*
 
-*Prerequisite: 9th level*
+У кожному своєму ході, коли ви вражаєте істоту своїм Надприроднім вибухом, ви можете перемістити цю істоту по прямій лінії на 10 футів ближче до себе.
 
-You can cast *jump* on yourself at will, without expending a spell slot or material components.
+#### Життєпив (Lifedrinker)
 
-#### Repelling Blast
+*Передумова: 12-й рівень, риса Угода Клинка*
 
-*Prerequisite: Eldritch Blast cantrip*
+Коли ви вдаряєте істоту вашою зброєю угоди, ця істота отримує додаткові некротичні пошкодження, що дорівнюють рівну вашому модифікатору Харизми (мінімум 1).
 
-When you hit a creature with *eldritch blast*, you can push the creature up to 10 feet away from you in a straight line.
+#### Покращена Зброя Угоди (Improved Pact Weapon)
+*Передумова: риса Угода Клинка*
 
-#### Sculptor of Flesh
+Ви можете використовувати будь-яку зброю, яку ви викликаєте за допомогою риси Угода клинка, як фокус для ваших заклятть відьмаря.
+Крім того, зброя отримує бонус +1 до своїх кидків атаки та пошкодження, якщо це не магічна зброя, яка вже має бонус до цих кидків.
+Нарешті, зброєю, яку ви викликаєте, може бути короткий, довгий лук, легкий арбалет або важкий арбалет.
 
-*Prerequisite: 7th level*
+#### Інвестиції Майстра Ланцюга (Investment of the Chain Master)
+*Передумова: риса Угода Ланцюга*
 
-You can cast *polymorph* once using a warlock spell slot. You can't do so again until you finish a long rest.
+Коли ви застосовуєте Знайти фамільяра, ви надаєте викликаному фамільяру певну міру вашої чарівної сили, надаючи йому такі переваги:
+- Фамільяр отримує або швидкість польоту, або швидкість плавання (на ваш вибір) 40 футів.
+- Бонусною дією ви можете наказати фамільяру виконати дію Атака.
+- Атаки зі зброєю фамільярів вважаються магічними з метою подолання імунітету та опору до немагічних атак.
+- Якщо фамільяр змушує істоту зробити рятівний кидок, він використовує ваш КС рятівного кидка заклятть.
+- Коли фамільяр отримує пошкодження, ви можете використовувати свою реакцію, щоб надати йому Опір цим пошкодженням.
 
-#### Sign of Ill Omen
+#### Спис летаргії (Lance of Lethargy)
+*Передумова: Заговір Надприродній Вибух*
 
-*Prerequisite: 5th level*
+У кожному своєму ході, коли ви вдаряєте істоту своїм Надприроднім Вибухом, ви можете зменшити швидкість цієї істоти на 10 футів до кінця вашого наступного ходу.
 
-You can cast *bestow curse* once using a warlock spell slot. You can't do so again until you finish a long rest.
+#### Прокляття Божевілля (Maddening Hex)
+*Передумова: 5-й рівень, заклинання Hex або риса відьмаря, яка накладає прокляття*
 
-#### Thief of Five Fates
+Бонусною дією ви викликаєте психічне хвилювання навколо цілі, проклятої вашим закляттям Заговір або вашою рисою відьмаря, як-от Прокляття Заговореного Клинка чи Знак Поганої Прикмети. Коли ви робите це, ви завдаєте психічні пошкодження проклятій цілі та кожній істоті на ваш вибір у радіусі 5 футів від неї. Психічні пошкодження дорівнюють вашому модифікатору Харизми (мінімум 1 пошкодження). Щоб скористатися цим закликанням, ви повинні мати можливість бачити прокляту ціль, і вона має бути в межах 30 футів від вас.
 
-You can cast *bane* once using a warlock spell slot. You can't do so again until you finish a long rest.
+#### Маска багатьох обличч (Mask of Many Faces)
 
-#### Thirsting Blade
+Ви можете використовувати *замаскувати себе* за бажанням, не витрачаючи слот для заклятть.
 
-*Prerequisite: 5th level, Pact of the Blade feature*
+#### Майстер безлічі форм (Master of Myriad Forms)
+*Передумова: 15-й рівень*
 
-You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.
+Ви можете використовувати *змінити себе* за бажанням, не витрачаючи слот для заклятть.
 
-#### Visions of Distant Realms
+#### Міньйони Хаосу (Minions of Chaos)
+*Передумова: 9-й рівень*
 
-*Prerequisite: 15th level*
+Ви можете застосувати *прикликати елементаля* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-You can cast *arcane eye* at will, without expending a spell slot.
+#### Багно розуму (Mire the Mind)
+*Передумова: 5-й рівень*
 
-#### Voice of the Chain Master
+Ви можете застосувати *сповільнення* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-*Prerequisite: Pact of the Chain feature*
+#### Туманні видіння (Misty Visions)
 
-You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.
+Ви можете використовувати *Мовчазне Зображення* за бажанням, не витрачаючи слот для заклятть або матеріальні компоненти.
 
-#### Whispers of the Grave
+#### Заодно з тінями (One with Shadows)
+*Передумова: 5-й рівень*
 
-*Prerequisite: 9th level*
+Коли ви перебуваєте у зоні слабкого світла чи темряви, ви можете використати свою дію, щоб стати невидимим, доки не поворухнетеся, не здійсните дію чи не використаєте реакцію.
 
-You can cast *speak with dead* at will, without expending a spell slot.
+#### Потойбічний стрибок (Otherworldly Leap)
+*Передумова: 9 рівень*
 
-#### Witch Sight
+Ви можете застосувати *стрибок* на собі за бажанням, не витрачаючи слот для заклятть або матеріальні компоненти.
 
-*Prerequisite: 15th level*
+#### Захист Талісмана (Protection of the Talisman)
+*Передумова: 7-й рівень, риса Угода Талісмана.*
 
-You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.
+Коли власник вашого талісмана провалює рятівний кидок, він може додати d4 до кидка, потенційно перетворюючи кидок на успіх. Цю перевагу можна використати кількість разів, що дорівнює вашому бонусу до Кваліфікації, і всі витрачені використання відновлюються, коли ви закінчуєте довгий відпочинок.
 
-## Otherworldly Patrons
+#### Догана Талісмана (Rebuke of the Talisman)
+*Передумова: риса Угода Талісмана*
 
-The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence-not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
+Коли власника вашого талісмана вдаряє зловмисник, якого ви бачите у радіусі 30 футів від вас, ви можете використати свою реакцію, щоб завдати нападнику психічні пошкодження, що дорівнюють вашому бонусу Кваліфікації, і відштовхнути його на відстань до 10 футів від власника талісмана.
 
-Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
+#### Невблаганне Прокляття (Relentless Hex)
+*Передумова: 7-й рівень, заклинання Заговір або риса відьмаря, накладає прокляття*
 
-### The Fiend
+Ваше прокляття створює тимчасовий зв'язок між вами та вашою ціллю. Бонусною дією ви можете магічно телепортуватися на відстань до 30 футів у незайнятий простір, який ви можете побачити у радіусі 5 футів від цілі, проклятої вашим заклинанням Заговір або вашою рисою відьмаря, як-от Прокляття Заговореного Клинка чи Знак Поганої Прикмети. Щоб телепортуватися таким чином, ви повинні мати можливість бачити прокляту ціль.
 
-You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
+#### Відбиваючий вибух (Repelling Blast)
+*Передумова: Заговір Надприродній Вибух*
 
-#### Expanded Spell List
+Коли ви вдаряєте істоту за допомогою *надприроднього вибуху*, ви можете штовхнути істоту на відстань до 10 футів від себе по прямій лінії.
 
-The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+#### Скульптор плоті (Sculptor of Flesh)
+*Передумова: 7 рівень*
 
-**Table- Fiend Expanded Spells**
+Ви можете застосувати *поліморф* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-| Spell Level | Spells                            |
-|-------------|-----------------------------------|
-| 1st         | burning hands, command            |
-| 2nd         | blindness/deafness, scorching ray |
-| 3rd         | fireball, stinking cloud          |
-| 4th         | fire shield, wall of fire         |
-| 5th         | flame strike, hallow              |
-|             |                                   |
+#### Саван Тіні (Shroud of Shadow)
+*Передумова: 15 рівень*
+Ви можете використовувати Невидимість за бажанням, не витрачаючи слот для заклятть.
 
-#### Dark One's Blessing
+#### Знак поганої прикмети (Sign of Ill Omen)
+*Передумова: 5 рівень*
 
-Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).
+Ви можете застосувати *наділити прокляттям* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-#### Dark One's Own Luck
+#### Злодій п'яти доль (Thief of Five Fates)
 
-Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.
+Ви можете використати *згубу* один раз, використовуючи слот для заклятть відьмаря. Ви не можете робити це знову, поки не закінчите довгий відпочинок.
 
-Once you use this feature, you can't use it again until you finish a short or long rest.
+#### Спраглий клинок (Thirsting Blade)
+*Передумова: 5-й рівень, риса Угода Клинка*
 
-#### Fiendish Resilience
+Ви можете атакувати своєю зброєю угоди двічі замість одного разу, коли ви виконуєте дію Атака у свій хід.
 
-Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.
+#### Могила Левіста (Tomb of Levistus)
+*Передумова: 5 рівень*
 
-#### Hurl Through Hell
+В якості реакції на отримання пошкоджень ви можете поховати себе у лід, який тане у кінці вашого наступного ходу. Ви отримуєте 10 тимчасових хітів за рівень відьмаря, які забирають якомога більше шкоди, яка викликала цю дію. Одразу після отримання пошкоджень ви отримуєте вразливість до пошкоджень від вогню, ваша швидкість знижується до 0, і ви стаєте недієздатними. Ці ефекти, включно з будь-якими тимчасовими хітами, що залишилися, закінчуються, коли лід тане.
+Скориставшись цим закликанням, ви не зможете використати його знову, доки не завершите короткий або довгий відпочинок.
 
-Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.
+#### Втеча Трикстера
+*Передумова: 7 рівень*
 
-At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.
+Ви можете застосувати Свобода руху один раз на себе, не витрачаючи слот для заклятть. Ви відновлюєте здатність робити це, коли закінчуєте довгий відпочинок.
 
-Once you use this feature, you can't use it again until you finish a long rest.
+#### Безсмертне рабство
+*Передумова: 5-й рівень відьмаря*
 
->**Your Pact Boon**
->
->Each Pact Boon option produces a special creature or an object that reflects your patron's nature.
->
->***Pact of the Chain***. Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with sprites and pseudodragons tied to the Archfey and imps and quasits tied to the Fiend. Because the Great Old One's nature is inscrutable, any familiar form is suitable for it.
->
->***Pact of the Blade***. If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye.
->
->***Pact of the Tome***. Your Book of Shadows might be a fine, gilt-edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a lunatic driven mad by contact with the Great Old One, holding scraps of spells that only your own burgeoning insanity allows you to understand and cast.
+Ви можете застосувати Анімувати мерця, не використовуючи слот для заклятть. Після того, як ви це зробите, ви не зможете використовувати його таким чином знову, доки не закінчите довгий відпочинок.
+
+#### Видіння далеких царств (Visions of Distant Realms)
+*Передумова: 15-й рівень*
+
+Ви можете використовувати *чародійське Око* за бажанням, не витрачаючи слот для заклятть.
+
+#### Голос майстра ланцюгів (Voice of the Chain Master)
+*Передумова: функція Угода Ланцюга*
+
+Ви можете телепатично спілкуватися зі своїм фамільяром і сприймати його органами чуття, доки ви перебуваєте на одному рівні існування. Крім того, сприймаючи відчуття свого фамільяра, ви також можете говорити через нього своїм власним голосом, навіть якщо ваш фамільяр зазвичай нездатний говорити.
+
+#### Шепіт могил (Whispers of the Grave)
+*Передумова: 9-й рівень*
+
+Ви можете використовувати *розмовляти з мертвими* за бажанням, не витрачаючи слот для заклятть.
+
+#### Відьомський зір (Witch Sight)
+*Передумова: 15 рівень*
+
+Ви можете побачити справжню форму будь-якого змінювача форми або істоти, прихованої магією ілюзії чи трансмутації, поки ця істота перебуває у радіусі 30 футів від вас і в межах прямої видимості.
+
+
+## Потойбічні покровителі (Otherworldly Patrons)
+
+Істоти, які служать покровителями для відьмарів, — це могутні мешканці інших планів буття — не боги, але майже божественні за своєю могутністю. Різні покровителі надають своїм відьмарям доступ до різних сил і закликанням, й очікують значних послуг у відповідь.
+
+Деякі покровителі збирають відьмарів, відносно вільно роздаючи містичні знання або вихваляючись своєю здатністю прив'язувати смертних до своєї волі. Інші покровителі наділяють могутністю неохоче і можуть укласти договір лише з одним чаклуном. Відьмарі, які служать одному патрону, можуть розглядати один одного як союзників, братів і сестер або суперників.
+
+### Нечисть (The Fiend)
+
+Ви уклали угоду з демоном із нижчих планів існування, істотою, чиї цілі злі, навіть якщо ви боретеся проти таких цілей. Такі істоти бажають зашкодити або знищити все, включно з вами. Нечисті, достатньо сильні, щоб укласти договір, включають лордів-демонів, таких як Демогоргон, Оркус, Фраз'Урб-луу та Бафомет; архідияволів, такі як Асмодей, Диспатер, Мефістофель і Беліал; особливо могутні ямні демони та балори; і ультролоти та інші лорди юголотів.
+
+#### Розширений список заклятть (Expanded Spell List)
+
+Нечисть дозволяє вам вибирати з розширеного списку заклинань, коли ви вивчаєте заклинання відьмаря. Наступні заклинання додано до списку заклинань відьмаря.
+
+**Таблиця- Розширений список заклятть Нечисті**
+
+| Рівень закляття | Закляття                         |
+|-----------------|----------------------------------|
+| 1-й             | Палаючі руки, Команда            |
+| 2-й             | Сліпота/Глухота, Пекучий промінь |
+| 3-й             | Вогняна куля, Смердюча хмара     |
+| 4-й             | Вогняний щит, Стіна Вогню        |
+| 5-й             | Полум'яний удар, Освячення       |
+|                 |                                  |
+
+#### Благословення Темного (Dark One's Blessing)
+
+Починаючи з 1-го рівня, коли ви зменшуєте очок життя ворожої істоти до 0, ви отримуєте тимчасові хіти, які дорівнюють вашому модифікатору Харизми + вашому рівню відьмаря (мінімум 1).
+
+#### Удача Темного (Dark One's Own Luck)
+
+Починаючи з 6-го рівня, ви можете закликати свого патрона змінити долю на вашу користь. Коли ви робите перевірку здібностей або рятівний кидок, ви можете використати цю рису, щоб додати d10 до свого кидка. Ви можете зробити це після того, як побачите перший кидок, але до того, як відбудуться будь-які ефекти кидка.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Нечиста стійкість (Fiendish Resilience)
+
+Починаючи з 10-го рівня, ви можете вибрати один тип пошкоджень, коли закінчите короткий або довгий відпочинок. Ви отримуєте Опір до цього типу шкоди, доки не виберете інший цією рисою. Пошкодження від магічної зброї або срібної зброї ігнорує цей опір.
+
+#### Кинути крізь пекло (Hurl Through Hell)
+
+Починаючи з 14-го рівня, коли ви вражаєте істоту атакою, ви можете використовувати цю рису, щоб миттєво перенести ціль на нижні плани. Істота зникає там, де вона була під час вашого удару, і її наче протягує крізь їхній кошмарний ландшафт.
+
+У кінці вашого наступного ходу ціль повертається на місце, яке вона займала раніше, або на найближче незайняте місце. Якщо ціль не є демоном, вона отримує 10d10 психічних пошкоджень, коли переживає цей жахливий досвід.
+
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите довгий відпочинок.
+
+### Арх-фея (The Archfey)
+
+Ваш покровитель — лорд або леді фей, легендарна істота, яка зберігає таємниці, забуті ще до появлення смертних рас. Мотивація цієї істоти часто незбагненна, а іноді й химерна, і може включати прагнення до більшої магічної сили або залагодження прадавніх образ. Істоти цього типу включають Принца Мороза; Королеву Повітря і Темряви, правительку Похмурого Двору; Титанію, володарку Літнього Двору; її консорта Оберона, Зеленого Лорда; Хірсама, Принца Вар'ятів; стародавніх каргів, тощо.
+
+**Таблиця- Розширений список заклятть Арх-феї**
+
+| Рівень закляття | Закляття                                  |
+|-----------------|-------------------------------------------|
+| 1-й             | Фейське Полум'я, Сон                      |
+| 2-й             | Вгамувати емоції, Примарна сила           |
+| 3-й             | Миготіння, Ріст рослин                    |
+| 4-й             | Домінувати над звіром, Більша невидимість |
+| 5-й             | Домінувати над особою, Видимість          |
+|                 |                                           |
+
+#### Присутність фей (Fey Presence)
+
+Починаючи з 1-го рівня, ваш покровитель дарує вам здатність відтворювати спокусливу та страшну присутність фей. Використавши дію, ви можете змусити кожну істоту у 10-футовому кубі, що починається від вас, зробити рятівний кидок Мудрості проти вашого КС рятівного кидка проти заклятть відьмаря. Істоти, яким не вдасться виконати рятівні кидки, будуть зачаровані або налякані вами (на ваш вибір) до кінця вашого наступного ходу.
+
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Туманна втеча (Misty Escape)
+
+Починаючи з 6-го рівня, ви можете зникнути у клубах тумана у відповідь на пошкодження. Коли ви отримуєте пошкодження, ви можете використати свою реакцію, щоб стати невидимим і телепортуватися на відстань до 60 футів у незайнятий простір, який ви бачите. Ви залишаєтеся невидимим до початку вашого наступного ходу або доки не атакуєте чи не використаєте заклинання.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Оманливий захист (Beguiling Defenses)
+
+Починаючи з 10-го рівня, ваш покровитель навчає вас, як звернути магію ваших ворогів, що впливає на розум, проти них. Ви отримуєте імунітет до зачарування, і коли інша істота намагається зачарувати вас, ви можете використати свою реакцію, щоб спробувати звернути чари на цю істоту. Істота має досягти успіху в рятівному кидку Мудрості проти вашого КС рятівного кидка проти заклятть відьмаря або бути зачарованою вами на 1 хвилину чи поки істота не отримає будь-яких пошкодженнь.
+
+#### Темний делірій (Dark Delirium)
+
+Починаючи з 14-го рівня, ви можете занурити істоту в ілюзорне царство. Використавши дію, виберіть істоту, яку ви бачите в радіусі 60 футів від себе. Ця істота повинна зробити рятівний кидок Мудрості проти вашого КС рятівного кидка проти заклятть відьмаря. Якщо рятівний кидок істоти провалився, ви зачаровуєте або лякаєте її (на ваш вибір) на 1 хвилину або доки ваша концентрація не порушиться (ніби ви зосереджуєтеся на цьому заклятті). Цей ефект закінчується раніше, якщо істота отримує будь-які пошкодження.
+Поки ця ілюзія не скінчиться, істота думає, що вона загубилася в туманному царстві, вигляд якого ви вибираєте. Істота може бачити і чути тільки себе, вас і ілюзію.
+Ви повинні закінчити короткий або довгий відпочинок, перш ніж знову зможете використовувати цю рису.
+
+### Великий Древній (The Great Old One)
+
+Ваш покровитель — таємнича сутність, природа якої абсолютно чужа тканині реальності. Воно могло прийти з Далеких планів, простору за межами реальності, або це міг бути один із старших богів, відомих лише в легендах. Його мотиви незбагненні для смертних, а його знання настільки величезні та давні, що навіть найбільші бібліотеки бліднуть у порівнянні з величезними таємницями, які він зберігає. Великий Древній може не знати про ваше існування або зовсім байдужий до вас, але секрети, які ви дізналися, дозволяють вам черпати з цього свою магію.
+Сутності цього типу включають Ґаунадар, що зветься "Те, що скрадається"; Таріздун, Прикутий Бог; Дендар, Нічний Змій; Заргон, Що Повертає; Великий Ктулху; та інші незбагненні істоти.
+
+**Таблиця- Розширений список заклятть Великого Древнього**
+
+| Рівень закляття | Закляття                                       |
+|-----------------|------------------------------------------------|
+| 1-й             | Диссонансний шепіт, Бридкий Сміх Таші          |
+| 2-й             | Виявити думки, Примарна сила                   |
+| 3-й             | Яснобачення, Послання                          |
+| 4-й             | Домінувати над звіром, Евардові Чорні Мацальця |
+| 5-й             | Домінувати над особою, Телекінез               |
+|                 |                                                |
+
+#### Пробуджений розум (Awakened Mind)
+
+Починаючи з 1-го рівня, ваші чужорідні знання дають вам можливість торкатися свідомості інших істот. Ви можете телепатично розмовляти з будь-якою істотою, яку бачите в радіусі 30 футів від вас. Вам не потрібно знати спільну мовою з істотою, щоб вона зрозуміла ваші телепатичні висловлювання, але істота повинна бути здатною розуміти принаймні одну мову.
+
+#### Ентропійний захист (Entropic Ward)
+
+На 6-му рівні ви навчитеся магічно захищатися від нападу та перетворювати невдалий удар ворога на удачу для себе. Коли істота робить кидок атаки проти вас, ви можете використовувати свою реакцію, щоб завдати надати заваду цьому кидку. Якщо атака оминула вас, ваш наступний кидок атаки проти істоти має перевагу, якщо ви зробите це до кінця свого наступного ходу.
+
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Щит думок (Thought Shield)
+
+Починаючи з 10-го рівня, ваші думки не можна прочитати за допомогою телепатії чи інших засобів, якщо ви не дозволите це. У вас також є Опір до психічних пошкодженнь, і щоразу, коли істота завдає вам психічні пошкодження, ця істота отримує таку саму кількість пошкодженнь, що і ви.
+
+#### Створення раба (Create Thrall)
+
+На 14-му рівні ви отримуєте здатність інфікувати розум гуманоїда чужорідною магією свого покровителя. Ви можете використати дію, щоб торкнутися недієздатного гуманоїда. Ви зачаровуєте цю істоту, доки на неї не буде накладено закляття Прибрати прокляття, з неї не буде знято у будь-який спосіб зачарований стан, або ви знову не використаєте цю рису на іншій істоті.
+Ви можете телепатично спілкуватися із зачарованою істотою, доки ви двоє перебуваєте на одному плані існування.
+
+
+### Заговорений Клинок (The Hexblade)
+Джерело: Xanathar's Guide to Everything
+
+Ви уклали угоду з таємничою сутністю з Тінепаду — силою, яка проявляється у розумній магічній зброї, вирізаній із матерії тіні. Могутній меч Чорна бритва є найвизначнішою з цієї зброї, яка протягом століть була поширена у мультивсесвіті. Тіньова сила, що стоїть за цією зброєю, може запропонувати могутність відьмарям, які укладають з нею угоди. Багато відьмарів заговореного клинка створюють зброю, яка імітує ту, що була створена у Тінепаді. Інші відмовляються від такої зброї, задовольняючись тим, що вплітають темну магію цього плану у свої закляття.
+
+Оскільки відомо, що Королева Воронів викувала першу з такої зброї, багато мудреців припускають, що вона та сила єдині, і що зброя разом із відьмарями заговорених клинків є інструментами, які вона використовує для маніпулювання подіями на матеріальному плані для своїх незбагненних цілей.
+
+**Таблиця- Розширений список заклятть Заговореного Клинка**
+
+| Рівень закляття | Закляття                              |
+|-----------------|---------------------------------------|
+| 1-й             | Щит, Гнівний удар                     |
+| 2-й             | Розмиття, Клеймуючий удар             |
+| 3-й             | Миготіння, Стихійна зброя             |
+| 4-й             | Примарний вбивця, Приголомшливий удар |
+| 5-й             | Вигоняючий удар, Конус холода         |
+|                 |                                       |
+
+#### Прокляття Заговореного Клинка (Hexblade's Curse)
+
+Починаючи з 1-го рівня, ви отримуєте здатність накладати на когось зловмисне прокляття. Бонусною дією, виберіть одну істоту, яку ви бачите у радіусі 30 футів від себе. Ціль стає проклятою на 1 хвилину. Прокляття закінчується раніше, якщо ціль гине, ви помрете або ви перестаєте бути дієздатними. Доки прокляття не закінчиться, ви отримуєте такі переваги:
+- Ви отримуєте бонус до кидків шкоди проти проклятої цілі. Бонус дорівнює вашому бонусу Кваліфікації.
+- Будь-який кидок атаки, який ви робите проти проклятої цілі, є критичним ударом при отриманні значення 19 або 20 на d20.
+- Якщо проклята ціль гине, ви відновлюєте хіти, що дорівнюють вашому рівню відьмаря + ваш модифікатор Харизми (мінімум 1 хіт).
+Ви не можете використовувати цю рису знову, доки не закінчите короткий або довгий відпочинок.
+
+#### Воїн Заговора (Hex Warrior)
+
+На 1-му рівні ви отримуєте підготовку, необхідну для ефективного озброєння для бою. Ви отримуєте майстерність із середньою бронею, щитами та бойовою зброєю.
+
+Вплив вашого покровителя також дозволяє вам містично направляти свою волю через певну зброю. Щоразу, коли ви закінчуєте довгий відпочинок, ви можете доторкнутися до однієї зброї, якою ви вмієте користуватися і якій не вистачає властивості дворучності. Коли ви атакуєте цією зброєю, ви можете використовувати свій модифікатор Харизми замість Сили або Спритності для кидків атаки та пошкоджень. Ця перевага зберігається, доки ви не закінчите довгий відпочинок. Якщо пізніше ви отримаєте функцію Угода Клинка, ця перевага поширюється на кожну Зброю Угоди, яку ви створите за допомогою цієї риси, незалежно від типу зброї.
+
+#### Проклятий Привид (Accursed Specter)
+
+Починаючи з 6-го рівня, ви можете проклинати душу особи, яку ви вбиваєте, тимчасово прив'язуючи її до себе на службу. Коли ви вбиваєте гуманоїда, ви можете змусити його дух піднятися з його трупа в якості привида. Коли привид з'являється, він отримує тимчасові хіти, які дорівнюють половині вашого рівня відьмаря. Киньте Ініціативу для привида, він має власні ходи та ініціативу. Він підкоряється вашим словесним командам і отримує спеціальний бонус до кидків атаки, рівний вашому модифікатору Харизми (мінімум +0).
+Привид залишається у вас на службі до кінця вашого наступного довгого відпочинку, після чого він зникає у загробному світі.
+Після того, як ви зв'яжете привида за допомогою цієї риси, ви не зможете використовувати її знову, доки не завершите довгий відпочинок.
+
+#### Броня Заговора (Armor of Hexes)
+
+На 10-му рівні ваш прокляття стає потужнішим. Якщо ціль, проклята вашим Прокляттям Заговореного Клинка, вразить вас кидком атаки, ви можете використати свою реакцію, щоб кинути d6. Якщо випало 4 чи вище, атака натомість промахується по вам, незалежно від значення, що випало на кубику атаки.
+
+#### Майстер проклятть (Master of Hexes)
+
+Починаючи з 14-го рівня, ви можете поширювати своє Прокляття Заговореного Клинка з убитої істоти на іншу істоту. Коли істота, проклята таким чином, помре, ви можете застосувати прокляття до іншої істоти, яку бачите в межах 30 футів від вас, за умови, що ви не є недієздатними. Коли ви застосовуєте прокляття таким чином, ви не відновлюєте хітів від смерті попередньо проклятої істоти.
+
+### Нежить (The Undead)
+Джерело: Van Richten's Guide to Ravenloft
+
+Ви уклали угоду з неживою істотою, істотою, яка кидає виклик циклу життя та смерті, покидаючи свою смертну оболонку, щоб вічно переслідувати свої незбагненні амбіції. Для таких істот час і мораль — речі швидкоплинні, турботи тих, для кого піщинки все ще мчать крізь пісочний годинник життя. Вони самі колись були смертними; ці стародавні нежиті не з чуток знають шляхи амбіцій і шляхи повз двері смерті. Вони охоче діляться цим знанням разом з іншими секретами з тими, хто проводить їхню волю серед живих.
+
+Істоти цього типу включають деміліха Ацерерака, вампіра-тирана Каса Криваворукого, королеву-ліча гітьянкі Влаакіс, драколіча Драготу, неживого фараона Анхтепота та невловимого Темного лорда Азаліна Рекса.
+
+
+**Таблиця- Розширений список заклятть Нежиті**
+
+| Рівень закляття | Закляття                                |
+|-----------------|-----------------------------------------|
+| 1-й             | Згуба, Фальшиве життя                   |
+| 2-й             | Сліпота/Глухота, Примарна сила          |
+| 3-й             | Фантомний скакун, Розмовляти з мертвими |
+| 4-й             | Оберіг від смерті, Більша Невидимість   |
+| 5-й             | Оболонка проти життя, Вбивча хмара      |
+|                 |                                         |
+
+#### Форма страху (Form of Dread)
+
+На 1-му рівні ви демонструєте аспект жахливої сили свого патрона. Бонусною дією ви трансформуєтеся на 1 хвилину. Під час трансформації ви отримуєте такі переваги:
+
+- Ви отримуєте тимчасові очки життя, що дорівнюють 1d10 + ваш рівень відьмаря.
+- Один раз під час кожного свого ходу, коли ви вражаєте істоту атакою, ви можете змусити її зробити рятівний кидок Мудрості, і якщо рятівний кидок провалюється, ціль лякається вас до кінця вашого наступного ходу.
+- Ви маєте імунітет до стану страху.
+Ви можете трансформуватися кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновлюєте всі витрачені використання, коли завершуєте довгий відпочинок.
+
+Зовнішній вигляд вашої Форми Страху відображає певний аспект вашого патрона. Наприклад, ваша форма може бути пеленою тіней, що утворюють корону та мантію вашого покровителя-ліча, або ваше тіло може сяяти гліфами стародавніх похоронних обрядів і бути оточене пустельними вітрами, натякаючи на вашего покровителя-мумію.
+
+#### Доторк могили (Grave Touched)
+
+На 6-му рівні сили вашого покровителя мають глибокий вплив на ваше тіло та магію. Вам не потрібно їсти, пити або дихати.
+
+Крім того, один раз під час кожного свого ходу, коли ви вражаєте істоту атакою та завдаєте шкоди своїй цілі, ви можете замінити тип шкоди на некротичну. Поки ви використовуєте форму жаху, ви можете кинути один додатковий кубик ушкодження, визначаючи некротичні пошкодження, яку отримує ціль.
+
+#### Некротична оболонка (Necrotic Husk)
+
+На 10-му рівні ваш зв'язок із нежиттю та некротичною енергією тепер насичує ваше тіло. У вас є Опір до некротичних пошкоджень. Якщо ви трансформуєтеся за допомогою Форми Жаху, ви натомість стаєте імунним до некротичних ушкоджень.
+
+Крім того, коли ваші хіти знижуються до 0, ви можете використати свою реакцію, щоб зменшити їх до натомість до 1, а на додачу змусити ваше тіло вибухнути смертельною енергією. Кожна істота за вашим вибором, яка знаходиться в межах 30 футів від вас, отримує некротичні пошкодження, що дорівнює 2d10 + ваш рівень відьмаря. У такому разі ви отримуєте 1 рівень виснаження. Після того, як ви використаєте цю реакцію, ви не зможете зробити це знову, доки не завершите 1d4 довгих відпочинків.
+
+#### Проекція духу (Spirit Projection)
+
+На 14-му рівні ваш дух може від'єднатися від вашої фізичної форми. Використавши дію, ви можете спроектувати свій дух зі свого тіла. Тіло, яке ви залишаєте позаду, залишається без свідомості та у стані коми.
+
+Ваш дух майже в усіх відношеннях нагадує вашу смертну форму, повторюючи ігрові статистики, але не ваше майно чи його характеристики. Будь-яке пошкодження чи інші наслідки, що стосуються чи вашого духу, чи фізичного тіла, впливають на друге з цієї пари. Ваш дух може залишатися поза вашим тілом протягом 1 години або до тих пір, поки ваша концентрація не порушиться (наче ви концентруєтеся на заклятті). Коли ваша проекція закінчується, ваш дух повертається у ваше тіло, або ваше тіло магічно телепортується у простір, що займає вашо дух (на ваш вибір).
+
+Проектуючи свій дух, ви отримуєте такі переваги:
+- Ваші дух і тіло отримують Опір до ударних, колючих і рубаючих пошкоджень.
+- Коли ви використовуєте заклинання школи прикликання чи некромантії, для заклинання не потрібні вербальні чи соматичні компоненти чи матеріальні компоненти, які не мають вартості золота.
+- Швидкість польоту вашого духа дорівнює швидкості ходьби, і ви можете зависати. Ви можете пересуватися крізь істот і об'єкти, ніби це складна місцевість, але ви отримуєте 1d10 силових пошкоджень, якщо завершуєте свій хід усередині істоти чи об'єкта.
+- Коли ви використовуєте форму жаху, один раз під час кожного свого ходу, коли ви завдаєте некротичних пошкоджень істоті, ви відновлюєте хіти, що дорівнюють половині завданих некротичних пошкоджень.
+Скориставшись цією рисою, ви не зможете зробити це знову, доки не закінчите тривалий відпочинок.
+
+### Невмираючий (The Undying)
+Джерело: Sword Coast Adventurer's Guide
+
+Смерть не має влади над вашим покровителем, який відкрив секрети вічного життя, хоча така нагорода, як і будь-яка влада, має свою ціну. Будучи смертним, Невмираючий бачив, як життя смертних минало, як пори року, як мерехтіння нескінченних днів і ночей. У нього є таємниці віків, якими можна поділитися, таємниці життя та смерті. Істоти цього типу включають Векну, Володаря Руки та Ока; жахливе Юз; королеву-ліча Вол; Невмираючий Двір Еренала; Влаакіс, ліч-королеву гітьянкі; і безсмертного чарівника Фістандантала.
+У Забутих Королівствах покровителі Невмираючих включають у себе Ларлоха, Тіньового Короля, легендарного господаря Склепу Відьмака, і Гілгіама, Бога-Короля Унтера.
+
+**Таблиця- Розширений список заклятть Невмираючого**
+
+| Рівень закляття | Закляття                              |
+|-----------------|---------------------------------------|
+| 1-й             | Фальшиве життя, Промінь хворобливості |
+| 2-й             | Сліпота/Глухота, Тиша                 |
+| 3-й             | Удати смерть, Розмовляти з мертвими   |
+| 4-й             | Аура життя, Оберіг від смерті         |
+| 5-й             | Інфекція, Знання легенд               |
+|                 |                                       |
+
+
+#### Серед мертвих (Among the Dead)
+
+Починаючи з 1-го рівня, ви вивчаєте заговір Зберегти вмираючих, яка вважається для вас магією відьмаря. Ви також маєте перевагу у рятівному кидку проти будь-якої хвороби.
+
+Крім того, нежиті важко завдати вам шкоди. Якщо нежить націлена на вас безпосередньо за допомогою атаки або шкідливого заклинання, ця істота повинна зробити рятівний кидок Мудрості проти вашого КС рятівного кидка заклинання (нежиті не потрібно робити рятівний кидок, якщо він включає вас у ефект області, наприклад вибух вогняної кулі). У разі провала кидка, істота повинна вибрати нову ціль або втратити націлювання на когось замість вас, потенційно змарнувавши атаку чи заклинання. Після успішного рятівного кидка, нежить має імунітет до цього ефекту протягом 24 годин. Нежить також має імунітет до цього ефекту протягом 24 годин, якщо на неї націлити атаку чи шкідливе заклинання.
+
+#### Обманути смерть (Defy Death)
+
+Починаючи з 6-го рівня, ви можете додати собі життєвих сил, коли обманюєте смерть або допомагаєте комусь іншому обдурити її. Ви можете відновити хіти, що дорівнюють 1d8 + ваш модифікатор Комплекції (мінімум 1 хіт), коли досягнете успіху у рятівному кидку від смерті або коли ви стабілізуєте істоту за допомогою Зберегти вмираючих.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите довгий відпочинок.
+
+#### Невмируча природа (Undying Nature)
+
+Починаючи з 10-го рівня, ви можете затримувати дихання на необмежений час, і вам не потрібні їжа, вода чи сон, хоча вам все одно потрібен відпочинок, щоб зменшити виснаження, і все ще отримати користь від завершення короткого та довгого відпочинку.
+Крім того, ви старієте повільніше. За кожні 10 років ваше тіло старіє лише на 1 рік, і ви маєте імунітет до чарівного старіння.
+
+#### Незнищенне життя (Indestructible Life)
+
+Досягнувши 14-го рівня, ви дізнаєтеся про деякі справжні таємниці Невмираючого. У свій хід ви можете використати бонусну дію, щоб відновити хіти, що дорівнюють 1d8 + ваш рівень відьмаря. Крім того, якщо ви повертаєте відрізану частину свого тіла на місце під час використання цієї риси, частина знову приєднується.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+### Безодня (The Fathomless)
+Джерело: Tasha's Cauldron of Everything
+
+Ви уклали угоду з безоднею. Сутність океану, елементарного рівня води або іншого потойбічного моря тепер дозволяє вам використовувати свою морсьюку силу. Вона просто використовує вас, щоб дізнатися про земні царства, чи хоче, щоб ви відкрили космічні шлюзи й потопили світ?
+Можливо, ви народилися в культі покоління, який шанує Безодню та її породження. Або ви зазнали корабельної аварії й були на межі потоплення, коли хватка вашого покровителя дала вам шанс на життя. Якою б не була причина вашого договору, море та його невідомі глибини кличуть вас.
+Сутності безодні, які можуть надати силу відьмарю, включають кракенів, стародавніх водних елементалів, божественні галюцинації, що викликали до життя сни куо-тоа, напівбоги-мерфолки та шабаші морських карг.
+
+**Таблиця- Розширений список заклятть Безодні**
+
+| Рівень закляття | Закляття                                                  |
+|-----------------|-----------------------------------------------------------|
+| 1-й             | Створити чи Зруйнувати воду, Громохвиля                   |
+| 2-й             | Порив вітру, Тиша                                         |
+| 3-й             | Розряд блискавки, Сніжний шторм                           |
+| 4-й             | Контролювати воду, Прикликати Елементаля                  |
+| 5-й             | Рука Бігбі (з'являється у вигляді мацальця), Конус Холода |
+|                 |                                                           |
+
+#### Глибинне мацальце (Tentacle of the Deep)
+
+На 1-му рівні ви можете магічним чином викликати спектральне щупальце, яке вражає ваших ворогів. Як бонусну дію ви створюєте мацальце довжиною 10 футів у точці, яку бачите в межах 60 футів від вас. Воно діє 1 хвилину або доки ви не використаєте цю рису, щоб створити інше мацальце.
+
+Коли ви створюєте щупальце, ви можете атакувати заклинаннями ближнього бою одну істоту в межах 10 футів від нього. При попаданні ціль отримує 1d8 пошкоджень від холоду, а її швидкість зменшується на 10 футів до початку вашого наступного ходу. Коли ви досягаєте 10-го рівня в цьому класі, пошкодження збільшуються до 2d8.
+Бонусною дією у свій хід ви можете перемістити щупальце на 30 футів у будь-який бік і повторити атаку.
+Ви можете викликати мацальце кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновлюєте всі витрачені використання, коли завершуєте довгий відпочинок.
+
+#### Подарунок моря (Gift of the Sea)
+
+Також на 1-му рівні ви отримуєте швидкість плавання 40 футів і можете дихати під водою.
+
+#### Океанічна душа (Oceanic Soul)
+
+На 6-му рівні ви тепер ще більше відчуваєте себе у глибині як вдома. Ви отримуєте Опір до пошкодження холодом. Крім того, коли ви повністю занурені у воду, будь-яка істота, яка також повністю занурена у воду, може зрозуміти вашу мову, а ви можете зрозуміти її.
+
+#### Охоронна котушка (Guardian Coil)
+
+На 6-му рівні ваше Щупальце глибин може захищати вас та інших, вставляючи себе між ними та пошкодженнями. Коли ви або істота, яку ви бачите, отримуєте пошкодження, перебуваючи у межах 10 футів від щупальця, ви можете використовувати свою реакцію, щоб вибрати одну з цих істот і зменшити шкоду цій істоті на 1d8. Коли ви досягаєте 10-го рівня в цьому класі, шкода, зменшена мацальцем, збільшується до 2d8.
+
+#### Хапальні щупальця (Grasping Tentacles)
+
+Починаючи з 10-го рівня, ви вивчаєте закляття Евардові Чорні Мацальця. Це зараховується для вас як заклинання відьмаря, але не зараховується до кількості заклятть, які ви знаєте. Ви також можете застосувати його один раз, не використовуючи слот для заклятть, і ви відновите здатність робити це, коли завершите довгий відпочинок.
+
+Щоразу, коли ви використовуєте це закляття, магія вашого патрона підкріплює вас, надаючи вам кількість тимчасових хітів, що дорівнює вашому рівню відьмаря. Крім того, пошкодження не можуть порушити вашу концентрацію на цьому заклятті.
+
+#### Бездонне занурення (Fathomless Plunge)
+
+Коли ви досягнете 14-го рівня, ви зможете магічним чином відкривати тимчасові канали до водних місць. Дією, ви можете телепортувати себе та до п'яти інших істот, яких бачите в межах 30 футів від себе. Серед виру щупалець ви всі зникаєте, а потім знову з'являєтеся на відстані до 1 милі від цього місця, у водоймі, яку ви раніше бачили (вона має бути розміром зі ставок або більше), або у межах 30 футів від неї, кожен з вас з'являється в незайнятому місці у межах 30 футів від інших.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+### Небожитель (The Celestial)
+Джерело: Xanathar's Guide to Everything
+
+Ваш покровитель - могутня істота з Вищих планів. Ви зв'язали себе з прадавнім емпіреєм, соларом, кі-ріном, єдинорогом або іншою сутністю, яка перебуває на рівнях вічного блаженства. Ваш договір із цією істотою дозволяє вам відчути найменший дотик святого світла, яке освітлює мультивсесвіт.
+
+Підключення до такої сили може спричинити зміни у вашій поведінці та переконаннях. Ви можете виявити спонукання знищити нежить, перемогти демонів і захистити невинних. Часом ваше серце також може бути сповнене тугою за небесним царством вашого покровителя, бажанням блукати цим раєм до кінця своїх днів. Але ви знаєте, що зараз ваша місія серед смертних і що ваш договір зобов'язує вас нести світло в темні куточки світу.
+
+**Таблиця- Розширений список заклятть Небожителя**
+
+| Рівень закляття | Закляття                             |
+|-----------------|--------------------------------------|
+| 1-й             | Вилікувати рани, Направляючий Розряд |
+| 2-й             | Полум'яна сфера, Менше Відновлення   |
+| 3-й             | Денне світло, Повернути до життя     |
+| 4-й             | Захисник віри, Стіна Вогню          |
+| 5-й             | Полум'яний удар, Більше Відновлення  |
+|                 |                                      |
+
+#### Бонусні заговори (Bonus Cantrips)
+
+На 1-му рівні ви вивчаєте заговори Світло та Священне полум'я. Вони зараховуються для вас як заговори відьмаря, але не враховуються у вашій кількості відомих заговорів.
+
+#### Цілюще світло (Healing Light)
+
+На 1-му рівні ви отримуєте здатність направляти небесну енергію для лікування ран. У вас є пул d6, які ви витрачаєте, щоб підживити це лікування. Кількість кубиків у пулі дорівнює 1 + ваш рівень відьмаря.
+
+Бонусною дією ви можете зцілити одну істоту, яку бачите в радіусі 60 футів від вас, витрачаючи кубики з пулу. Максимальна кількість кубиків, які ви можете витратити одночасно, дорівнює вашому модифікатору Харизми (мінімум один кубик). Киньте ці кубики, додайте їх і відновіть кількість хітів, що дорівнює сумі значень, що випала на кубиках.
+Ваш пул повертає всі витрачені кубики, коли ви закінчуєте довгий відпочинок.
+
+#### Промениста душа (Radiant Soul)
+
+Починаючи з 6-го рівня, ваш зв'язок із Небожителем дозволяє вам служити провідником променистої енергії. У вас є Опір до променистих пошкоджень, і коли ви використовуєте закляття, яке завдає променистих або вогняних пошкоджень, ви додаєте свій модифікатор Харизми до одного кидка променистих або вогняних пошкоджень цього заклинання проти однієї з його цілей.
+
+#### Небесний опір (Celestial Resistance)
+
+Починаючи з 10-го рівня, ви отримуєте тимчасові хіти щоразу, коли закінчуєте короткий або довгий відпочинок. Ці тимчасові хіти дорівнюють вашому рівню відьмаря + модифікатору Харизми. Крім того, виберіть до п'яти істот, яких ви зможете побачити в кінці відпочинку. Кожна з цих істот отримує тимчасові хіти, що дорівнюють половині вашого рівня відьмаря + ваш модифікатор Харизми.
+
+#### Пекуча помста (Searing Vengeance)
+
+Починаючи з 14-го рівня, промениста енергія, яку ви направляєте, дозволяє вам протистояти смерті. Коли вам потрібно зробити рятівний кидок проти смерті на початку свого ходу, ви можете натомість піднятися на ноги зі сплеском сяючою енергії. Ви відновлюєте очки життя, що дорівнюють половині вашого максимальних хітів, а потім ви встаєте, якщо хочете. Кожна істота за вашим вибором, яка знаходиться в радіусі 30 футів від вас, отримує променисті пошкодження, що дорівнююють 2d8 + ваш модифікатор Харизми, і залишається сліпою до кінця поточного ходу.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите довгий відпочинок.
+
+### Джин (The Genie)
+Джерело: Tasha's Cauldron of Everything
+
+Ви уклали угоду з одним із найрідкісніших видів джинів, благородним джином. Такі сутності керують величезними володіннями на стихійних планах і мають великий вплив на менших джинів і стихійних істот. Благородні джини відрізняються своїми мотиваціями, але більшість із них зарозумілі та володіють силою, що конкурує з меншими божествами. Їм подобається бавитися зі смертними навпаки до того, як ті, буває, роблять джинів рабами, і охоче вступають у угоди, що розширюють межі їхньої влади.
+Ви обираєте тип свого патрона або визначаєте його випадковим чином за допомогою таблиці Тип Джинів.
+
+**Таблиця- Тип джина**
+
+| d4 | Тип    | Стихія  |
+|-------------|---------|
+| 1  | Дао    | Земля   |
+| 2  | Джинні | Повітря |
+| 3  | Іфріт  | Вогонь  |
+| 4  | Марід  | Вода    |
+|    |        |         |
+
+**Таблиця- Розширений список заклятть Джинна**
+
+| Рівень закляття | Закляття  Джина      | Закляття Дао      | Закляття Джинні    | Закляття Іфріта | Закляття Маріда   |
+|-----------------|----------------------|-------------------|--------------------|-----------------|-------------------|
+| 1-й             | Виявити Зло та Добро | Святилище         | Громохвиля         | Палаючі руки    | Хмара туману      |
+| 2-й             | Примарна сила        | Шипорост          | Порив вітру        | Пекучий промінь | Розмиття          |
+| 3-й             | Створити їжу та воду | Злитися з каменем | Стіна вітру        | Вогняна куля    | Сніжний шторм     |
+| 4-й             | Примарний вбивця     | Формування каменю | Більша Невидимість | Вогняний щит    | Контролювати воду |
+| 5-й             | Створення            | Стіна каменю      | Видимість          | Полум'яний удар | Конус холода      |
+| 9-й             | Бажання              | -                 | -                  | -               | -                 |
+|                 |                      |                   |                    |                 |                   |
+
+#### Посудина джина (Genie’s Vessel)
+
+Крім того, на 1-му рівні ваш патрон дарує вам магічну посудину, яка надає вам міру сили джина. Посудина — це крихітний об'єкт, і ви можете використовувати її як фокус для ваших заклять відьмаря. Ви вирішуєте, що це за об'єкт, або ви можете визначити це випадковим чином, зробивши кидок по таблиці Посудини Джинна.
+
+**Таблиця- Посудина Джинна**
+
+| d6 | Посудина               |
+|----|------------------------|
+| 1  | Масляна лампа          |
+| 2  | Урна                   |
+| 3  | Каблучка з відділенням |
+| 4  | Пляшка з пробкою       |
+| 5  | Статуетка з порожниною |
+| 6  | Оздоблений ліхтар      |
+|    |                        |
+
+Доторкаючись до посудини, ви можете використовувати її наступними способами:
+
+*Відпочинок у пляшці (Bottled Respite):* як дію, ви можете магічно зникнути та увійти у свою посудину, яка залишається у місці, яке ви залишили. Внутрішня частина сосуда - це екстравимірний простір у формі циліндра радіусом 20 футів, висотою 20 футів, який за виглядом нагадує вашу посудину. Інтер'єр облаштований подушками та низькими столиками та забезпечує комфортну температуру. Перебуваючи всередині, ви можете чути, що відбувається у просторі навколо свого сосуда, ніби ви перебуваєте у ньому. Ви можете залишатися всередині посудини до кількості годин, що дорівнює подвоєному бонусу вашої Кваліфікації. Ви покидаєте сосуд раніше, якщо використовуєте бонусну дію, щоб піти, якщо ви помрете або якщо посудину знищено. Коли ви виходите з сосуда, ви опиняєтеся в найближчому до нього незайнятому місці. Будь-які об'єкти, залишені у сосуді, залишаються там до тих пір, поки їх не винесуть звідти; і якщо посудину знищено, усі об'єкти з неї без шкоди для себе з'являться в незайнятих місцях, найближчих до простору, в якому був сосуд. Якщо ви увійшли у сосуд, після того, як ви звідти вийдете, ви не можете туди потрапити знову, доки не закінчите довгий відпочинок.
+
+*Гнів джина (Genie’s Wrath):* один раз під час кожного свого ходу, коли ви попадаєте кидком атаки по цілі, ви можете завдати їй додаткові пошкодження, що дорівнює вашому бонусу Кваліфікації. Тип цієї шкоди визначається вашим покровителем: ударні (дао), грім (джинні), вогонь (іфріт) або холод (марід).
+
+КБ судна дорівнює вашому КС рятівного кидка заклятть. Його хіти дорівнюють вашому рівню відьмаря плюс ваш бонус Кваліфікації, і він має Опір до отрути та психічних пошкоджень.
+
+Якщо посудину знищили або ви її втратили, ви можете провести 1-годинну церемонію, щоб отримати заміну від свого патрона. Цю церемонію можна проводити під час короткого або довгого відпочинку, а попередній сосуд знищується, якщо він все ще існує. Посудина зникає у спалаху стихійної сили, коли ви помрете.
+
+#### Стихійний дар (Elemental Gift)
+
+На 6-му рівні ви починаєте набувати рис свого покровителя. Тепер у вас є Опір до типу пошкодженнь, який визначається типом вашого патрона: ударні (дао), грім (джинні), вогонь (іфріт) або холод (марід).
+
+Крім того, бонусною дією ви можете надати собі швидкість польоту 30 футів, яка триває 10 хвилин, протягом яких ви можете парити. Ви можете використати цю бонусну дію кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновите всі витрачені використання, коли завершите довгий відпочинок.
+
+#### Сосуд святилища (Sanctuary Vessel)
+
+На 10-му рівні, коли ви входите у свою посудину джина за допомогою функції Відпочинку у пляшці, тепер ви можете вибрати до п'яти бажаючих створінь, яких ви бачите в межах 30 футів від вас, і вибрані істоти втягуються до посудини разом з вами.
+
+Бонусною дією ви можете викинути будь-яку кількість істот із сосуда. Усі вони будуть викинуті, якщо ви підете звідти, помрете або якщо сосуд буде знищено.
+
+Крім того, будь-хто (включно з вами), хто залишається у сосуді принаймні 10 хвилин, отримує перевагу від завершення короткого відпочинку, і будь-хто може додати ваш бонус Кваліфікації до кількості хітів, які він відновить, якщо витратить будь-який Кубик хітів під час короткого відпочинку там.
+
+#### Обмежене Бажання (Limited Wish)
+
+На 14-му рівні ви благаєте свого покровителя виконати вам невелике бажання. Використавши дію, ви можете промовити своє бажання у свій сосуд джинна, попросивши ефект одного заклинання 6-го рівня або нижче, що має час застосування 1 дію. Заклинання може бути зі списку заклинань будь-якого класу, і вам не потрібно відповідати вимогам цього заклинання, включаючи дорогі компоненти: заклинання просто починає діяти як частина цієї дії.
+Після того, як ви використаєте цю рису, ви не зможете використовувати її знову, доки не завершите 1d4 довгих відпочинків.
+

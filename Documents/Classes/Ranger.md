@@ -1,221 +1,649 @@
-# Ranger
+# Рейнджер (Ranger)
 
-### Class Features
+### Особливості класа
 
-As a ranger, you gain the following class features.
+Як рейнджер, ви маєте наступні особливості класа
 
-#### Hit Points
+#### Хіти
 
-**Hit Dice:** 1d10 per ranger level
+**Кубик хітів:** 1d10 на кожному рівні рейнджера
 
-**Hit Points at 1st Level:** 10 + your Constitution modifier
+**Хіти на 1 рівні:** 10 + ваш модифікатор Комплекції
 
-**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per ranger level after 1st
+**Хіти на наступних рівнях:** 1d10 (або 6) + ваш модифікатор Комплекції на кожному рівні Рейнджера після 1-го
 
-#### Proficiencies
+#### Кваліфікації
 
-**Armor:** Light armor, medium armor, shields
+**Броня:** Легка броня, середня броня, щити
 
-**Weapons:** Simple weapons, martial weapons
+**Зброя:** Проста зброя, бойова зброя
 
-**Tools:** None
+**Інструменти:** Жодних
 
-**Saving Throws:** Strength, Dexterity
+**Рятівні кидки:** Сила, Спритність
 
-**Skills:** Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival
+**Навички:** Оберіть три серед наступного списку: Поводження з тваринами, Атлетика, Інсайт, Розслідування, Природа, Сприйняття, Скритність, Виживання
 
-#### Equipment
+#### Початкове спорядження
 
-You start with the following equipment, in addition to the equipment granted by your background:
+Ви починаєте з наступним спорядженням, на додачу до того, що отримуєте зі свого Походження:
 
-- (*a*) scale mail or (*b*) leather armor
-- (*a*) two shortswords or (*b*) two simple melee weapons
-- (*a*) a dungeoneer's pack or (*b*) an explorer's pack
-- A longbow and a quiver of 20 arrows
+- (*a*) луската кольчуга або (*b*) шкіряна броня
+- (*a*) 2 коротких меча або (*b*) дві прості зброї
+- (*a*) набір підземника або (*b*) набір дослідника
+- Довгий лук і сагайдак з 20 стрілами
 
-**Table- The Ranger**
+**Таблиця- Рейнджер**
 
-| Level | Proficiency Bonus | Features                                          | Spells Known | 1st | 2nd | 3rd | 4th | 5th |
-|-------|-------------------|---------------------------------------------------|--------------|-----|-----|-----|-----|-----|
-| 1st   | +2                | Favored Enemy, Natural Explorer                   | -            | -   | -   | -   | -   | -   |
-| 2nd   | +2                | Fighting Style, Spellcasting                      | 2            | 2   | -   | -   | -   | -   |
-| 3rd   | +2                | Ranger Archetype, Primeval Awareness              | 3            | 3   | -   | -   | -   | -   |
-| 4th   | +2                | Ability Score Improvement                         | 3            | 3   | -   | -   | -   | -   |
-| 5th   | +3                | Extra Attack                                      | 4            | 4   | 2   | -   | -   | -   |
-| 6th   | +3                | Favored Enemy and Natural Explorer improvements   | 4            | 4   | 2   | -   | -   | -   |
-| 7th   | +3                | Ranger Archetype feature                          | 5            | 4   | 3   | -   | -   | -   |
-| 8th   | +3                | Ability Score Improvement, Land's Stride          | 5            | 4   | 3   | -   | -   | -   |
-| 9th   | +4                | -                                                 | 6            | 4   | 3   | 2   | -   | -   |
-| 10th  | +4                | Natural Explorer improvement, Hide in Plain Sight | 6            | 4   | 3   | 2   | -   | -   |
-| 11th  | +4                | Ranger Archetype feature                          | 7            | 4   | 3   | 3   | -   | -   |
-| 12th  | +4                | Ability Score Improvement                         | 7            | 4   | 3   | 3   | -   | -   |
-| 13th  | +5                | -                                                 | 8            | 4   | 3   | 3   | 1   | -   |
-| 14th  | +5                | Favored Enemy improvement, Vanish                 | 8            | 4   | 3   | 3   | 1   | -   |
-| 15th  | +5                | Ranger Archetype feature                          | 9            | 4   | 3   | 3   | 2   | -   |
-| 16th  | +5                | Ability Score Improvement                         | 9            | 4   | 3   | 3   | 2   | -   |
-| 17th  | +6                | -                                                 | 10           | 4   | 3   | 3   | 3   | 1   |
-| 18th  | +6                | Feral Senses                                      | 10           | 4   | 3   | 3   | 3   | 1   |
-| 19th  | +6                | Ability Score Improvement                         | 11           | 4   | 3   | 3   | 3   | 2   |
-| 20th  | +6                | Foe Slayer                                        | 11           | 4   | 3   | 3   | 3   | 2   |
-|       |                   |                                                   |              |     |     |     |     |     |
+| Рівень | Бонус Кваліфікації | Риси                                                             | Відомі Закляття | 1-е | 2-е | 3-е | 4-е | 5-е |
+|--------|--------------------|------------------------------------------------------------------|-----------------|-----|-----|-----|-----|-----|
+| 1-й    | +2                 | Улюблений ворог, Природжений дослідник                           | -               | -   | -   | -   | -   | -   |
+| 2-й    | +2                 | Бойовий Стиль, Накладання Заклятть                               | 2               | 2   | -   | -   | -   | -   |
+| 3-й    | +2                 | Архетип Рейнджера, Первісна Обізнаність                          | 3               | 3   | -   | -   | -   | -   |
+| 4-й    | +2                 | Підвищення Атрибутів                                             | 3               | 3   | -   | -   | -   | -   |
+| 5-й    | +3                 | Додаткова Атака                                                  | 4               | 4   | 2   | -   | -   | -   |
+| 6-й    | +3                 | Улюблений ворог (покращення), Природжений дослідник (покращення) | 4               | 4   | 2   | -   | -   | -   |
+| 7-й    | +3                 | Риса Архетипа Рейнджера                                          | 5               | 4   | 3   | -   | -   | -   |
+| 8-й    | +3                 | Підвищення Атрибутів, Блукання Землею                            | 5               | 4   | 3   | -   | -   | -   |
+| 9-й    | +4                 | -                                                                | 6               | 4   | 3   | 2   | -   | -   |
+| 10-й   | +4                 | Природжений дослідник (покращення), Сховатися на рівному місці   | 6               | 4   | 3   | 2   | -   | -   |
+| 11-й   | +4                 | Риса Архетипа Рейнджера                                          | 7               | 4   | 3   | 3   | -   | -   |
+| 12-й   | +4                 | Підвищення Атрибутів                                             | 7               | 4   | 3   | 3   | -   | -   |
+| 13-й   | +5                 | -                                                                | 8               | 4   | 3   | 3   | 1   | -   |
+| 14-й   | +5                 | Улюблений ворог (покращення), Щезнути                            | 8               | 4   | 3   | 3   | 1   | -   |
+| 15-й   | +5                 | Риса Архетипа Рейнджера                                          | 9               | 4   | 3   | 3   | 2   | -   |
+| 16-й   | +5                 | Підвищення Атрибутів                                             | 9               | 4   | 3   | 3   | 2   | -   |
+| 17-й   | +6                 | -                                                                | 10              | 4   | 3   | 3   | 3   | 1   |
+| 18-й   | +6                 | Здичавіле чуття                                                  | 10              | 4   | 3   | 3   | 3   | 1   |
+| 19-й   | +6                 | Підвищення Атрибутів                                             | 11              | 4   | 3   | 3   | 3   | 2   |
+| 20-й   | +6                 | Різник Ворогів                                                   | 11              | 4   | 3   | 3   | 3   | 2   |
 
-### Favored Enemy
 
-Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
+### Улюблений ворог (Favored Enemy)
 
-Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
+Починаючи з 1-го рівня, ви маєте значний досвід вивчення, відстеження, полювання і навіть спілкування з певним типом ворогів.
+Виберіть тип улюбленого ворога: аберації, звірі, селестіали, конструкти, дракони, елементали, феї, звірі, велетні, чудовиська, слимаки, рослини або нежить. Або, замість 1 з цих видів, ви можете вибрати дві раси гуманоїдів (наприклад, гноли та орки) як улюблених ворогів.
+Ви маєте перевагу у перевірках Мудрості (Виживання), щоб відстежувати своїх улюблених ворогів, а також у перевірках Інтелекту, щоб згадати інформацію про них.
+Коли ви отримуєте цю рису, ви також вивчаєте одну мову на ваш вибір, якою розмовляють ваші улюблені вороги, якщо вони взагалі розмовляють.
+Ви вибираєте одного додаткового улюбленого ворога, а також пов'язану мову на 6-му та 14-му рівнях. Коли ви отримуєте рівні, ваш вибір повинен відображати типи монстрів, з якими ви стикалися під час своїх пригод.
 
-You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+### Природжений дослідник (Natural Explorer)
 
-When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.
+Ви дуже добре знайомі з одним типом природного середовища, і вмієте подорожувати та виживати у ньому. Виберіть один тип улюбленої місцевості: арктичний регіон, узбережжя, пустеля, ліс, луки, гори або болото. Коли ви робите перевірку Інтелекту або Мудрості, пов'язану зі знайомим вам типом місцевості, ваш бонус Кваліфікації подвоюється, якщо ви використовуєте навички, якими володієте.
 
-You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.
+Під час подорожі протягом години або більше в улюбленій місцевості ви отримуєте наступні переваги:
+- Складний рельєф не сповільнює подорож вашої групи.
+- Ваша група не може загубитися інакше як через магію.
+- Навіть коли ви займаєтеся іншою діяльністю під час подорожі (наприклад, пошук їжі, навігація або стеження), ви залишаєтеся пильними до небезпеки.
+- Якщо ви подорожуєте один, ви можете пересуватися крадькома в звичайному темпі.
+- Коли ви шукаєте їжу, ви знаходите вдвічі більше їжі, ніж зазвичай.
+- Відстежуючи інших істот, ви також дізнаєтеся їх точну кількість, їхні розміри та те, як давно вони проходили через місцевість.
+Ви вибираєте додаткові улюблені типи місцевості на 6-му та 10-му рівнях.
 
-### Natural Explorer
+### Бойовий Стиль (Fighting Style)
 
-You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.
+На 2-му рівні ви навчаєтеся певному стилю бою в якості своєї спеціальністі. Виберіть один із наступних варіантів. Ви не можете вибрати кожен варіант бойового стилю більше одного разу, навіть якщо згодом ви зможете вибрати знову.
 
-While traveling for an hour or more in your favored terrain, you gain the following benefits:
+#### Лучництво (Archery)
+Ви набуваєте бонус +2 до атак з дальнею зброєю.
 
-- Difficult terrain doesn't slow your group's travel.
-- Your group can't become lost except by magical means.
-- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
-- If you are traveling alone, you can move stealthily at a normal pace.
-- When you forage, you find twice as much food as you normally would.
-- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
+#### Оборона (Defense)
+Поки ви носите броню, ви набуваєте + 1 КБ.
 
-You choose additional favored terrain types at 6th and 10th level.
+#### Дуелянтство (Dueling)
+Коли ви берете рукопашну зброю в одну руку, і більше жодної зброї не використовуєте, ви маєте бонус +2 до пошкоджень цією зброєю.
 
-### Fighting Style
+#### Бій з двома зброями (Two-Weapon Fighting)
+Коли ви атакуєте двома зброями, ви можете додати модифікатор Атрибута, що ви використовуєте для атаки основною зброєю, до пошкодження другою зброєю.
 
-At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
+### Накладання Заклятть (Spellcasting)
 
-#### Archery
+Коли ви досягнете 2-го рівня, ви навчаєтеся використовувати магічну сутність природи для заклинань, як це робить друїд. Перегляньте загальні правила заклинання та список заклятть рейнджера.
 
-You gain a +2 bonus to attack rolls you make with ranged weapons.
+#### Слоти Заклятть (Spell Slots)
 
-#### Defense
+Таблиця Рейнджера показує, скільки слотів заклятть у вас є, щоб застосовувати закляття рейнджера 1-го рівня і вище. Щоб використати одне з цих заклинань, ви повинні витратити слот того ж рівня, що і закляття, або вище. Ви відновлюєте всі витрачені слоти заклятть, коли закінчите довгий відпочинок.
+Наприклад, якщо ви знаєте закляття 1-го рівня *дружба з тваринами* і маєте доступні слоти заклинань 1-го і 2-го рівня, ви можете використати *дружба з тваринами*, використовуючи будь-який з доступних вам слотів.
 
-While you are wearing armor, you gain a +1 bonus to AC.
+#### Закляття, відомі на 1-му рівні та вище (Spells Known of 1st Level and Higher)
 
-#### Dueling
+Ви знаєте два закляття 1-го рівня на ваш вибір зі списку заклятть рейнджера.
 
-When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+Стовпчик "Відомі заклинання" таблиці Рейнджера показує, коли ви можете вивчити більше заклятть рейнджера на ваш вибір. Кожне з цих заклятть має бути того ж рівня, для якого у вас є слоти заклинань. Наприклад, коли ви досягнете 5-го рівня в цьому класі, ви можете вивчити одне нове закляття 1-го або 2-го рівня.
 
-#### Two-Weapon Fighting
+Крім того, коли ви отримуєте рівень у цьому класі, ви можете вибрати одне із відомих вам заклинань рейнджера та замінити його іншим зі списку заклятть рейнджера, яке також має бути рівня, для якого у вас є слоти заклятть.
 
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+#### Можливість накладати закляття (Spellcasting Ability)
 
-### Spellcasting
+Мудрість — це ваша здатність накладати закляття для ваших заклинань рейнджера, оскільки ваша магія спирається на вашу налаштованість на природу. Ви використовуєте свою Мудрість, коли закляття посилається на вашу здатність до накладання заклятть. Крім того, ви використовуєте свій модифікатор Мудрості, коли встановлюєте КС рятівного кидка для заклинання рейнджера, яке ви накладаєте, і коли робите кидок атаки для нього.
 
-By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See the general rules for spellcasting and the ranger spell list.
+**КС рятівного кидка** = 8 + ваш бонус Кваліфікації + ваш модифікатор Мудрості
+**Модифікатор кидка атаки для закляття** = ваш бонус Кваліфікації + ваш модифікатор Мудрості
 
-#### Spell Slots
+### Архетип Рейнджера (Ranger Archetype)
 
-The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+На 3-му рівні ви вибираєте архетип, який прагнете наслідувати: Мисливець або Володар звірів, обидва описані у кінці опису класу. Ваш вибір надає вам риси на 3-му рівні і знову на 7-му, 11-му та 15-му рівнях.
 
-For example, if you know the 1st-level spell *animal friendship* and have a 1st-level and a 2nd-level spell slot available, you can cast *animal friendship* using either slot.
+### Первісна Обізнаність (Primeval Awareness)
 
-#### Spells Known of 1st Level and Higher
-
-You know two 1st-level spells of your choice from the ranger spell list.
-
-The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.
-
-Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.
-
-#### Spellcasting Ability
-
-Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
-
-**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
-
-**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
-
-### Ranger Archetype
-
-At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
-
-### Primeval Awareness
-
-Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
+Починаючи з 3-го рівня, ви можете використати свою дію та витратити один слот закляття рейнджера, щоб зосередити свою усвідомленість на області навколо вас. Протягом 1 хвилини на кожен рівень заклинання, який ви витрачаєте, ви можете відчути, чи присутні наступні типи істот в межах 1 милі від вас (або в межах до 6 миль, якщо ви перебуваєте у вашій улюбленій місцевості): аберації, селестіали, дракони, елементали, феї, звірі та нежить. Ця функція не розкриває місцезнаходження чи кількість істот.
 
 ### Ability Score Improvement
+### Підвищення Атрибутів Класу (Ability Score Improvement)
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Коли ви досягаєте 4-го рівня, а також 8-го, 12-го, 16-го, 19-го, ви можете підвищити один Атрубит на ваш вибір на 2, або 2 Атрибута на ваш вибір на 1 кожен. Ви не можете підвищити Атрибут більше, ніж до 20 включно, використовуючи цю особливість класу.
 
-### Extra Attack
+### Додаткова Атака (Extra Attack)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+Починаючи з 5-го рівня, ви можете атакувати двічі замість одного раза, коли ви виконуєте дію Атаки у свій хід.
 
-### Land's Stride
+### Блукання Землею (Land's Stride)
 
-Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+Починаючи з 8-го рівня, рух через немагічну складну місцевість більше не коштує вам додаткового переміщення. Ви також можете проходити крізь немагічні зарості, не будучи сповільненим через них і не зазнаючи від них пошкоджень, якщо вони мають шипи, лози або подібні небезпечні атрибути.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the *entangle* spell.
+Крім того, ви маєте перевагу у рятівних кидках проти рослин, які створені за допомогою магії або керовані магією, щоб перешкодити переміщенню, наприклад, створені закляттям *Заплутати*.
 
-### Hide in Plain Sight
+### Сховатися на рівному місці (Hide in Plain Sight)
 
-Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
+Починаючи з 10-го рівня, ви можете витратити 1 хвилину на створення камуфляжу для себе. Ви повинні мати доступ до свіжого бруду, рослин, сажі та інших природних матеріалів, за допомогою яких можна створити свій камуфляж.
+Після того, як ви замаскувалися таким чином, ви можете спробувати сховатися, притиснувшись до твердої поверхні, наприклад, дерева або стіни, яка щонайменше така ж висока і широка, як і ви. Ви отримуєте бонус +10 до перевірок Спритності (Скритність), доки ви залишаєтеся там, не рухаючись і не виконуючи жодних дій. Після того, як ви рухаєтеся, здійснюєте дію чи реакцію, ви повинні знову замаскувати себе, щоб отримати цю перевагу.
 
-Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
+### Щезнути (Vanish)
 
-### Vanish
+Починаючи з 14-го рівня, ви можете використовувати Скритність як бонусну дію у свій хід. Крім того, вас не можна відстежити немагічними засобами, якщо ви не вирішите залишити слід навмисно.
 
-Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
+### Здичавіле Чуття (Feral Senses)
 
-### Feral Senses
+На 18-му рівні ви отримуєте надприродні почуття, які допомагають вам боротися з істотами, яких ви не можете бачити. Коли ви атакуєте істоту, яку ви не бачите, ваша нездатність бачити її не стає завадою вашим атакам проти неї.
+Ви також знаєте про місцезнаходження будь-якої невидимої істоти в радіусі 30 футів від вас, за умови, що ця істота не прихована від вас, і ви не сліпі чи глухі.
 
-At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.
+### Різник ворогів (Foe Slayer)
 
-You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.
+На 20-му рівні ви стаєте неперевершеним мисливцем на своїх ворогів. Під час кожного свого ходу ви можете додати свій модифікатор Мудрості до броска атаки або кидка пошкоджень від атаки, яку ви проводите проти одного зі своїх улюблених ворогів. Ви можете використовувати цю рису до або після кидка, але перед застосуванням будь-яких ефектів.
 
-### Foe Slayer
+## Архетипи Рейнджерів (Ranger Archetypes)
 
-At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
+Ідеал рейнджера має два класичні відображення: Мисливець і Володар Звірів.
 
-## Ranger Archetypes
+### Конклав Мисливців (Hunter Conclave)
 
-The ideal of the ranger has two classic expressions: the Hunter and the Beast Master.
+Наслідувати архетип Мисливця означає прийняти своє місце як оплот між цивілізацією та жахами пустелі. Йдучи шляхом Мисливця, ви вивчаєте спеціальні прийоми боротьби з загрозами, з якими ви стикаєтесь, від лютих огрів і орд орків до великих гігантів і жахливих драконів.
 
-### Hunter
+#### Здобич мисливця (Hunter's Prey)
 
-Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
+На 3-му рівні ви отримуєте одну з наступних рис на ваш вибір.
 
-#### Hunter's Prey
+***Різник колосів***. Ваша завзятість може втомити найпотужніших ворогів. Коли ви вражаєте істоту атакою зброєю, істота отримує додаткове пошкодження на 1d8, якщо кількість її хітів вже нижча за максимум. Ви можете завдати цих додаткових пошкоджень лише один раз за хід.
 
-At 3rd level, you gain one of the following features of your choice.
+***Вбивця велетнів***. Коли Велика або більша істота в радіусі 5 футів від вас вражає або не вражає вас під час атаки, ви можете використати свою реакцію, щоб напасти на цю істоту одразу після її атаки, за умови, що ви можете бачити цю істоту.
 
-***Colossus Slayer***. Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.
+***Ламач орди***. Під час кожного свого ходу, коли ви робите атаку зброєю, ви можете здійснити ще одну атаку тією ж зброєю проти іншої істоти, яка знаходиться в межах 5 футів від початкової цілі та в межах досяжності вашої зброї.
 
-***Giant Killer***. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.
+#### Захисна тактика (Defensive Tactics)
 
-***Horde Breaker***. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+На 7-му рівні ви отримуєте одну з наступних рис на ваш вибір.
 
-#### Defensive Tactics
+***Втеча від орди***. Атаки за можливості на вас здійснюються із завадою.
 
-At 7th level, you gain one of the following features of your choice.
+***Оборона від мультиатак***. Коли істота вражає вас атакою, ви отримуєте бонус +4 до КБ проти всіх наступних атак цієї істоти до кінця цього ходу.
 
-***Escape the Horde***. Opportunity attacks against you are made with disadvantage.
+***Сталева воля***. Ви маєте перевагу у рятівних кидках від переляку.
 
-***Multiattack Defense***. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.
+#### Мультиатака (Multiattack)
 
-***Steel Will***. You have advantage on saving throws against being frightened.
+На 11-му рівні ви отримуєте одну з наступних рис на ваш вибір.
 
-#### Multiattack
+***Залп***. Ви можете використати свою дію, щоб здійснити дистанційну атаку на будь-яку кількість істот у межах 10 футів від точки, яку ви можете побачити в межах дії вашої зброї. Ви повинні мати боєприпаси для кожної цілі, як зазвичай, і ви робите окремий кидок атаки для кожної цілі.
 
-At 11th level, you gain one of the following features of your choice.
+***Вихровий напад***. Ви можете використати свою дію, щоб здійснити рукопашну атаку проти будь-якої кількості істот в межах 5 футів від вас, з окремим кидком атаки для кожної цілі.
 
-***Volley***. You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.
+#### Довершений Захист Мисливця (Superior Hunter's Defense)
 
-***Whirlwind Attack***. You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+На 15-му рівні ви отримуєте одну з наступних рис на ваш вибір.
 
-#### Superior Hunter's Defense
+***Ухилення***. Коли на вас діє такий ефект, як вогняний подих червоного дракона або закляття *блискавка*, який дозволяє вам зробити рятівний кидок Спритності, щоб отримати лише половину пошкодження, ви натомість не отримуєте пошкодження, якщо досягнете успіху в рятівному кидку, і лише половину пошкодження, якщо ви його провалите.
 
-At 15th level, you gain one of the following features of your choice.
+***Утриматися Проти Припливу***. Коли ворожа істота не вражає вас рукопашною атакою, ви можете використати свою реакцію, щоб змусити цю істоту повторити таку ж атаку проти іншої істоти (крім неї самої) за вашим вибором.
 
-***Evasion***. When you are subjected to an effect, such as a red dragon's fiery breath or a *lightning bolt* spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+***Неймовірний Ухил***. Коли нападник, якого ви бачите, атакує вас, ви можете використати свою реакцію, щоб вдвічі зменшити шкоду від атаки.
 
-***Stand Against the Tide***. When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.
+### Конклав Володарів Звірів (Beast Master Conclave)
 
-***Uncanny Dodge***. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+Архетип Володаря Звірів втілює дружбу між цивілізованими расами та дикими звірами. Об'єднані однією метою, звір і рейнджер працюють як одне ціле, щоб боротися з жахливими ворогами, які загрожують як цивілізації, так і дикій природі. Наслідувати архетипу Володаря Звірів означає бути відданим цьому ідеалу, співпрацюючи зі твариною як із супутником та другом.
+
+#### Компаньйон Рейнджера (Ranger's Companion)
+
+На 3-му рівні ви отримуєте звіра-компаньйона, який супроводжує вас у пригодах і навчений битися разом з вами. Виберіть звіра розміром не більше Середнього, який має рейтинг виклику 1/4 або нижче (у додатку D Книги Гравця наведено статистичні дані для яструба, мастифа та пантери в якості прикладів). Додайте свій бонус Кваліфікації до КБ звіра, кидків атаки та кидків ушкодження, а також до будь-яких рятівних кидків і навичок, якими він володіє. Його максимальні хіти дорівнюють або звичайному максимуму із опису тварини, або вашому рівню рейнджера, помноженому на чотири - залежно від того, що вище. Як будь-яка істота, звір може витратити кубик хітів для відновлення під час короткого відпочинку.
+
+Звір виконує ваші команди якомога краще. Це відбувається за вашою ініціативою. У свій хід ви можете усно наказати звірові, куди рухатися (від вас не вимагається ніяких дій). Ви можете використовувати свою дію, щоб усно наказати йому виконати дію Атака, Ривок, Відхід або Допомога. Якщо ви не дасте команду, звір автоматично буде виконувати дію Ухилення. Якщо у вас є риса Додаткова атака, ви можете також самі атакувати однією зброєю, коли наказуєте звірові виконати дію Атака. 
+
+Подорожуючи улюбленою місцевістю лише разом зі своїм звіром, ви можете непомітно рухатися у звичайному темпі.
+
+Якщо ви недієздатні або відсутні на сцені, звір діє самостійно, зосереджуючись на захисті вас і себе. Звір ніколи не вимагає вашої команди для застосування своєї реакції, як, наприклад, для атаки за можливістю.
+
+Якщо звір помре, ви можете отримати іншого, витративши 8 годин на магічне зв'язування з іншим звіром, який не є ворожим до вас, при цьому все одно, тим самим типом звіра, що й раніше, чи іншим.
+
+#### Первісний Супутник (Опціонально) (Primal Companion (Optional))
+
+Ця рису 3-го рівня замінює рису Компаньйон Рейнджера.
+
+Ви чарівним чином викликаєте первісного звіра, який черпає силу з вашого зв'язку з природою. Звір дружній до вас і ваших товаришів і підкоряється вашим командам. Виберіть його блок статистичних даних — Звір Землі, Звір Моря або Звір Неба — який використовує ваш бонус Кваліфікації у кількох випадках. Ви також визначаєте вид тварини, вибираючи вид, який відповідає блоку характеристик. Який би вид ви не вибрали, звір має первісні позначки, що вказує на його містичне походження.
+
+У бою звір діє під час вашого ходу. Він може самостійно рухатися та використовувати свою реакцію, але єдиною дією, яку він виконує, є дія Ухилення, якщо ви не виконуєте бонусну дію у свій хід, щоб наказати йому виконати щось іще. Ця дія може бути описана у блоці статистики або іншою дією. Ви також можете пожертвувати однією зі своїх атак, коли виконуєте дію Атака, щоб наказати звірові виконати дію Атака. Якщо ви недієздатні, звір може вчинити будь-яку дію на свій розсуд, а не тільки ухилятися.
+
+Якщо звір помер протягом останньої години, ви можете використати свою дію, щоб торкнутися його та використати слот для заклятть 1-го рівня або вище. Звір повертається до життя через 1 хвилину з повністю відновленими хітами. Коли ви закінчите довгий відпочинок, ви можете викликати іншого первісного звіра. Новий звір з'являється у незайнятому просторі в радіусі 5 футів від вас, і ви вибираєте його блок характеристик і вигляд. Якщо у вас уже є звір, що викликаний за допомогою цієї риси, він зникає, коли з'являється новий звір. Звір також зникає, якщо ви помрете.
+
+##### Звір Землі (Beast of the Land)
+Середній Звір
+**КБ:** 13 + ваш бонус Кваліфікації (природна броня)
+**Хіти:** 5 + 5 x ваш рівень Рейнджера (звір має кількість Кубиків Хітів d8, що дорівнює вашому рівню Рейнджера)
+**Швидкість переміщення:** 40 футів, Лазання 40 футів
+
+**Атрибути:**
+*Сила:* 14 (+2)
+*Спритність:* 14 (+2)
+*Комплекція:* 15 (+2)
+*Інтелект:* 8 (-1)
+*Мудрість:* 14 (+2)
+*Харизма:* 11 (+0)
+
+**Чуття:** пасивне Сприйняття 12; Темнобачення 120 футів
+**Мови:** розуміє усі мови, якими ви говорите
+**Клас виклику:** --
+**Бонус Кваліфікації:** дорівнює вашому
+
+**Атака з розбігу (Charge):** якщо звір рухається щонайменше на 20 футів до цілі по прямій лінії, а потім вражає її Терзанням у той же хід, ціль отримує додаткові рубаючі пошкодження ld6. Якщо ціль — істота, вона має успішно виконати рятівний кидок Сили проти вашого КС заклинань або бути збитою з ніг.
+
+**Первісний зв'язок (Primal Bond):** Ви можете додати свій бонус Кваліфікації до будь-якої перевірки навичок або рятівного кидка, який робить звір.
+
+***Дії:***
+**Терзання (Maul).** Рукопаша атака: ваш модифікатор атаки закляттями для кидка атаки, Досяжність 5 футів, одна ціль. Попадання: 1d8 + 2 + модифікатор Кваліфікації рубаючих пошкоджень.
+
+##### Звір Моря (Beast of the Sea)
+Середній Звір
+**КБ:** 13 + ваш бонус Кваліфікації (природна броня)
+**Хіти:** 5 + 5 x ваш рівень Рейнджера (звір має кількість Кубиків Хітів d8, що дорівнює вашому рівню Рейнджера)
+**Швидкість переміщення:** 5 футів, Плавання 60 футів
+
+**Атрибути:**
+*Сила:* 14 (+2)
+*Спритність:* 14 (+2)
+*Комплекція:* 15 (+2)
+*Інтелект:* 8 (-1)
+*Мудрість:* 14 (+2)
+*Харизма:* 11 (+0)
+
+**Чуття:** пасивне Сприйняття 12; Темнобачення 120 футів
+**Мови:** розуміє усі мови, якими ви говорите
+**Клас виклику:** --
+**Бонус Кваліфікації:** дорівнює вашому
+
+**Амфібія (Amphibious):** звір може дихати як на повітрі, так і у воді.
+
+**Первісний зв'язок (Primal Bond):** Ви можете додати свій бонус Кваліфікації до будь-якої перевірки навичок або рятівного кидка, який робить звір.
+
+***Дії:***
+**Зв'язуючий удар (Binding Strike)**. Рукопашна атака: ваш модифікатор атаки закляття для кидка атаки, Досяжність 5 футів, одна ціль. Попадання: 1d6 + 2 + модифікатор Кваліфікації проникаючих або ударних пошкоджень (на ваш вибір), і ціль буде захоплена (КС втечі дорівнює вашому КС рятівного кидка від заклять). Доки ціль є захопленою, звір не може використовувати цю атаку на іншій цілі.
+
+##### Звір Неба (Beast of the Sky)
+Маленький Звір
+**КБ:** 13 + ваш бонус Кваліфікації (природна броня)
+**Хіти:** 4 + 4 x ваш рівень Рейнджера (звір має кількість Кубиків Хітів d8, що дорівнює вашому рівню Рейнджера)
+**Швидкість переміщення:** 10 футів, Політ 60 футів
+
+**Атрибути:**
+*Сила:* 6 (-2)
+*Спритність:* 16 (+3)
+*Комплекція:* 13 (+1)
+*Інтелект:* 8 (-1)
+*Мудрість:* 14 (+2)
+*Харизма:* 11 (+0)
+
+**Чуття:** пасивне Сприйняття 12; Темнобачення 120 футів
+**Мови:** розуміє усі мови, якими ви говорите
+**Клас виклику:** --
+**Бонус Кваліфікації:** дорівнює вашому
+
+**Обліт (Flyby):** Звір не провокує атаку за можливістю, коли відлітає поза досяжністю ворога.
+
+**Первісний зв'язок (Primal Bond):** Ви можете додати свій бонус Кваліфікації до будь-якої перевірки навичок або рятівного кидка, який робить звір.
+
+***Дії:***
+**Розривання (Shred):** Рукопашна атака: ваш модифікатор атаки закляття для кидка атаки, Досяжність 5 футів, одна ціль. Попадання: 1d4 + 3 + модифікатор Кваліфікації рубаючих пошкоджень.
+
+#### Виняткове тренування (Exceptional Training)
+
+Починаючи з 7-го рівня, у будь-який свій хід, коли ваш компаньйон-звір не атакує, ви можете використати бонусну дію, щоб наказати звірові виконати дію Ривок, Відхід або Допомога у свій хід. Крім того, атаки звіра тепер вважаються магічними у випадках перевірки на подолання опору та імунітету до немагічних атак і пошкоджень.
+
+#### Звіряча лють (Bestial Fury)
+
+Починаючи з 11-го рівня, коли ви наказуєте своєму компаньйону-звіру виконати дію Атака, звір може здійснити дві атаки або може виконати дію Мультиатаки, якщо він має таку дію у своєму описі.
+
+#### Розділені Закляття (Share Spells)
+
+Починаючи з 15-го рівня, коли ви використовуєте закляття, що діє на вас, ви можете вибрати, що воно також діє і на вашого компаньйона звіра, якщо він  знаходиться у межах 30 футів від вас.
+
+### Конклав Вбивців Чудовиськ (Monster Slayer Conclave)
+Джерело: Xanathar's Guide to Everything
+
+Ви присвятили себе полюванню на створінь ночі та володарів злої магії. Вбивця Чудовиськ шукає вампірів, драконів, злих фей, демонів та інші містичні загрози. Навчені надприродніх прийомів для подолання таких монстрів, Вбивці є експертами у знаходженні та знищенні могутніх, містичних ворогів.
+
+#### Магія Вбивці Чудовиськ (Monster Slayer Magic)
+
+Починаючи з 3-го рівня, ви вивчаєте додаткові закляття, коли досягаєте певних рівнів у цьому класі, як показано у Таблиці Заклятть Вбивці Чудовиськ. Закляття вважається для вас закляттями рейнджера, але вони не зараховуються до кількості заклятть рейнджера, які ви знаєте.
+
+**Таблиця- Закляття Вбивці Чудовиськ**
+| Рівень | Закляття               |
+|--------|------------------------|
+| 3-й    | Захист від Зла і Добра |
+| 5-й    | Зона Істини            |
+| 9-й    | Магічне Коло           |
+| 13-й   | Вигнання               |
+| 17-й   | Втримати Чудовисько    |
+
+#### Чуття Мисливця (Hunter's Sense)
+
+На 3-му рівні ви отримуєте здатність придивлятися до істоти та магічно розуміти, як найкраще завдати їй болю. Як дію виберіть одну істоту, яку ви бачите у радіусі 60 футів від вас. Ви одразу дізнаєтеся, чи має істота Імунітет до пошкодження, Опір або Вразливість і які вони. Якщо істота прихована від магії Передбачення, ви відчуваєте, що вона не має Імунітету до пошкодження, Опору чи Вразливості.
+
+Ви можете використовувати цю рису таку кількість разів, що дорівнюють вашому модифікатору Мудрості (мінімум один раз). Ви відновлюєте всі використання, коли закінчуєте довгий відпочинок.
+
+#### Здобич Вбивці (Slayer's Prey)
+
+Починаючи з 3-го рівня, ви можете зосередити свій гнів на одному ворогу, збільшуючи пошкодження, яку ви завдаєте йому. Бонусною дією ви призначаєте одну істоту, яку бачите в радіусі 60 футів від себе, ціллю цієї риси. Кожного ходу, коли ви вперше вражаєте цю ціль атакою зброєю, вона отримує додаткове пошкодження 1d6 від зброї.
+Ця перевага зберігається, доки ви не закінчите короткий або довгий відпочинок. Він закінчується раніше, якщо ви вказуєте іншу істоту.
+
+#### Надприродна оборона (Supernatural Defense)
+
+На 7-му рівні ви отримуєте додаткову стійкість проти атак вашої жертви на ваш розум і тіло. Щоразу, коли ціль вашої риси Здобич Вбивці змушує вас зробити рітявний кидок і щоразу, коли ви виконуєте перевірку навичок, щоб виборсатися з захоплення цією ціллю, додайте 1d6 до свого кидка.
+
+#### Немезида Чаклунів (Magic-User's Nemesis)
+
+На 11-му рівні ви отримуєте здатність перешкоджати чужій магії. Коли ви бачите істоту, яка чаклує або телепортується в межах 60 футів від вас, ви можете використати свою реакцію, щоб спробувати магічно завадити цьому. Істота має отримати успіх у рятівному кидку Мудрості проти вашого КС заклятть, інакше його заклинання або телепортація не вдасться та буде витрачено.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Контратака Вбивці (Slayer's Counter)
+
+На 15-му рівні ви отримуєте можливість контратаки, коли ваша жертва намагається вас саботувати. Якщо ціль вашої риси Здобич Вбивці змусить вас зробити рятівний кидок, ви можете використати свою реакцію, щоб здійснити одну атаку зброєю проти неї. Ви виконуєте цю атаку безпосередньо перед виконанням рятівного кидка. Якщо атака попаде по цілі, ваш рятівний кидок автоматично успішний, на додачу до звичайних ефектів атаки.
+
+### Конклав Ловчих Мороку (Gloom Stalker Conclave)
+Джерело: Xanathar's Guide to Everything
+
+Ловчі Мороку живуть у найтемніших місцях: глибоко під землею, у похмурих провулках, у пралісах та скрізь, де світло тьмяніє. Більшість людей заходить у такі місця з трепетом, але ловчий мороку сміливо вирушає у темряву, намагаючись влаштувати засідку на загрозу, перш ніж вона досягне цивілізованого світу. Такі рейнджери часто зустрічаються у Підзем'ї, але вони підуть у будь-яке місце, де серед тіней ховається зло.
+
+#### Магія Ловчих Мороку (Gloom Stalker Magic)
+
+Починаючи з 3-го рівня, ви вивчаєте додаткові закляття, коли досягаєте певних рівнів у цьому класі, як показано у Таблиці Заклятть Ловчих Мороку. Закляття вважається для вас закляттями рейнджера, але вони не зараховуються до кількості заклятть рейнджера, які ви знаєте.
+
+**Таблиця- Закляття Ловчих Мороку**
+| Рівень | Закляття           |
+|--------|--------------------|
+| 3-й    | Замаскувати себе   |
+| 5-й    | Трюк із мотузкою   |
+| 9-й    | Страх              |
+| 13-й   | Більша Невидимість |
+| 17-й   | Видимість          |
+
+#### Грізний Засідник (Dread Ambusher)
+
+На 3-му рівні ви опановуєте мистецтво засідки. Ви можете отримати бонус до своїх кидків ініціативи, що дорівнює модифікатору Мудрості.
+На початку вашого першого ходу кожного бою ваша швидкість переміщення збільшується на 10 футів, і це триває до кінця цього ходу. Якщо ви виконаєте дію Атака у цей хід, ви зможете здійснити одну додаткову атаку зброєю як частину цієї дії. Якщо ця атака влучає, ціль отримує додаткові пошкодження 1d8 від зброї.
+
+#### Сутінковий Зір (Umbral Sight)
+
+На 3-му рівні ви отримуєте темнобачення на відстані до 60 футів. Якщо у вас уже є темнобачення від вашої раси, його радіус дії збільшується на 30 футів.
+Ви також вмієте уникати істот, які покладаються на темнобачення. Перебуваючи в темряві, ви невидимі для будь-якої істоти, яка покладається на темнобачення, щоб побачити вас у цій пітьмі.
+
+#### Залізний розум (Iron Mind)
+
+До 7-го рівня ви відточуєте свою здатність протистояти здібностям вашої жертви, що змінюють свідомість. Ви отримуєте кваліфікацію у рятівних кидках Мудрості. Якщо ви вже маєте цю навичку, натомість ви отримуєте кваліфікацію у рятівних кидках Інтелекту або Харизми (на ваш вибір).
+
+#### Шквал Ловчого (Stalker's Flurry)
+
+На 11-му рівні ви навчаєтеся атакувати з такою несподіваною швидкістю, що можете перетворити промах на новий удар. Один раз під час кожного свого ходу, коли ви промахуєтеся атакою з використанням зброї, ви можете здійснити наступну атаку зброєю як частину тієї ж дії.
+
+#### Тіньове Ухилення (Shadowy Dodge)
+
+Починаючи з 15-го рівня, ви можете ухилятися непередбаченими способами, вас оточують надприродні тіні під час ваших рухів. Кожного разу, коли істота робить кидок атаки проти вас і не має переваги у кидку, ви можете використати свою реакцію, щоб зробити заваду цій атаці. Ви повинні скористатися цією рисою, перш ніж дізнаєтеся результат кидка атаки.
+
+### Конклав Блукачів Обрію (Horizon Walker Conclave)
+Джерело: Xanathar's Guide to Everything
+
+Блукачі Обрію охороняють світ від загроз, які походять з інших планів або прагнуть спустошити царство смертних за допомогою потойбічної магії. Вони шукають планарні портали та стережуть їх, вирушаючи на Внутрішні та Зовнішні Плани, якщо потрібно, щоб переслідувати своїх ворогів. Ці рейнджери також є друзями будь-яких сил у мультивсесвіті – особливо доброзичливих драконів, фей та елементалів – які працюють, щоб зберегти життя та порядок на планах.
+
+#### Магія Блукачів Обрію (Horizon Walker Magic)
+
+Починаючи з 3-го рівня, ви вивчаєте додаткові закляття, коли досягаєте певних рівнів у цьому класі, як показано у Таблиці Заклятть Блукачів Обрію. Закляття вважається для вас закляттями рейнджера, але вони не зараховуються до кількості заклятть рейнджера, які ви знаєте.
+
+**Таблиця- Закляття Блукачів Обрію**
+| Рівень | Закляття               |
+|--------|------------------------|
+| 3-й    | Захист від Зла і Добра |
+| 5-й    | Туманний крок          |
+| 9-й    | Прискорення            |
+| 13-й   | Вигнання               |
+| 17-й   | Коло Телепортації      |
+
+#### Виявлення порталу (Detect Portal)
+
+На 3-му рівні ви отримуєте здатність магічно відчувати наявність планарного порталу поруч. Використавши Дію, ви визначаєте відстань і напрямок до найближчого планарного порталу в межах 1 милі від вас.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+Дивіться секцію "Планарна подорож" у розділі 2 Посібника Майстра Підземелля для прикладів планарних порталів.
+
+#### Планарний Воїн (Planar Warrior)
+
+На 3-му рівні ви навчаєтеся використовувати енергію мультивсесвіту, щоб посилити свої атаки.
+Використавши бонусну дію, виберіть одну істоту, яку ви бачите у радіусі 30 футів від себе. Наступного разу, коли ви вдарите цю істоту у цьому ході атакою з використанням зброї, усе пошкодження, завдане атакою, стає силовим пошкодженням, а істота отримує додаткові 1d8 пошкоджень від атаки. Коли ви досягаєте 11-го рівня у цьому класі, додаткове пошкодження збільшується до 2d8.
+
+#### Ефірний Крок (Ethereal Step)
+
+На 7-му рівні ви навчаєтеся крокувати крізь Ефірний План. Бонусною дією у свій хід ви можете застосувати заклинання Ефірність за допомогою цієї риси, не витрачаючи слот для заклинань, але це закляття закінчується у кінці вашого поточного ходу.
+Скориставшись цією рисою, ви не зможете використовувати її знову, доки не завершите короткий або довгий відпочинок.
+
+#### Дистанційний Удар (Distant Strike)
+
+На 11-му рівні ви отримуєте можливість переходити між планами в одну мить. Коли ви використовуєте дію Атака, ви можете телепортуватися до 10 футів перед кожною атакою у незайнятий простір, який ви бачите.
+Якщо ви атакуєте принаймні двох різних істот цією дією, ви можете зробити одну додаткову атаку з нею проти третьої істоти.
+
+#### Спектральний Захист (Spectral Defense)
+
+На 15-му рівні ваша здатність переміщатися між планами дозволяє вам прослизати крізь планарні межі, щоб зменшити пошкодження, завдану вам під час бою. Коли ви отримуєте пошкодження від атаки, ви можете використати свою реакцію, щоб дати собі Опір усім пошкодженням від цієї атаки у цей хід.
+
+### Хранитель Рою (Swarmkeeper)
+Джерело: Tasha's Cauldron of Everything
+
+Відчуваючи глибокий зв'язок із навколишнім середовищем, деякі рейнджери простягають його ще далі і зв'язуються з роєм духів природи. Рій стає потужною силою у битві, а також гарною компанією для рейнджера. Деякі хранителі роїв є ізгоями або відлюдниками, що тримаються поодинці від усіх, крім своїх роїв, і не мають справу з дискомфортом інших. Інші хранителі рою насолоджуються створенням яскравих спільнот, які працюють на взаємну вигоду всіх тих, кого вони вважають частиною свого рою.
+
+#### Зібраний Рій (Gathered Swarm)
+
+На 3-му рівні рій нематеріальних духів природи приєднується до вас і може допомогти вам у битві. Поки ви не помрете, рій залишається у тому ж просторі, що займаєте ви, повзаючи по вам або літаючи та стрибаючи навколо. Ви визначаєте його зовнішній вигляд або можете згенерувати його зовнішній вигляд, роблячи кидки по таблиці Зовнішнього вигляду рою.
+
+**Таблиця- Зовнішній вигляд рою**
+| d4 | Вигляд рою                    |
+|----|-------------------------------|
+| 1  | Рій комах                     |
+| 2  | Мініатюрні трухляві гілочники |
+| 3  | Порхаючі птахи                |
+| 4  | Грайливі піксі                |
+
+У кожний свій хід ви можете попросити рій допомогти вам одним із таких способів, одразу після того, як ви атакуєте істоту:
+
+- Ціль вашої атаки отримує 1d6 проникаючих пошкоджень від рою.
+- Ціль атаки має викинути успіх у рятівному кидку Сили проти вашого КС порятунку від заклятть або бути переміщеною зграєю до 15 футів горизонтально у напрямку, який ви виберете.
+- Рій переміщує вас на 5 футів горизонтально в обраному вами напрямку.
+
+#### Магія Хранителя Рою (Swarmkeeper Magic)
+
+Крім того, на 3-му рівні ви навчаєтеся накладанню заклятть, якщо ви цього ще не знаєте. Коли ви накладаєте закляття, ваша рука приймає форму вашого рою духів природи.
+Ви також вивчаєте додаткове заклинання 1-го рівня або вище, коли досягаєте певних рівнів у цьому класі, як показано в таблиці заклятть Хранителя Рою. Кожне заклинання вважається для вас заклинанням рейнджера, але воно не зараховується до кількості заклинань рейнджера, які ви знаєте.
+
+**Таблиця- Закляття Хранителя Рою**
+| Рівень | Закляття                   |
+|--------|----------------------------|
+| 3-й    | Фейське Полум'я, Рука Мага |
+| 5-й    | Сітка                      |
+| 9-й    | Газоподібна форма          |
+| 13-й   | Чародійське Око            |
+| 17-й   | Рій комах                  |
+
+#### Закручена Хвиля (Writhing Tide)
+
+Починаючи з 7-го рівня, ви можете конденсувати частину свого рою у цілеспрямовану масу, яка піднімає вас. Як бонус, ви отримуєте швидкість польоту 10 футів і можете зависати. Цей ефект триває 1 хвилину або поки ви не станете недієздатним.
+
+Ви можете використовувати цю рису кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновлюєте всі витрачені використання після закінчення довгого відпочинку.
+
+#### Могутній Рій (Mighty Swarm)
+
+На 11-му рівні ваш зібраний рій стає сильнішим у такі способи:
+
+- Пошкодження збільшується до 1d8.
+- Якщо істоті не вдасться виконати рятівний кидок проти того, щоб її зрушив Зібраний Рій, ви також можете змусити рій збити істоту з ніг.
+- Коли вас переміщує Зібраний Рій, він дає вам половину прикриття до початку вашого наступного ходу.
+
+#### Розсіювання Рою (Swarming Dispersal)
+
+Коли ви досягнете 15-го рівня, ви можете розсіятися і змішатися зі своїм роєм, уникаючи небезпеки. Коли ви отримуєте пошкодження, ви можете використовувати свою реакцію, щоб протистояти цьому пошкодженню. Ви зникаєте у своєму рої, а потім телепортуєтесь у незайнятий простір, який ви бачите в радіусі 30 футів від себе, де ви знову з'являєтеся разом із роєм.
+
+Ви можете використовувати цю рису кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновлюєте всі витрачені використання після закінчення довгого відпочинку.
+
+### Дрейків Вартовий (Drakewarden)
+Джерело: Fizban's Treasury of Dragons
+
+Ваш зв'язок із природним світом набуває форми драконячого духа, який може проявлятися у фізичній формі в якості дрейка. У міру того, як ваші здібності зростають, ваш дрейк також росте, перетворюючись із маленького чотириногого компаньйона на величну крилату істоту, велику й сильну, на якій ви можете їздити верхи. Дорогою ви отримуєте все більшу частку вражаючої сили драконів.
+
+Розгляньте про джерело драконячого духу, з яким ви пов'язані. Таблиця походження Вартового містить приклади таких варіантів.
+
+**Таблиця - Походження Дрейкова Вартового**
+| d6 | Походження |
+|----|------------|
+| 1  | Ви вивчали луску чи кіготь, або дрібничку зі скарбниці дракона, створюючи свій зв'язок через тривалу драконову магію, що насичувала цю річ. |
+| 2  | Таємний орден рейнджерів, що збирають і охороняють драконячі знання, навчив вас своїм шляхам. |
+| 3  | Дракон дав вам жеоду або коштовний камінь для догляду. На ваш подив, з того каменя вилупився дрейк. |
+| 4  | Ви проковтнули кілька крапель драконячої крові, назавжди наситивши свою природу магією драконівською силою. |
+| 5  | Стародавній напис Драконячою мовою на стоячому камені надавав вам сили, коли ви прочитали його вголос. |
+| 6  | Вам наснилася загадкова фігура у супроводі семи жовтих канарок, які попереджали вас про майбутню загибель. Коли ви прокинулися, ваш дрейк знаходився поруч і спостерігав за вами. |
+
+#### Драконячий Дар (Draconic Gift)
+
+На 3-му рівні ваш зв'язок із дрейком створює зв'язок із родом драконів, надаючи вам розуміння та посилюючи вашу присутність у світі.
+Ви отримуєте такі переваги:
+**- Тауматургія.** Ви вивчаєте закляття чарівника Тауматургія, яке є для вас заклинанням рейнджера.
+**- Мова Драконів.** Ви навчаєтеся говорити, читати та писати драконячою або іншою мовою на ваш вибір.
+
+#### Дрейк-Компаньйон (Drake Companion)
+
+На 3-му рівні, використавши Дію, ви можете магічно викликати дрейка, який пов'язаний із вами. Він з'являється в незайнятому місці за вашим вибором у межах 30 футів від вас.
+
+Дрейк дружній до вас і ваших супутників і підкоряється вашим командам. Дивіться його ігрову статистику в супровідному блоці статистики Дрейка-Компаньйона, який використовує ваш бонус кваліфікації (БК) у кількох місцях. Щоразу, коли ви викликаєте дрейка, вибирайте тип пошкоджень, указаний у його рисі Драконяча Сутність. Ви можете визначити косметичні характеристики дрейка, такі як його колір, текстура луски, або будь-який видимий ефект його Драконічної Сутності; ваш вибір не впливає на статистику гри.
+
+У бою дрейк розділяє з вами значення ініціативи, але його хід настає одразу після вашого. Він може самостійно рухатися та використовувати свою реакцію, але єдиною дією, яку він виконує у свій хід, є дія Ухилення, якщо ви не виконуєте свою бонусну дію у свій хід, щоб наказати йому виконати щось іще. Ця дія може бути у блоці статистики або іншою дією. Якщо ви недієздатні, дрейк може виконати будь-яку дію на свій вибір, а не лише ухилитися.
+
+Дрейк залишається, доки його хіти не будуть зменшені до 0, доки ви не скористаєтеся цією рисою, щоб знову викликати дрейка, або доки не помрете. Усе, що  носив на собі або у лапах дрейк, залишається там, де він був, коли дрейк зникає.
+
+Щойно покликавши дрейка, ви не зможете зробити це знову, доки не закінчите довгий відпочинок, якщо не витратите слот заклинання 1-го рівня або вище, щоб викликати його.
+
+**Таблиця- Дрейк-Компаньйон**
+*Маленький дракон*
+*Клас броні:* 14 + БК (природна броня)
+*Хіти:* 5 + ваш рівень рейнджера, помножений на 5 (має кількість кубиків хітів d10, що дорівнює вашому рівню рейнджера)
+*Швидкість:* 40 футів
+
+**Атрибути**
+*Сила:* 16 (+3)
+*Спритність:* 12 (+1)
+*Комплекція:* 15 (+2)
+*Інтелект:* 8 (-1)
+*Мудрість:* 14 (+2)
+*Харизма:* 8 (-1)
+
+*Рятівні кидки:* Спритність + 1 + БК, Мудрість + 2 + БК
+*Імунітети до пошкоджень:* визначаються видом Драконячої Сутності
+*Чуття:* Темнобачення 60 футів, пасивне Сприйняття 12
+*Мови:* Драконяча
+*Рейтинг виклику:* Бонус Кваліфікації = вашому Бонусу Кваліфікації
+*Драконяча Сутність:* Викликаючи дрейка, виберіть тип пошкоджень: кислота, холод, вогонь, блискавка або отрута. Вибраний тип визначає імунітет до пошкоджень дрейка та пошкодження його риси Насичені Удари.
+
+**Дії:**
+*Укус:* Рукопашна атака зброєю: +3 + БК бонус атаки, досяжність 5 футів; 1 ціль; пошкодження: 1d6+БК проникаючих пошкоджень
+**Реакції:**
+*Насичені удари:* Коли інша істота у межах 30 футів від дрейка, яку він може бачити, вражає ціль атакою зі зброї, дрейк наповнює цей удар своїм єством, змушуючи ціль отримати додаткові пошкодження 1d6 типу, визначеного його Драконячою Сутністю.
+
+#### Зв'язок Ікла та Луски (Bond of Fang and Scale)
+
+На 7-му рівні ваш зв'язок із дрейком посилюється, захищаючи вас і розпалюючи лють дрейка. Коли ви викликаєте свого дрейка, у нього на спині виростають крила, і він отримує швидкість польоту, що дорівнює швидкості його ходьби.
+
+Крім того, поки ваш дрейк із вами та прикликаний, ви та дрейк отримуєте такі переваги:
+
+- *Осідлати Дрейка.* Дрейк виростає до Середнього розміру. Відображаючи ваш особливий зв'язок, ви можете використовувати його як скакуна, якщо ваш розмір Середній або менший. Поки ви їздите на дрейку, він не може використовувати швидкість польоту цієї риси.
+- *Чарівне Ікло.* Атака Укус дрейка завдає додаткових пошкоджень 1d6 типу, вибраного для риси Драконячої сутності у цьому виклику.
+- *Опір.* Ви отримуєте Опір до типу пошкоджень, обраного для Драконячої Сутності дрейка.
+
+#### Дихання Дрейка (Drake’s Breath)
+
+На 11-му рівні, використавши Дію, ви можете видихнути 30-футовий конус руйнівного дихання або змусити видихнути його свого дрейка. Виберіть кислоту, холод, вогонь, блискавку чи отруту (ваш вибір не обов'язково має збігатися з Драконячою сутністю вашого дрейка). Кожна істота у конусі повинна зробити рятівний кидок Спритності проти вашого КС заклятть, отримавши 8d6 пошкоджень при провалі або вдвічі менше пошкоджень при успіху.
+Розмір пошкодження збільшується до 10d6, коли ви досягаєте 15-го рівня у цьому класі.
+Скориставшись цією рисою, ви не зможете зробити це знову, доки не закінчите довгий відпочинок, якщо не використаєте слот заклинання 3-го рівня або вище, щоб використати його знову.
+
+#### Вдосконалений Зв'язок (Perfected Bond)
+
+На 15-му рівні ваш зв'язок із дрейком досягає вершини своєї сили. Поки ваш дрейк прикликаний вами, ви та дрейк отримуєте такі переваги:
+
+*- Посилений укус.* Атака Укус дрейка завдає додаткових пошкоджень 1d6 того ж типу, що вибрано для його Драконячої сутності (загалом 2d6 додаткових пошкоджень).
+
+*- Більший Дрейк.* Дрейк виростає до Великих розмірів. Коли ви осідлаєте його, вашому дрейку більше не забороняється використовувати швидкість польоту з риси Зв'язок Ікла та Луски.
+
+*- Рефлексивний опір.* Коли ви або дрейк отримуєте пошкодження, коли ви перебуваєте на відстані 30 футів один від одного, ви можете використати свою реакцію, щоб надати собі чи дрейку опір цьому пошкодженню (саме цьому, що було нанесено, проти якого ви скористалися цією реакцією). Ви можете використати цю реакцію кількість разів, що дорівнює вашому бонусу Кваліфікації, і ви відновите всі витрачені використання, коли завершите довгий відпочинок.
+
+### Фейський Блукач (Fey Wanderer)
+Джерело: Tasha's Cauldron of Everything
+
+Містика фей оточує вас завдяки благодаті архіфей, сяючим плодам, які ви з'їли з дерева, що розмовляє, чарівному джерелу, у якому ви купалися, або іншій сприятливій події. Незважаючи на те, що ви здобули свою магію фей, ви тепер Фейський Блукач, рейнджер, який представляє як царства смертних, так і фей. Коли ви подорожуєте мультивсесвітом, ваш радісний сміх освітлює серця пригноблених, а ваша бойова майстерність вселяє жах у ваших ворогів, бо велика радість фей і жахлива їхня лють.
+
+#### Жахливі удари (Dreadful Strikes)
+
+На 3-му рівні ви можете посилити удари своєї зброї за допомогою магії, що руйнує розум, почерпнутої з похмурих пустошів Фейвілду. Коли ви вдаряєте істоту зброєю, ви можете завдати цілі додаткові психічні пошкодження 1d4, але ці додаткові пошкодження вона може отримати лише один раз за хід.
+Додаткові пошкодження збільшуються до 1d6, коли ви досягаєте 11-го рівня у цьому класі.
+
+#### Магія Фейського Блукача (Fey Wanderer Magic)
+
+Починаючи з 3-го рівня, ви вивчаєте додаткові закляття, коли досягаєте певних рівнів у цьому класі, як показано у Таблиці Заклятть Фейського Блукача. Закляття вважається для вас закляттями рейнджера, але вони не зараховуються до кількості заклятть рейнджера, які ви знаєте.
+
+**Таблиця- Закляття Фейського Блукача**
+| Рівень | Закляття         |
+|--------|------------------|
+| 3-й    | Зачарувати особу |
+| 5-й    | Туманний крок    |
+| 9-й    | Розсіяти магію   |
+| 13-й   | Міжвимірні двері |
+| 17-й   | Ввести в оману   |
+
+Ви також отримуєте надприродне благословення від союзника-феї або місця сили фей. Виберіть своє благословення з таблиці Дари Фейвілду або визначте його випадковим чином.
+
+**Таблиця- Дари Фейвілду**
+| d6 | Дар                                                                                                  |
+|----|------------------------------------------------------------------------------------------------------|
+| 1  | Ілюзорні метелики пурхають навколо вас під час короткого чи довгого відпочинку.                      |
+| 2  | Свіжі сезонні квіти проростають із вашого волосся кожного дня на світанку.                           |
+| 3  | Від вас іде легкий запах кориці, лаванди, мускатного горіха або іншої заспокійливої трави чи спеції. |
+| 4  | Ваша тінь танцює, коли ніхто не дивиться прямо на неї.                                               |
+| 5  | З вашої голови ростуть роги (оберіть самі їхній вид - козячі, оленячі чи інші).                      |
+| 6  | Кожного дня на світанку ваша шкіра та волосся змінюють колір відповідно до сезону.                   |
+
+#### Іншосвітський гламур (Otherworldly Glamour)
+
+Крім того, на 3-му рівні ваші фейські риси надають вам надприродного шарму. У результаті кожного разу, коли ви робите перевірку Харизми, ви отримуєте бонус до перевірки, що дорівнює вашому модифікатору Мудрості (мінімум +1).
+Крім того, ви отримуєте Кваліфікацію в одній із наступних навичок на ваш вибір: Обман, Виконання або Переконання.
+
+#### Захоплюючий поворот (Beguiling Twist)
+
+Починаючи з 7-го рівня, магія Фейвілда охороняє ваш розум. Ви маєте перевагу під час рятівних кидків проти зачарування чи переляку.
+Крім того, щоразу, коли ви або істота, яку ви бачите в радіусі 120 футів від вас, отримуєте успіх у рятівному кидку від зачарування чи переляку, ви можете використати свою реакцію, щоб змусити іншу істоту, яку бачите в радіусі 120 футів від вас, зробити рятівний кидок Мудрості проти вашого КС заклятть. При провалі, ціль зачаровується або лякається вами (на ваш вибір) на 1 хвилину. Ціль може повторити рятівний кидок наприкінці кожного свого ходу, припиняючи ефект на собі після успіху у ньому.
+
+#### Підкріплення Фей (Fey Reinforcements)
+
+На 11-му рівні королівські двори Фейвілда благословляють вас допомогою фей: ви знаєте закляття Викликати фей. Воно не зараховується до кількості заклинань рейнджера, які ви знаєте, і ви можете використовувати його без матеріального компоненту. Ви також можете застосувати його один раз, не використовуючи слот для заклинань, і ви відновите здатність робити це, коли завершите довгий відпочинок.
+Щоразу, коли ви починаєте використовувати заклинання, ви можете змінити його так, щоб воно не вимагало концентрації. Якщо ви це зробите, тривалість заклинання для цього застосування стане 1 хвилиною.
+
+#### Туманний Мандрівник (Misty Wanderer)
+
+Коли ви досягнете 15-го рівня, ви можете ковзати у Фейвілд і виходити з нього, щоб рухатися миттєво: ви можете використовувати Туманний крок, не витрачаючи слот заклятть. Ви можете зробити це кількість разів, що дорівнює вашому модифікатору Мудрості (мінімум 1 раз), і ви відновите всі витрачені використання, коли завершите довгий відпочинок.
+Крім того, щоразу, коли ви використовуєте Туманний крок, ви можете взяти з собою одну бажаючий істоту, яку бачите в межах 5 футів від вас. Ця істота телепортується в незайнятий простір за вашим вибором у межах 5 футів від місця призначення.
