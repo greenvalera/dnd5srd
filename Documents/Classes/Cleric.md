@@ -1,153 +1,153 @@
-# Cleric
+# Клерік (Cleric)
 
-### Class Features
+### Особливості класа
 
-As a cleric, you gain the following class features.
+Як клерік, ви маєте наступні особливості класа
 
-#### Hit Points
+#### Хіти
 
-**Hit Dice:** 1d8 per cleric level
+**Кубик хітів:** 1d8 на кожному рівні Клеріка
 
-**Hit Points at 1st Level:** 8 + your Constitution modifier
+**Хіти на 1-му рівні:** 8 + ваш модифікатор Комплекції
 
-**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per cleric level after 1st
+**Хіти на наступних рівнях:** 1d8 (або 5) ваш модифікатор Комплекції на кожному рівні Клеріка після 1-го
 
-#### Proficiencies
+#### Кваліфікації
 
-**Armor:** Light armor, medium armor, shields
+**Броня:** Легка та середня броня, щити
 
-**Weapons:** Simple weapons
+**Зброя:** Проста зброя
 
-**Tools:** None
+**Інструменти:** Жодних
 
-**Saving Throws:** Wisdom, Charisma
+**Рятівні кидки:** Комплекція, Харизма
 
-**Skills:** Choose two from History, Insight, Medicine, Persuasion, and Religion
+**Навички:** Оберіть дві серед: Історії, Інсайта, Медицини, Переконання та Релігії
 
-#### Equipment
+#### Стартове спорядження
 
-You start with the following equipment, in addition to the equipment granted by your background:
+Ви починаєте з наступним спорядженням, на додачу до того, що отримуєте зі свого Походження:
 
-- (*a*) a mace or (*b*) a warhammer (if proficient)
-- (*a*) scale mail, (*b*) leather armor, or (*c*) chain mail (if proficient)
-- (*a*) a light crossbow and 20 bolts or (*b*) any simple weapon
-- (*a*) a priest's pack or (*b*) an explorer's pack
-- A shield and a holy symbol
+- (*a*) дубинка або (*b*) бойовий молот (якщо є кваліфікація з ним)
+- (*a*) луската кольчуга, (*b*) шкіряна броня, або (*c*) плетена кольчуга (якщо є кваліфікація з нею)
+- (*a*) легкий арбалет та 20 болтів або (*b*) будь-яка проста зброя
+- (*a*) набір жерця або (*b*) набір дослідника
+- Щит та святий символа
 
-**Table- The Cleric**
+**Таблиця- Клерік**
 
-| Level | Proficiency Bonus | Features                                                                | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| Рівень | Бонус Кваліфікації | Риси                                                                | Знані заговори | 1-й | 2-й | 3-й | 4-й | 5-й | 6-й | 7-й | 8-й | 9-й |
 |-------|-------------------|-------------------------------------------------------------------------|----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 1st   | +2                | Spellcasting, Divine Domain                                             | 3              | 2   | -   | -   | -   | -   | -   | -   | -   | -   |
-| 2nd   | +2                | Channel Divinity (1/rest), Divine Domain Feature                        | 3              | 3   | -   | -   | -   | -   | -   | -   | -   | -   |
-| 3rd   | +2                | -                                                                       | 3              | 4   | 2   | -   | -   | -   | -   | -   | -   | -   |
-| 4th   | +2                | Ability Score Improvement                                               | 4              | 4   | 3   | -   | -   | -   | -   | -   | -   | -   |
-| 5th   | +3                | Destroy Undead (CR 1/2)                                                 | 4              | 4   | 3   | 2   | -   | -   | -   | -   | -   | -   |
-| 6th   | +3                | Channel Divinity (2/rest), Divine Domain Feature                        | 4              | 4   | 3   | 3   | -   | -   | -   | -   | -   | -   |
-| 7th   | +3                | -                                                                       | 4              | 4   | 3   | 3   | 1   | -   | -   | -   | -   | -   |
-| 8th   | +3                | Ability Score Improvement, Destroy Undead (CR 1), Divine Domain Feature | 4              | 4   | 3   | 3   | 2   | -   | -   | -   | -   | -   |
-| 9th   | +4                | -                                                                       | 4              | 4   | 3   | 3   | 3   | 1   | -   | -   | -   | -   |
-| 10th  | +4                | Divine Intervention                                                     | 5              | 4   | 3   | 3   | 3   | 2   | -   | -   | -   | -   |
-| 11th  | +4                | Destroy Undead (CR 2)                                                   | 5              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
-| 12th  | +4                | Ability Score Improvement                                               | 5              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
-| 13th  | +5                | -                                                                       | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
-| 14th  | +5                | Destroy Undead (CR 3)                                                   | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
-| 15th  | +5                | -                                                                       | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
-| 16th  | +5                | Ability Score Improvement                                               | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
-| 17th  | +6                | Destroy Undead (CR 4), Divine Domain Feature                            | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
-| 18th  | +6                | Channel Divinity (3/rest)                                               | 5              | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
-| 19th  | +6                | Ability Score Improvement                                               | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
-| 20th  | +6                | Divine Intervention improvement                                         | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
+| 1-й   | +2                | Накладання заклятть, Божествена царина                                             | 3              | 2   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2-й   | +2                | Проведення божественності (1/відпочинок), риса Божественої царини                        | 3              | 3   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 3-й   | +2                | -                                                                       | 3              | 4   | 2   | -   | -   | -   | -   | -   | -   | -   |
+| 4-й   | +2                | Підвищення Атрибутів                                               | 4              | 4   | 3   | -   | -   | -   | -   | -   | -   | -   |
+| 5-й   | +3                | Знищити мерців (РВ 1/2)                                                 | 4              | 4   | 3   | 2   | -   | -   | -   | -   | -   | -   |
+| 6-й   | +3                | Проведення божественності (2/відпочинок), риса Божественої царини                        | 4              | 4   | 3   | 3   | -   | -   | -   | -   | -   | -   |
+| 7-й   | +3                | -                                                                       | 4              | 4   | 3   | 3   | 1   | -   | -   | -   | -   | -   |
+| 8-й   | +3                | Підвищення Атрибутів, Знищити мерців (РВ 1), риса Божественої царини | 4              | 4   | 3   | 3   | 2   | -   | -   | -   | -   | -   |
+| 9-й   | +4                | -                                                                       | 4              | 4   | 3   | 3   | 3   | 1   | -   | -   | -   | -   |
+| 10-й  | +4                | Божественне втручання                                                     | 5              | 4   | 3   | 3   | 3   | 2   | -   | -   | -   | -   |
+| 11-й  | +4                | Знищити мерців (РВ 2)                                                   | 5              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
+| 12-й  | +4                | Підвищення Атрибутів                                               | 5              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
+| 13-й  | +5                | -                                                                       | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
+| 14-й  | +5                | Знищити мерців (РВ 3)                                                   | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
+| 15-й  | +5                | -                                                                       | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
+| 16-й  | +5                | Підвищення Атрибутів                                               | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
+| 17-й  | +6                | Знищити мерців (РВ 4), риса Божественої царини                            | 5              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
+| 18-й  | +6                | Проведення божественності (3/відпочинок)                                               | 5              | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
+| 19-й  | +6                | Підвищення Атрибутів                                               | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
+| 20-й  | +6                | Краще Божественне втручання                                         | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                                                                         |                |     |     |     |     |     |     |     |     |     |
 
-### Spellcasting
+### Накладання заклятть (Spellcasting)
 
-As a conduit for divine power, you can cast cleric spells.
+Як проводник божественої сили, ви можете накладати закляття клеріка.
 
-#### Cantrips
+#### Заговори (Cantrips)
 
-At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
+На 1-му рівні ви знаєте 3 заговори на ваш вибір зі списку заговорів клеріка. Ви вивчаєте додаткові заговори клеріка на ваш вибір на вищих рівнях, як вказано у стовпчику "Знані заговори" Таблиці Клеріка.
 
-#### Preparing and Casting Spells
+#### Підготовка та накладання заклятть (Spell Slots, Preparing and Casting Spells)
 
-The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+Таблиця Клерика показує, скільки слотів для заклинань ви маєте, щоб накласти заклинання клерика 1-го рівня та вище. Щоб застосувати одне з цих заклинань, ви повинні витратити слот рівня закляття або вище. Ви відновлюєте всі використані слоти заклятть, коли завершуєте довгий відпочинок.
 
-You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
+Ви підготовуєте список заклятть клеріка, які доступні для використання, вибираючи зі списку заклинань клериків. Коли ви це зробите, виберіть кількість заклинань клерика, що дорівнює вашому модифікатору Мудрості + вашому рівню клеріка (мінімум одне заклинання). Закляття мають бути рівня, для якого у вас є слоти для заклинань.
 
-For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell *cure wounds*, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+Наприклад, якщо ви клерік 3-го рівня, у вас є чотири слоти для заклятть 1-го рівня та два слоти для заклинань 2-го рівня. З мудрістю 16 ваш список підготовлених заклинань може включати шість заклинань 1-го або 2-го рівня у будь-якій комбінації. Якщо ви підготували закляття 1-го рівня *вилікувати рани*, ви можете використати його за допомогою слота 1-го або 2-го рівня. Виконання заклинання не видаляє його зі списку підготовлених заклинань.
 
-You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+Ви можете змінити свій список підготовлених заклятть, коли закінчите довгий відпочинок. Підготовка нового списку заклятть клеріка вимагає часу, витраченого на молитву та медитацію: принаймні 1 хвилина на рівень закляття для кожного заклинання у вашому списку.
 
-#### Spellcasting Ability
+#### Здатність до накладання заклятть (Spellcasting Ability)
 
-Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
+Мудрість — це ваша здатність накладати закляття клеріка. Сила ваших заклинань походить від вашої відданості своєму божеству. Ви використовуєте свою Мудрість щоразу, коли заклинання клеріка посилається на вашу здатність чаклувати. Крім того, ви використовуєте свій модифікатор Мудрості, коли встановлюєте КС рятівного кидка для заклинання клеріка, яке ви використовуєте, і коли робите кидок атаки з ним.
 
-**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+**КС рятівного кидка** = 8 + ваш бонус Кваліфікації + ваш модифікатор Мудрості
 
-**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+**Модифікатор кидка атаки для закляття** = ваш бонус Кваліфікації + ваш модифікатор Мудрості
 
-#### Ritual Casting
+#### Ритуальне накладання заклятть (Ritual Casting)
 
-You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+Ви можете накласти закляття клеріка як ритуал, якщо це заклинання має ритуальний тег і воно є підготовленим у вас на момент накладання ритуала.
 
-#### Spellcasting Focus
+#### Фокус для накладання заклятть (Spellcasting Focus)
 
-You can use a holy symbol as a spellcasting focus for your cleric spells.
+Ви можете використовувати священний символ як фокус заклинання для заклятть клеріка.
 
-### Divine Domain
+### Божествена царина (Divine Domain)
 
-Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+Виберіть одну царину, пов'язану із вашим божеством: Знання, Життя, Світло, Природа, Буря, Хитрість або Війна. Кожна царина детально описана у кінці опису класу, і кожна з них містить приклади пов'язаних з нею богів. Ваш вибір надає вам доменні закляття та інші риси, коли ви обираєте його на 1-му рівні. Він також надає вам додаткові способи використання Проведення божественності, коли ви отримуєте цю рису на 2-му рівні, і додаткові переваги на 6-му, 8-му та 17-му рівнях.
 
-#### Domain Spells
+#### Закляття царини (Domain Spells)
 
-Each domain has a list of spells - its domain spells - that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.
+Кожна царина має список заклятть — заклинань цієї царини — які ви отримуєте на рівнях клериків, зазначених в описі царини. Отримавши таке заклинання, ви завжди маєте його підготовленим, і воно не зараховується до кількості заклятть, які ви можете підготувати щодня.
+Якщо у вас є закляття царини, якого немає в списку заклинань клериків, це заклинання все одно є для вас заклинанням клерика.
 
-If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.
+### Проведення божественності (Channel Divinity)
 
-### Channel Divinity
+На 2-му рівні ви отримуєте здатність направляти божественну енергію безпосередньо від вашого божества, використовуючи цю енергію для підживлення магічних ефектів. Ви починаєте з двох таких ефектів: Розвернути мерців та ефекту, який визначається обраною вами цариною. Деякі царини надають вам додаткові ефекти під час просування по рівнях, як зазначено в їхньому описі.
 
-At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+Коли ви використовуєте Проведення божественності, ви вибираєте, який ефект створити. Потім ви повинні закінчити короткий або тривалий відпочинок, щоб знову використовувати Проведення божественності.
 
-When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.
+Деякі ефекти Проведення божественності вимагають рятівних кидків. Коли ви використовуєте такий ефект від цього класу, КС дорівнює вашому КС рятівного кидка від заклинання клерика.
 
-Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
+Починаючи з 6-го рівня, ви можете використати Проведення божественності двічі між відпочинками, а починаючи з 18-го рівня, ви можете використовувати його тричі між відпочинками. Коли ви закінчуєте короткий або тривалий відпочинок, ви відновлюєте усі витрачені використання її.
 
-Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
+#### Проведення божественості: Розвернути мерців (Channel Divinity: Turn Undead)
 
-#### Channel Divinity: Turn Undead
+Використавши дію, ви демонструєте свій святий символ і читаєте молитву, яка осуджує нежить. Кожна нежить, яка бачить або чує вас у радіусі 30 футів від вас, повинна зробити рятівний кидок Мудрості. Якщо істота провалює рятівний кидок, вона розвертається на 1 хвилину або доти, поки вона не отримає будь-яких пошкоджень.
 
-As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+Розвернута істота має витратити свої ходи, намагаючись відійти від вас якомога далі, і вона не може добровільно переміститися у простір у межах 30 футів від вас. Вона також не може використовувати реакцію. В якості дії вона може використовувати лише Ривок або спробувати уникнути ефекту, який заважає їй рухатися. Якщо немає куди рухатися, істота може скористатися дією Ухилення.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+### Підвищення Атрибутів (Ability Score Improvement)
 
-### Ability Score Improvement
+Коли ви досягаєте 4-го рівня, і потім - 8-го, 12-го, 16-го, 19-го, ви можете підвищити 1 Атрибут за вашим вибором на 2, або 2 Атрибути за вашим вибором на 1. Як і зазвичай, ви не можете підвищити значення Атрибута більше 20, використовуючи цю рису.
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+### Знищити мерців (Destroy Undead)
 
-### Destroy Undead
+Починаючи з 5-го рівня, коли нежить провалює свій кидок порятунку проти вашої риси Розвернути мерців, істота миттєво знищується, якщо її рейтинг виклику дорівнює або нижче певного порогу, як показано у таблиці Знищити мерців.
 
-Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.
+**Таблиця- Знищити мерців**
 
-**Table- Destroy Undead**
+| Рівень Клерика | Знищує мерців з РВ...  |
+|---------------|-------------------------|
+| 5-й           | 1/2 чи нижче            |
+| 8-й           | 1 чи нижче              |
+| 11-й          | 2 чи нижче              |
+| 14-й          | 3 чи нижче              |
+| 17-й          | 4 чи нижче              |
+|               |                         |
 
-| Cleric Level | Destroys Undead of CR ... |
-|--------------|---------------------------|
-| 5th          | 1/2 or lower              |
-| 8th          | 1 or lower                |
-| 11th         | 2 or lower                |
-| 14th         | 3 or lower                |
-| 17th         | 4 or lower                |
-|              |                           |
+### Божественне втручання (Divine Intervention)
 
-### Divine Intervention
+Починаючи з 10-го рівня, ви можете закликати своє божество втрутитися від вашого імені, коли ваша потреба велика.
 
-Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
+Благання про допомогу у свого божества вимагає від вас використати дію. Опишіть допомогу, яку ви шукаєте, і киньте відсотковий кубик. Якщо ви викидаєте число, рівне або нижче за ваш рівень клерика, ваше божество втручається. Майстер Підземелля обирає характер втручання; ефект будь-якого закляття клеріка або закляття царини клерика буде відповідним.
 
-Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The GM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate.
+Якщо ваше божество втрутиться, ви не зможете знову використовувати цю рису знову протягом 7 днів. У іншому випадку ви можете використовувати його знову після закінчення довгого відпочинку.
 
-If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.
+На 20-му рівні ваш заклик про втручання вважається успішним автоматично, кидок не потрібен.
 
-At 20th level, your call for intervention succeeds automatically, no roll required.
 
 ## Cleric Domains
 
