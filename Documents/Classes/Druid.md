@@ -1,264 +1,258 @@
-# Druid
+# Друїд (Druid)
 
-### Class Features
+### Особливості класа
 
-As a druid, you gain the following class features.
+Як друїд, ви маєте наступні особливості класа
+>**Священні рослини та деревина**
+>
+>Друїди вважають священними певні рослини, зокрема вільху, ясен, березу, бузину, ліщину, падуб, ялівець, омелу, дуб, горобину, вербу та тис. Друїди часто використовують такі рослини як частину фокусу заклинання, включаючи відрізки дуба чи тиса або гілочки омели.
+>
+>Так само друїди використовують таку деревину для виготовлення інших предметів, таких як зброя та щити. Тис асоціюється зі смертю і відродженням, тому з нього можна виготовляти ручки для ятаганів або серпів. Ясен асоціюється з життям, а дуб із силою. З цих порід дерева роблять чудові руків'я або цілу зброю, як-от палиці чи посохи, а також щити. Вільха асоціюється з повітрям, і її можна використовувати для мательної зброї, такої як дротики чи списи.
+>
+>Друїди з регіонів, де немає описаних тут рослин, вибрали інші рослини для подібного використання. Наприклад, друїд із пустельної місцевості міг би використати дерево юки та кактус.
+>
+>**Друїди та боги**
+>
+>Деякі друїди самі шанують сили природи, але більшість друїдів віддані одному з багатьох божеств природи, яким поклоняються в мультивсесвіті. Поклоніння цим божествам часто вважається більш давньою традицією, ніж вірування священнослужителів і урбанізованих народів.
 
-#### Hit Points
+#### Хіти
 
-**Hit Dice:** 1d8 per druid level
+**Кубик хітів:** 1d8 на кожному рівні Друїда
 
-**Hit Points at 1st Level:** 8 + your Constitution modifier
+**Хіти на 1-му рівні:** 8 + ваш модифікатор Комплекції
 
-**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per druid level after 1st
+**Хіти на наступних рівнях:** 1d8 (або 5) ваш модифікатор Комплекції на кожному рівні Друїда після 1-го
 
-#### Proficiencies
+#### Кваліфікації
 
-**Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
+**Armor:** Легка броня, середня броня, щити (друїди не можуть користуватися бронею або щитами, зробленими з метала)
 
-**Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
+**Зброя:** Дубинки, кинджали, дротики, дротики та дартси, булави, посохи, ятагани, серпи, пращі, списи
 
-**Tools:** Herbalism kit
+**Інструменти:** Набір травника
 
-**Saving Throws:** Intelligence, Wisdom
+**Рятівні кидки:** Інтелект, Мудрість
 
-**Skills:** Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival
+**Навички:** Оберіть дві поміж Choose two from Аркани, Поводження з тваринами, Проникливість, Медицина, Природа, Сприйняття, Релігія, та Виживання
 
-#### Equipment
+#### Стартове спорядження
 
-You start with the following equipment, in addition to the equipment granted by your background:
+Ви починаєте з наступним спорядженням, на додачу до того, що отримуєте зі свого Походження:
 
-- (*a*) a wooden shield or (*b*) any simple weapon
-- (*a*) a scimitar or (*b*) any simple melee weapon
-- Leather armor, an explorer's pack, and a druidic focus
+- (*a*) дерев'яний щит або (*b*) будь-яка проста зброя
+- (*a*) ятаган або (*b*) будь-яка проста зброя ближнього бою
+- шкіряна броня, набір дослідника, і друїдичний фокус
 
 **Table- The Druid**
 
-| Level | Proficiency Bonus | Features                                          | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| Рівень | Бонус Кваліфікації | Риси                                          | Знані Заговори | 1-й | 2-й | 3-й | 4-й | 5-й | 6-й | 7-й | 8-й | 9-й |
 |-------|-------------------|---------------------------------------------------|----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 1st   | +2                | Druidic, Spellcasting                             | 2              | 2   | -   | -   | -   | -   | -   | -   | -   | -   |
-| 2nd   | +2                | Wild Shape, Druid Circle                          | 2              | 3   | -   | -   | -   | -   | -   | -   | -   | -   |
-| 3rd   | +2                | -                                                 | 2              | 4   | 2   | -   | -   | -   | -   | -   | -   | -   |
-| 4th   | +2                | Wild Shape Improvement, Ability Score Improvement | 3              | 4   | 3   | -   | -   | -   | -   | -   | -   | -   |
-| 5th   | +3                | -                                                 | 3              | 4   | 3   | 2   | -   | -   | -   | -   | -   | -   |
-| 6th   | +3                | Druid Circle feature                              | 3              | 4   | 3   | 3   | -   | -   | -   | -   | -   | -   |
-| 7th   | +3                | -                                                 | 3              | 4   | 3   | 3   | 1   | -   | -   | -   | -   | -   |
-| 8th   | +3                | Wild Shape Improvement, Ability Score Improvement | 3              | 4   | 3   | 3   | 2   | -   | -   | -   | -   | -   |
-| 9th   | +4                | -                                                 | 3              | 4   | 3   | 3   | 3   | 1   | -   | -   | -   | -   |
-| 10th  | +4                | Druid Circle feature                              | 4              | 4   | 3   | 3   | 3   | 2   | -   | -   | -   | -   |
-| 11th  | +4                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
-| 12th  | +4                | Ability Score Improvement                         | 4              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
-| 13th  | +5                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
-| 14th  | +5                | Druid Circle feature                              | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
-| 15th  | +5                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
-| 16th  | +5                | Ability Score Improvement                         | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
-| 17th  | +6                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
-| 18th  | +6                | Timeless Body, Beast Spells                       | 4              | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
-| 19th  | +6                | Ability Score Improvement                         | 4              | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
-| 20th  | +6                | Archdruid                                         | 4              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
+| 1-й   | +2                | Мова друїдів, Накладання заклятть                             | 2              | 2   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2-й   | +2                | Дика форма, Коло Друїдів                          | 2              | 3   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 3-й   | +2                | -                                                 | 2              | 4   | 2   | -   | -   | -   | -   | -   | -   | -   |
+| 4-й   | +2                | Покращення Дикої форми, Підвищення Атрибутів | 3              | 4   | 3   | -   | -   | -   | -   | -   | -   | -   |
+| 5-й   | +3                | -                                                 | 3              | 4   | 3   | 2   | -   | -   | -   | -   | -   | -   |
+| 6-й   | +3                | Риса Кола Друїдів                              | 3              | 4   | 3   | 3   | -   | -   | -   | -   | -   | -   |
+| 7-й   | +3                | -                                                 | 3              | 4   | 3   | 3   | 1   | -   | -   | -   | -   | -   |
+| 8-й   | +3                | Покращення Дикої форми, Підвищення Атрибутів | 3              | 4   | 3   | 3   | 2   | -   | -   | -   | -   | -   |
+| 9-й   | +4                | -                                                 | 3              | 4   | 3   | 3   | 3   | 1   | -   | -   | -   | -   |
+| 10-й  | +4                | Риса Кола Друїдів                              | 4              | 4   | 3   | 3   | 3   | 2   | -   | -   | -   | -   |
+| 11-й  | +4                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
+| 12-й  | +4                | Підвищення Атрибутів                         | 4              | 4   | 3   | 3   | 3   | 2   | 1   | -   | -   | -   |
+| 13-й  | +5                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
+| 14-й  | +5                | Риса Кола Друїдів                              | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | -   | -   |
+| 15-й  | +5                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
+| 16-й  | +5                | Підвищення Атрибутів                         | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | -   |
+| 17-й  | +6                | -                                                 | 4              | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
+| 18-й  | +6                | Позачасове тіло, Дикі закляття                       | 4              | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
+| 19-й  | +6                | Підвищення Атрибутів                         | 4              | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
+| 20-й  | +6                | Архидруїд                                         | 4              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                                                   |                |     |     |     |     |     |     |     |     |     |
 
-### Druidic
+### Мова Друїдів (Druidic)
 
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
+Ви знаєте друїдську, таємну мову друїдів. Ви можете розмовляти нею та використовувати її, щоб залишати приховані повідомлення. Ви та інші, хто знає цю мову, автоматично помічають таке повідомлення. Інші помічають присутність повідомлення за допомогою успішної перевірки Мудрості (Сприйняття) КС 15, але не можуть розшифрувати його без магії.
 
-### Spellcasting
+### Накладання заклятть (Spellcasting)
 
-Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.
+Спираючись на божественну сутність самої природи, ви можете чаклувати, щоб формувати цю сутність відповідно до вашої волі.
 
-#### Cantrips
+#### Заговори (Cantrips)
 
-At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
+На 1-му рівні ви знаєте два заговори на свій вибір зі списку заговорів друїда. Ви вивчаєте додаткові заговори друїдів на свій вибір на вищих рівнях, як показано в стовпці Знані Заговори Таблиці Друїда.
 
-#### Preparing and Casting Spells
+#### Підготовка та накладання заклятть (Preparing and Casting Spells)
 
-The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+Таблиця Друїд показує, скільки слотів для заклятть у вас є для використання заклинань друїда 1-го рівня та вище. Щоб застосувати одне з цих заклятть друїда, ви повинні витратити слот рівня заклинання або вище. Ви відновлюєте всі використані слоти заклятть, коли завершуєте довгий відпочинок.
 
-You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
+Ви готуєте список заклятть друїда, які доступні вам для використання, вибираючи зі списку заклинань друїдів. Коли ви це зробите, виберіть кількість заклятть друїда, що дорівнює вашому модифікатору Мудрості + вашому рівню друїда (мінімум одне заклинання). Заклинання мають бути рівня, для якого у вас є слоти для заклинань.
 
-For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell *cure wounds*, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+Наприклад, якщо ви друїд 3-го рівня, у вас є чотири слоти для заклинань 1-го рівня та два слоти для заклинань 2-го рівня. З мудрістю 16 ваш список підготовлених заклинань може включати шість заклинань 1-го або 2-го рівня в будь-якій комбінації. Якщо ви підготували заклинання 1-го рівня *Вилікувати рани*, ви можете використати його за допомогою слота 1-го або 2-го рівня. Виконання заклинання не видаляє його зі списку підготовлених заклинань.
 
-You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+Ви також можете змінити свій список підготовлених заклятть, коли закінчите тривалий відпочинок. Підготовка нового списку заклинань друїдів вимагає часу, витраченого на молитву та медитацію: принаймні 1 хвилина на рівень заклинання для кожного заклинання у вашому списку.
 
-### Spellcasting Ability
+### Здатність до накладання заклятть (Spellcasting Ability)
 
-Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+Мудрість визначає вашу здатність накладати закляття друїда, оскільки ваша магія спирається на вашу відданість і налаштованість на природу. Ви використовуєте свою Мудрість щоразу, коли закляття друїда посилається на вашу здатність накладати закляття. Крім того, ви використовуєте свій модифікатор Мудрості, коли встановлюєте КС рятівного кидка для заклинання друїда, яке ви використовуєте, і коли робите кидок атаки з ним.
 
-**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+**КС рятівного кидка** = 8 + ваш бонус Кваліфікації + ваш модифікатор Мудрості
 
-**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+**Модифікатор кидка атаки для закляття** = ваш бонус Кваліфікації + ваш модифікатор Мудрості
 
-### Ritual Casting
+### Ритуальне накладання заклятть (Ritual Casting)
 
-You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+Ви можете накласти закляття друїда як ритуал, якщо це заклинання має ритуальний тег і воно є підготовленим у вас на момент накладання ритуала.
 
-#### Spellcasting Focus
+#### Фокус для накладання заклятть (Spellcasting Focus)
 
-You can use a druidic focus as a spellcasting focus for your druid spells.
+Ви можете використовувати друїдичний символ як фокус заклинання для заклятть друїда.
 
-### Wild Shape
+### Дика форма (Wild Shape)
 
-Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
+Починаючи з 2-го рівня, ви можете використовувати дію, щоб магічно прийняти форму звіра, якого ви бачили раніше. Ви можете використовувати цю рису двічі. Ви відновлюєте витрачені рази, коли закінчуєте короткий або довгий відпочинок.
+Ваш рівень друїда визначає звірів, на яких ви можете перетворитися, як показано у Таблиці форм звірів. Наприклад, на 2-му рівні ви можете перетворитися на будь-якого звіра з рейтингом складності 1/4 або нижче, який не має швидкості польоту чи плавання.
 
-Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
+**Таблиця- Форми звірів**
 
-**Table- Beast Shapes**
-
-| Level | Max. CR | Limitations                 | Example     |
+| Рівень | Макс. РВ | Обмеження                 | Приклад     |
 |-------|---------|-----------------------------|-------------|
-| 2nd   | 1/4     | No flying or swimming speed | Wolf        |
-| 4th   | 1/2     | No flying speed             | Crocodile   |
-| 8th   | 1       | -                           | Giant eagle |
+| 2-й   | 1/4     | Не має швидкості польоту чи плавання | Волк        |
+| 4-й   | 1/2     | Не має швидкості польоту             | Крокодил   |
+| 8-й   | 1       | -                           | Велетенський орел |
 |       |         |                             |             |
 
-You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.
+Ви можете залишатися у формі звіра кількість годин, що дорівнює половині вашого рівня друїда (округленій униз). Потім ви повернетеся до своєї звичайної форми, якщо не використаєте цю рису ще раз. Ви можете повернутися до звичайної форми раніше, скориставшись бонусною дією у свій хід. Ви автоматично повертаєтеся до своєї звичайної форми, якщо впадаєте без свідомості, падаєте до 0 очок життя або помрете.
 
-While you are transformed, the following rules apply:
+Поки ви перетворені, застосовуються такі правила:
 
-- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
-- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
-- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
-- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
-- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
+- Ваша ігрова статистика замінюється статистикою звіра, але ви зберігаєте свою Схильність, особистість і показники Інтелекту, Мудрості та Харизми. Ви також зберігаєте всі свої навички та кваліфікації рятівних кидків, на додачу до отриманих від істоти, на яку ви перетворилися. Якщо істота має такі ж навички, як і ви, і бонус у її блоці статистики вищий, ніж ваш, використовуйте бонус істоти замість вашого. Якщо істота має будь-які легендарні або лігвищні дії, ви не можете їх використовувати.
+- Коли ви перетворюєтеся, ви приймаєте очки життя звіра та Hit Dice. Коли ви повертаєтесь до своєї звичайної форми, ви повертаєтеся до кількості очок життя, які мали до трансформації. Однак, якщо ви перетворитеся назад у звичайну форму у результаті падіння вашого здоров'я до 0, будь-які надлишкові пошкодження переносяться на вашу звичайну форму. Наприклад, якщо ви отримуєте 10 ушкоджень у формі тварин і у вас залишилося лише 1 очко здоров'я, ви повертаєетеся до звичайної форми і отримуєте 9 ушкоджень. Якщо надмірні пошкодження не зменшують при цьому вашу кількість хітів у звичайній формі до 0 очок здоров'я, ви не втратите свідомість.
+- Ви не можете накладати закляття, а ваша здатність говорити або виконувати будь-які дії, які потребують рук, обмежена можливостями вашої дикої форми. Однак трансформація не порушує вашу концентрацію на заклинанні, яке ви вже наклали, і не заважає вам виконувати дії, які є частиною заклинання, наприклад, викликати блискавку, яке ви вже наклали.
+- Ви зберігаєте переваги будь-яких рис свого класу, раси чи іншого джерела та можете використовувати їх, якщо нова форма фізично здатна це робити. Однак ви не можете використовувати жодне зі своїх спеціальних органів чуття, наприклад, темнобачення, якщо ваша нова форма також не має цього чуття.
+- Ви вибираєте, чи впаде ваше спорядження на землю у вашому просторі, зіллється з вашою новою формою чи буде носитися нею. Спорядження, що носиться вашою дикою формою, функціонує як звичайне, але GM вирішує, чи доцільно дикій формі носити таке спорядження, виходячи з форми та розміру істоти. Ваше спорядження не змінює розмір або форму відповідно до нової форми, і будь-яке спорядження, яке нова форма не може носити, має впасти на землю або злитися з нею. Спорядження, яке зливається з формою, не має ефекту, доки ви не перетворитеся на іншу форму.
 
-### Druid Circle
+### Коло Друїдів (Druid Circle)
 
-At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+На 2-му рівні ви вирішуєте ідентифікувати себе з колом друїдів: наприклад, Колом Землі або Колом Місяця, обидва приклади деталізовані у кінці опису класу. Ваш вибір надає вам риси на 2-му рівні та знову на 6-му, 10-му та 14-му рівнях.
 
-### Ability Score Improvement
+### Підвищення Атрибутів (Ability Score Improvement)
 
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+Коли ви досягаєте 4-го рівня, і потім - 8-го, 12-го, 16-го, 19-го, ви можете підвищити 1 Атрибут за вашим вибором на 2, або 2 Атрибути за вашим вибором на 1. Як і зазвичай, ви не можете підвищити значення Атрибута більше 20, використовуючи цю рису.
 
-### Timeless Body
+### Позачасове тіло (Timeless Body)
 
-Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
+Починаючи з 18-го рівня, первинна магія, якою ви володієте, сповільнює ваше старіння. За кожні 10 років ваше тіло старіє лише на 1 рік.
 
-### Beast Spells
+### Дикі закляття (Beast Spells)
 
-Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.
+Починаючи з 18-го рівня, ви можете використовувати багато своїх заклинань друїда в будь-якій формі, яку ви приймаєте, використовуючи Дику Форму. Ви можете виконувати соматичні та вербальні компоненти заклинання друїда, перебуваючи у формі звіра, але ви не можете забезпечити матеріальні компоненти.
 
-### Archdruid
+### Архидруїд (Archdruid)
 
-At 20th level, you can use your Wild Shape an unlimited number of times.
+На 20-му рівні ви можете використовувати свою Дику Форму необмежену кількість разів.
+Крім того, ви можете ігнорувати вербальні та соматичні компоненти ваших заклятть друїда, а також будь-які матеріальні компоненти, які не мають вартості та не споживаються заклинанням. Ви отримуєте цю перевагу як у своїй звичайній формі, так і у формі звіра від Дикої Форми.
 
-Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.
+## Кола Друїдів (Druid Circles)
 
-## Druid Circles
+### Коло Землі (Circle of the Land)
 
-### Circle of the Land
+Коло Землі складається з містиків і мудреців, які зберігають стародавні знання та обряди через обширну усну традицію. Ці друїди зустрічаються у священних колах дерев або стоячих каменів, щоб нашіптувати первинні таємниці друїдичною мовою. Наймудріші члени Кола головують як головні священики громад, які дотримуються Старої віри, і служать радниками правителів цих людей. На вашу магію, як на магію члена цього Кола, впливає земля, у якій ви були посвячені в таємничі обряди кола.
 
-The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.
+#### Бонусний Заговір (Bonus Cantrip)
 
-#### Bonus Cantrip
+Коли ви обираєте це коло на 2-му рівні, ви вивчаєте один додатковий заговір друїда за вашим вибором.
 
-When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.
+#### Природне відновлення (Natural Recovery)
 
-#### Natural Recovery
+Починаючи з 2-го рівня, ви можете відновити частину своєї магічної енергії, сидячи в медитації та спілкуючись із природою. Під час короткого відпочинку ви вибираєте використані слоти заклятть для відновлення. Слоти для заклинань мають мати сумарний рівень, який дорівнює половині вашого рівня друїда або менше (округлено вгору), і жоден із слотів не може бути 6-го рівня або вище. Ви не можете знову використовувати цю рису, доки не закінчите довгий відпочинок.
+Наприклад, коли ви друїд 4-го рівня, ви можете відновити до двох рівнів слотів для заклятть. Ви можете відновити слот 2-го рівня або два слоти 1-го рівня.
 
-Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.
+#### Закляття Кола (Circle Spells)
 
-For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.
+Ваш містичний зв'язок із землею надає вам здатності використовувати певні заклинання. На 3, 5, 7 і 9 рівнях ви отримуєте доступ до заклятть Кола, пов'язаних із землею, де ви стали друїдом. Виберіть потрібну землю — Арктику, Узбережжя, Пустелю, Ліс, Луки, Гори чи Болота — і перегляньте відповідний список заклинань.
+Отримавши доступ до закляття Кола, ви завжди маєте його підготовленим, і воно не зараховується до кількості заклинань, які ви можете підготувати щодня. Якщо ви отримуєте доступ до закляття, якого немає в списку заклинань друїдів, це заклинання все одно є заклинанням друїда для вас.
 
-#### Circle Spells
+**Таблиця- Закляття Акртичного Кола (Arctic Circle)**
 
-Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swamp-and consult the associated list of spells.
-
-Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.
-
-**Table- Arctic Circle Spells**
-
-| Druid Level | Circle Spells                     |
+| Рівень Друїда | Закляття Кола                     |
 |-------------|-----------------------------------|
-| 3rd         | hold person, spike growth         |
-| 5th         | sleet storm, slow                 |
-| 7th         | freedom of movement, ice storm    |
-| 9th         | commune with nature, cone of cold |
+| 3-й         | Втримати особу, Шипорост         |
+| 5-й         | Сніжний шторм, Сповільнення                 |
+| 7-й         | Свобода руху, Крижаний шторм    |
+| 9-й         | Єдність з природою, Конус холода |
 |             |                                   |
 
-**Table- Coast Circle Spells**
+**Таблиця- Закляття Кола Узбережжя (Coast Circle)**
 
-| Druid Level | Circle Spells                      |
+| Рівень Друїда | Закляття Кола                      |
 |-------------|------------------------------------|
-| 3rd         | mirror image, misty step           |
-| 5th         | water breathing, water walk        |
-| 7th         | control water, freedom of movement |
-| 9th         | conjure elemental, scrying         |
+| 3-й         | Дзеркальне відображення, Туманний крок           |
+| 5-й         | Водне дихання, Водне Ходіння        |
+| 7-й         | Контролювати воду, Свобода руху |
+| 9-й         | Прикликати Елементаля, Видіння         |
 |             |                                    |
 
-**Table- Desert Circle Spells**
+**Таблиця- Закляття Кола Пустелі (Desert Circle)**
 
-| Druid Level | Circle Spells                                 |
+| Рівень Друїда | Закляття Кола                                 |
 |-------------|-----------------------------------------------|
-| 3rd         | blur, silence                                 |
-| 5th         | create food and water, protection from energy |
-| 7th         | blight, hallucinatory terrain                 |
-| 9th         | insect plague, wall of stone                  |
+| 3-й         | Розмиття, Тиша                                 |
+| 5-й         | Створити їжу та воду, Захист від енергії |
+| 7-й         | В'янення, Галюцинаторна місцевість                 |
+| 9-й         | Рій комах, Стіна каменю                  |
 |             |                                               |
 
-**Table- Forest Circle Spells**
+**Таблиця- Закляття Лісового Кола (Forest Circle)**
 
-| Druid Level | Circle Spells                    |
+| Рівень Друїда | Закляття Кола                    |
 |-------------|----------------------------------|
-| 3rd         | barkskin, spider climb           |
-| 5th         | call lightning, plant growth     |
-| 7th         | divination, freedom of movement  |
-| 9th         | commune with nature, tree stride |
+| 3-й         | Шкіра-кора, Павуче лазання           |
+| 5-й         | Прикликати блискавку, Ріст рослин     |
+| 7-й         | Передбачення, Свобода руху  |
+| 9-й         | Єдність з природою, Крок між деревами |
 |             |                                  |
 
-**Table- Grassland Circle Spells**
+**Таблиця- Закляття Лугового Кола (Grassland Circle)**
 
-| Druid Level | Circle Spells                    |
+| Рівень Друїда | Закляття Кола                    |
 |-------------|----------------------------------|
-| 3rd         | invisibility, pass without trace |
-| 5th         | daylight, haste                  |
-| 7th         | divination, freedom of movement  |
-| 9th         | dream, insect plague             |
+| 3-й         | Невидимість, Пройти без сліду |
+| 5-й         | Денне світло, Прискорення                  |
+| 7-й         | Передбачення, Свобода руху  |
+| 9-й         | Сновида, Рій комах             |
 |             |                                  |
 
-**Table- Mountain Circle Spells**
+**Таблиця- Закляття Гірського Кола (Mountain Circle)**
 
-| Druid Level | Circle Spells                   |
+| Рівень Друїда | Закляття Кола                   |
 |-------------|---------------------------------|
-| 3rd         | spider climb, spike growth      |
-| 5th         | lightning bolt, meld into stone |
-| 7th         | stone shape, stoneskin          |
-| 9th         | passwall, wall of stone         |
+| 3-й         | Павуче лазання, Шипорост      |
+| 5-й         | Розряд блискавки, Злитися з каменем |
+| 7-й         | Формування каменю, Шкіра-камінь          |
+| 9-й         | Прохід, Стіна каменю         |
 |             |                                 |
 
-**Table- Swamp Circle Spells**
+**Таблиця- Закляття Болотяного Кола (Swamp Circle)**
 
-| Druid Level | Circle Spells                        |
+| Рівень Друїда | Закляття Кола                        |
 |-------------|--------------------------------------|
-| 3rd         | acid arrow, darkness                 |
-| 5th         | water walk, stinking cloud           |
-| 7th         | freedom of movement, locate creature |
-| 9th         | insect plague, scrying               |
+| 3-й         | Кислотна Стріла, Пітьма                 |
+| 5-й         | Водне Ходіння, Смердюча хмара           |
+| 7-й         | Свобода руху, Знайти істоту |
+| 9-й         | Рій комах, Видіння               |
 |             |                                      |
 
-#### Land's Stride
+#### Мандрівка землею (Land's Stride)
 
-Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+Починаючи з 6-го рівня, пересування по немагічній складній місцевості не коштує вам додаткових пересувань. Ви також можете проходити крізь немагічні рослини, не сповільнюючися через них і не зазнаючи від них шкоди, якщо вони мають шипи, колючки або подібну небезпеку.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the *entangle* spell.
+Крім того, ви маєте перевагу на рятівних кидках проти рослин, створених магічним шляхом або оброблених, щоб перешкоджати руху, наприклад створених заклинанням *Заплутування*.
 
-#### Nature's Ward
+#### Природний оберіг (Nature's Ward)
 
-When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.
+Коли ви досягаєте 10-го рівня, ви не можете бути зачаровані або налякані елементалями або феями, і ви маєте імунітет до отрути та хвороб.
 
-#### Nature's Sanctuary
+#### Природний притулок (Nature's Sanctuary)
 
-When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
-
-The creature is aware of this effect before it makes its attack against you.
-
->**Sacred Plants and Wood**
->
->A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.
->
->Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.
->
->Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.
->
->**Druids and the Gods**
->
->Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.
+Коли ви досягаєте 14-го рівня, істоти природного світу відчувають ваш зв'язок із природою та не наважуються атакувати вас. Коли звір або рослинна істота атакує вас, ця істота повинна зробити рятівний кидок Мудрості проти вашого КС рятівного кидка заклинаннь друїда. У разі провалу істота повинна вибрати іншу ціль, інакше атака автоматично промахнеться. У разі успіху істота має імунітет до цього ефекту протягом 24 годин.
+Істота усвідомлює цей ефект ще до того, як атакує вас.
